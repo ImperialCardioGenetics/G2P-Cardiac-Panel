@@ -26,14 +26,15 @@ library(tidyverse)
 # - gene disease pair entry date: Entry date for the gene disease pair into the database
 
 
-#cancerG2P_example
-CancerG2P_1_4_2020 <- read_csv("~/Research/g2p/G2P_panels/CancerG2P_1_4_2020.csv")
-DDG2P_30_5_2019 <- read_csv("~/Research/g2p/G2P_panels/DDG2P_30_5_2019.csv")
+# G2P_examples
+# CancerG2P_1_4_2020 <- read_csv("~/Research/g2p/G2P_panels/CancerG2P_1_4_2020.csv")
+# DDG2P_30_5_2019 <- read_csv("~/Research/g2p/G2P_panels/DDG2P_30_5_2019.csv")
 
 
 CardiacG2P_master <- read_delim("CardiacG2P_master.csv", delim = ",")
 
 CardiacG2P_1 <- CardiacG2P_master %>%
+  filter(share_status == "confidential") %>%
   select("gene symbol" = gene_symbol, 
          "gene mim" = OMIM_gene_ID,
          "disease name" = OMIM_disease_name,
