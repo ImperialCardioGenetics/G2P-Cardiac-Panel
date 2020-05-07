@@ -34,7 +34,8 @@ library(tidyverse)
 CardiacG2P_master <- read_delim("CardiacG2P_master.csv", delim = ",")
 
 CardiacG2P_1 <- CardiacG2P_master %>%
-  filter(share_status == "confidential") %>%
+  #filter(!share_status == "confidential") %>%
+  filter(is.na(share_status)) %>%
   select("gene symbol" = gene_symbol, 
          "gene mim" = OMIM_gene_ID,
          "disease name" = OMIM_disease_name,
@@ -65,6 +66,8 @@ CardiacG2P_2 <- CardiacG2P_1 %>%
     TRUE ~ "uncertain"
   ))
 
+CardiacG2P_3 <- CardiacG2P_2 %>%
+  filter(!`mutation consequence` == "uncertain")
 
 write_csv(CardiacG2P_2, "CardiacG2P.csv")
 
