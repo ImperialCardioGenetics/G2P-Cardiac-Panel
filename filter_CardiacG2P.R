@@ -66,10 +66,15 @@ CardiacG2P_2 <- CardiacG2P_1 %>%
     TRUE ~ "uncertain"
   ))
 
-CardiacG2P_3 <- CardiacG2P_2 %>%
-  filter(!`mutation consequence` == "uncertain")
 
 write_csv(CardiacG2P_2, "CardiacG2P.csv")
+
+
+
+# write only complete genes (eg. mutation consequence)
+CardiacG2P_3 <- CardiacG2P_2 %>%
+  filter(!`mutation consequence` == "uncertain") %>%
+  write_csv("CardiacG2P_complete.csv")
 
 
 
