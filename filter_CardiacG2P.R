@@ -68,6 +68,14 @@ CardiacG2P_master <- read_delim("CardiacG2P_master.csv", delim = ",")
 #####
 
 
+#### edits
+# CardiacG2P_master[168,2]<- "FH"
+# CardiacG2P_master[169,2]<- "FH"
+# CardiacG2P_master <- CardiacG2P_master[-170,] # empty line
+# write_csv(CardiacG2P_master, "CardiacG2P_master.csv")
+#####
+
+
 CardiacG2P_1 <- CardiacG2P_master %>%
   #filter(!share_status == "confidential") %>%
   filter(is.na(share_status)) %>%
