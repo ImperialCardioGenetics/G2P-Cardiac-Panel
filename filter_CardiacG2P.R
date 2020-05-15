@@ -1,7 +1,3 @@
-
-library(tidyverse)
-
-
 # CVS export:
 #   One gene-disease pair can have multiple annotations of allelic requirement and mutation
 # consequence pairs. We export one row for each pair of allelic requirement and mutation
@@ -31,7 +27,46 @@ library(tidyverse)
 # DDG2P_30_5_2019 <- read_csv("~/Research/g2p/G2P_panels/DDG2P_30_5_2019.csv")
 
 
+library(tidyverse)
+
+
+
 CardiacG2P_master <- read_delim("CardiacG2P_master.csv", delim = ",")
+
+
+
+#### edits 
+# add ClinGen DCM genes 
+# add new IC_signed_by column
+# arrange cols
+# 
+# DCM_conf <- read_delim("DCM_conf.txt", delim = "\t", col_names = "gene_symbol")
+# 
+# DCM_conf$disease <- "DCM_CG"
+# DCM_conf$share_status <- "confidential"
+# 
+# CardiacG2P_master <- plyr::rbind.fill(CardiacG2P_master, DCM_conf)
+# 
+# CardiacG2P_master$IC_signed_by = NA
+# 
+# CardiacG2P_master <- CardiacG2P_master[,c(1:4,10:14,5:9,16,18:23,17,15)]
+# write_csv(CardiacG2P_master, "CardiacG2P_master.csv")
+#####
+
+
+#### edits
+# trim whitespace in ClinGen_classification col
+# arrange genes by CLinGen classification
+# 
+# CardiacG2P_master$ClinGen_classification<- str_trim(CardiacG2P_master$ClinGen_classification,side = c("both"))
+# 
+# CardiacG2P_master <- CardiacG2P_master %>%
+#   arrange(match(ClinGen_classification, c("Definitive", "Strong", "Moderate", "Limited", "Disputed")), desc(ClinGen_classification))
+# 
+#
+# write_csv(CardiacG2P_master, "CardiacG2P_master.csv")
+#####
+
 
 CardiacG2P_1 <- CardiacG2P_master %>%
   #filter(!share_status == "confidential") %>%
