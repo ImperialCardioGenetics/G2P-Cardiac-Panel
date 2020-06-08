@@ -104,6 +104,37 @@ CardiacG2P_master <- read_delim("CardiacG2P_master.csv", delim = ",", trim_ws = 
 #####
 
 
+#### edits
+# trim63<- data_frame(
+# "gene_symbol" = "TRIM63",
+# "disease" = "HCM_new",
+# "disease_subtype" = "NA",
+# "syndrome" = "NA",
+# "ClinGen_classification" = "NA",
+# "G2P_classification" = "NA",
+# "OMIM_inheritence" = "AR",
+# "G2P_allelic_requirement" = "biallelic",
+# "ClinGen_mutation_consequence" = "Missense, LOF",
+# "OMIM_gene_ID" = "606131",
+# "OMIM_disease_name" = "NA",
+# "OMIM_disease_ID" = "NA",
+# "ORPHA_ID" = "NA",
+# "MONDO_ID" = "NA",
+# "G2P_organ_specificity_list" = "NA",
+# "G2P_panel" = "Cardiac",
+# "prev_symbols" = "NA",
+# "hgnc_id" = "NA",
+# "gene_disease_pair_entry_date" = "NA",
+# "share_status" = "confidential",
+# "IC_signed_by" = "NA",
+# "ClinGen_pmids" = "NA",
+# "HPO_phenotypes" = "NA")
+# 
+# # rbind new  data
+# CardiacG2P_master <- rbind(CardiacG2P_master, trim63)
+# 
+# write_csv(CardiacG2P_master, "CardiacG2P_master.csv")
+####
 
 CardiacG2P_1 <- CardiacG2P_master %>%
   #filter(!share_status == "confidential") %>%
