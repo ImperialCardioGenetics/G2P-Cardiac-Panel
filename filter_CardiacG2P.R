@@ -31,7 +31,7 @@ library(tidyverse)
 
 
 
-CardiacG2P_master <- read_delim("CardiacG2P_master.csv", delim = ",")
+CardiacG2P_master <- read_delim("CardiacG2P_master.csv", delim = ",", trim_ws = T)
 
 
 
@@ -69,11 +69,40 @@ CardiacG2P_master <- read_delim("CardiacG2P_master.csv", delim = ",")
 
 
 #### edits
-# CardiacG2P_master[168,2]<- "FH"
-# CardiacG2P_master[169,2]<- "FH"
+# CardiacG2P_master$disease[CardiacG2P_master$gene_symbol=="APOB"] = "FH"
+# CardiacG2P_master$disease[CardiacG2P_master$gene_symbol=="PCSK9	"] = "FH"
 # CardiacG2P_master <- CardiacG2P_master[-170,] # empty line
 # write_csv(CardiacG2P_master, "CardiacG2P_master.csv")
 #####
+
+
+#### edits
+# change LDLR and LDLRAP1 to FH
+# CardiacG2P_master$disease[CardiacG2P_master$gene_symbol=="LDLR"] = "FH"
+# CardiacG2P_master$disease[CardiacG2P_master$gene_symbol=="LDLRAP1"] = "FH"
+# 
+# # Load ARVC data
+# #ARVC_CG<- read_delim("../ClinGen_articles/ARVC_NEW_table2_supp2.txt", delim = "\t", trim_ws = T)
+# ARVC_CG <- read_csv("~/Research/g2p/ClinGen_articles/ARVC_NEW_table2_supp2.csv")
+# 
+# # delete old ARVC entries
+# CardiacG2P_master <- CardiacG2P_master[!CardiacG2P_master$disease=="ARVC",]
+# 
+# # rbind new ARVC data
+# CardiacG2P_master <- rbind(CardiacG2P_master, ARVC_CG)
+# 
+# #trim possible whitespace
+# CardiacG2P_master$ClinGen_classification<- str_trim(CardiacG2P_master$ClinGen_classification,side = c("both"))
+# 
+# # re-arrange based on classification of new genes
+# CardiacG2P_master <- CardiacG2P_master %>%
+#   arrange(match(ClinGen_classification, c("Definitive", "Strong", "Moderate", "Limited", "Refuted", "Disputed", "No human evidence")), desc(ClinGen_classification))
+# 
+# 
+# 
+# write_csv(CardiacG2P_master, "CardiacG2P_master.csv")
+#####
+
 
 
 CardiacG2P_1 <- CardiacG2P_master %>%
