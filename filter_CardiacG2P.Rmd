@@ -1,0 +1,260 @@
+---
+title: "Untitled"
+author: "Panda"
+date: "23/06/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+  One gene-disease pair can have multiple annotations of allelic requirement and mutation
+consequence pairs. We export one row for each pair of allelic requirement and mutation
+consequence. The header fields are:
+- gene symbol:                  HGNC gene symbol
+- gene mim:                     OMIM number for a gene entry
+- disease name:                 Name provided by the curator
+- disease mim:                  OMIM number for a disease entry
+- disease confidence:           One value from the list of possible categories: both DD and IF, confirmed, possible, probable
+- allelic requirement:          comma-separated list of allelic requirement attributes. Possible values are: biallelic, monoallelic (Y),
+imprinted, uncertain, monoallelic, hemizygous, x-linked dominant, x-linked over-dominance, mosaic,
+mitochondrial, digenic
+- mutation consequence:         One value from the list of possible consequences: 5_prime or 3_prime UTR mutation, activating,
+all missense/in frame, cis-regulatory or promotor mutation, dominant negative, increased gene dosage,
+loss of function, part of contiguous gene duplication, part of contiguous genomic interval deletion, uncertain
+- phenotypes:                   semicolon-separated list of HPO (http://www.human-phenotype-ontology.org/) IDs
+- organ specificity list:       semicolon-separated list of organs
+- pmids:                        semicolon-separated list of PMIDs
+- panel:                        G2P panel: Cancer, Cardiac, DD, Ear, Eye or Skin
+- prev symbols:                 Symbols previously approved by the HGNC for this gene
+- hgnc id:                      HGNC identifier
+- gene disease pair entry date: Entry date for the gene disease pair into the database
+
+
+
+```{r include=FALSE}
+library(tidyverse)
+```
+
+
+
+```{r eval=FALSE, include=TRUE}
+# G2P_examples
+Cancer_G2P <- read_csv("https://www.ebi.ac.uk/gene2phenotype/downloads/CancerG2P.csv.gz")
+DD_G2P <- read_csv("https://www.ebi.ac.uk/gene2phenotype/downloads/DDG2P.csv.gz")
+Eye_G2P <- read_csv("https://www.ebi.ac.uk/gene2phenotype/downloads/EyeG2P.csv.gz")
+Skin_G2P <- read_csv("https://www.ebi.ac.uk/gene2phenotype/downloads/SkinG2P.csv.gz")
+```
+
+
+
+
+```{r echo=TRUE}
+CardiacG2P_master <- read_delim("CardiacG2P_master.csv", delim = ",", trim_ws = T)
+```
+
+
+
+Add ClinGen DCM genes
+Add new IC_signed_by column
+Arrange cols
+
+
+```{r eval=FALSE, include=TRUE}
+DCM_conf <- read_delim("DCM_conf.txt", delim = "\t", col_names = "gene_symbol")
+
+DCM_conf$disease <- "DCM_CG"
+DCM_conf$share_status <- "confidential"
+
+CardiacG2P_master <- plyr::rbind.fill(CardiacG2P_master, DCM_conf)
+
+CardiacG2P_master$IC_signed_by = NA
+
+CardiacG2P_master <- CardiacG2P_master[,c(1:4,10:14,5:9,16,18:23,17,15)]
+write_csv(CardiacG2P_master, "CardiacG2P_master.csv")
+```
+
+
+
+
+Trim whitespace in ClinGen_classification col
+Arrange genes by CLinGen classification
+
+```{r eval=FALSE, include=TRUE}
+
+CardiacG2P_master$ClinGen_classification<- str_trim(CardiacG2P_master$ClinGen_classification,side = c("both"))
+
+CardiacG2P_master <- CardiacG2P_master %>%
+  arrange(match(ClinGen_classification, c("Definitive", "Strong", "Moderate", "Limited", "Disputed")), desc(ClinGen_classification))
+
+
+write_csv(CardiacG2P_master, "CardiacG2P_master.csv")
+```
+
+
+
+change LDLR and LDLRAP1 to FH
+```{r eval=FALSE, include=TRUE}
+
+CardiacG2P_master$disease[CardiacG2P_master$gene_symbol=="APOB"] = "FH"
+CardiacG2P_master$disease[CardiacG2P_master$gene_symbol=="PCSK9	"] = "FH"
+CardiacG2P_master <- CardiacG2P_master[-170,] # empty line
+
+
+CardiacG2P_master$disease[CardiacG2P_master$gene_symbol=="LDLR"] = "FH"
+CardiacG2P_master$disease[CardiacG2P_master$gene_symbol=="LDLRAP1"] = "FH"
+
+write_csv(CardiacG2P_master, "CardiacG2P_master.csv")
+
+```
+
+
+
+Load new ClinGen curated ARVC data
+
+```{r eval=FALSE, include=TRUE}
+
+#ARVC_CG<- read_delim("../ClinGen_articles/ARVC_NEW_table2_supp2.txt", delim = "\t", trim_ws = T)
+ARVC_CG <- read_csv("~/Research/g2p/ClinGen_articles/ARVC_NEW_table2_supp2.csv")
+
+# delete old ARVC entries
+CardiacG2P_master <- CardiacG2P_master[!CardiacG2P_master$disease=="ARVC",]
+
+# rbind new ARVC data
+CardiacG2P_master <- rbind(CardiacG2P_master, ARVC_CG)
+
+#trim possible whitespace
+CardiacG2P_master$ClinGen_classification<- str_trim(CardiacG2P_master$ClinGen_classification,side = c("both"))
+
+# re-arrange based on classification of new genes
+CardiacG2P_master <- CardiacG2P_master %>%
+  arrange(match(ClinGen_classification, c("Definitive", "Strong", "Moderate", "Limited", "Refuted", "Disputed", "No human evidence")), desc(ClinGen_classification))
+
+
+
+write_csv(CardiacG2P_master, "CardiacG2P_master.csv")
+```
+
+
+Add TRIM63 placeholder
+
+```{r eval=FALSE, include=TRUE}
+trim63<- data_frame(
+"gene_symbol" = "TRIM63",
+"disease" = "HCM_new",
+"disease_subtype" = "NA",
+"syndrome" = "NA",
+"ClinGen_classification" = "NA",
+"G2P_classification" = "NA",
+"OMIM_inheritence" = "AR",
+"G2P_allelic_requirement" = "biallelic",
+"ClinGen_mutation_consequence" = "Missense, LOF",
+"OMIM_gene_ID" = "606131",
+"OMIM_disease_name" = "NA",
+"OMIM_disease_ID" = "NA",
+"ORPHA_ID" = "NA",
+"MONDO_ID" = "NA",
+"G2P_organ_specificity_list" = "NA",
+"G2P_panel" = "Cardiac",
+"prev_symbols" = "NA",
+"hgnc_id" = "NA",
+"gene_disease_pair_entry_date" = "NA",
+"share_status" = "confidential",
+"IC_signed_by" = "NA",
+"ClinGen_pmids" = "NA",
+"HPO_phenotypes" = "NA")
+
+# rbind new  data
+CardiacG2P_master <- rbind(CardiacG2P_master, trim63)
+
+write_csv(CardiacG2P_master, "CardiacG2P_master.csv")
+```
+
+
+Consolidate disease names
+
+```{r eval=FALSE, include=TRUE}
+CardiacG2P_master %>%
+  group_by(disease) %>%
+  summarise()
+
+
+CardiacG2P_master[CardiacG2P_master$disease == "ARVC_CG", "disease" ] = "ARVC"
+CardiacG2P_master[CardiacG2P_master$disease == "DCM_CG", "disease" ] = "DCM"
+CardiacG2P_master[CardiacG2P_master$disease == "DCM?", "disease" ] = "DCM"
+CardiacG2P_master[CardiacG2P_master$disease == "HCM_new", "disease" ] = "HCM"
+
+CardiacG2P_master <- add_column(CardiacG2P_master, curation_notes = NA, .after = "syndrome")
+write_csv(CardiacG2P_master, "CardiacG2P_master.csv")
+```
+
+
+Generate CardiacG2P_public.csv
+
+CardiacG2P_public.csv is a subset of CardiacG2P_master.csv in the G2P format that can be shared publicly
+
+```{r }
+CardiacG2P_1 <- CardiacG2P_master %>%
+  #filter(!share_status == "confidential") %>%
+  filter(is.na(share_status)) %>%
+  select("gene symbol" = gene_symbol,
+         "gene mim" = OMIM_gene_ID,
+         "disease name" = OMIM_disease_name,
+         "disease mim" = OMIM_disease_ID,
+         "DDD category" = G2P_classification,
+         "allelic requirement" = G2P_allelic_requirement,
+         "mutation consequence" = ClinGen_mutation_consequence,
+         "phenotypes" = HPO_phenotypes,
+         "organ specificity list" = G2P_organ_specificity_list,
+         "pmids" = ClinGen_pmids,
+         "panel" = G2P_panel,
+         "prev symbols" = prev_symbols,
+         "hgnc id" = hgnc_id,
+         "gene disease pair entry date" = gene_disease_pair_entry_date)
+
+CardiacG2P_2 <- CardiacG2P_1 %>%
+  filter(!is.na(`DDD category`)) %>%
+  mutate(`DDD category` = tolower(`DDD category`)) %>%
+  mutate(`disease mim` = ifelse(!is.na(`disease mim`),`disease mim`, "No disease mim"))%>%
+  mutate(`hgnc id` = str_replace(`hgnc id`,"HGNC:","")) %>%
+  mutate(`prev symbols` = str_replace(`prev symbols`,", ",";")) %>%
+  mutate(`gene disease pair entry date` = Sys.time()) %>%
+  mutate(pmids = str_remove(pmids , "[;]$")) %>%
+  mutate(`organ specificity list` = "Heart/Cardiovasculature/Lymphatic") %>%
+  mutate(`mutation consequence` = case_when(
+    grepl("LOF" , `mutation consequence`) ~ "loss of function",
+    grepl( "Missense" , `mutation consequence`) ~ "all missense/in frame",
+    TRUE ~ "uncertain"
+  ))
+
+
+write_csv(CardiacG2P_2, "CardiacG2P_public.csv")
+
+```
+
+
+Generate CardiacG2P_curated.csv
+
+CardiacG2P_curated.csv is a subset of CardiacG2P_public.csv that includes only the genes that have the column "mutation consequence" completed.
+This file can be used in the VEP G2P plugin.
+
+
+```{r}
+
+# write only complete genes (eg. mutation consequence)
+CardiacG2P_3 <- CardiacG2P_2 %>%
+  filter(!`mutation consequence` == "uncertain") %>%
+  write_csv("CardiacG2P_curated.csv")
+
+```
+
+
+
+
+
+
+
