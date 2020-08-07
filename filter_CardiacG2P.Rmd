@@ -253,7 +253,13 @@ CardiacG2P_3 <- CardiacG2P_2 %>%
 ```
 
 
+# add a column
 
+```{r}
+CardiacG2P_master$Predicted_variants <- NA
+
+CardiacG2P_master$Predicted_variants[]
+```
 
 
 
