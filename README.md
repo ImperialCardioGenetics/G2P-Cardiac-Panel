@@ -2,11 +2,11 @@
 Gene2Phenotype Cardiac Gene Panel
 
 Files in this repo:
- - Generate_G2P_document.Rmd ~ R markdown document to process the raw cardiac data and generate the excel file to sharewith EBI and the rendered pdf report for publication.
- - Cardiac_G2P_MASTER_all_info_CURRENT.xlsx ~ Contains all cardiac genes. Confidential/Unfiltered. Cannot be shared.
- - G2P_submission_202202.xlsm ~ G2P submission template format.
- - CardiacG2P_format_202204.xlsx ~ Finalized Cardiac G2P file shared with EBI. Excludes NArative freetext. This file is uploaded to G2P as the "first" cardiac panel.
- - Generate_G2P_document.pdf ~ The rendered pdf report.
+ - Generate_G2P_document.Rmd ~ R markdown document to process the raw cardiac data and generate the rendered report for publication.
+ - CardiacG2P_Additional_File4.xlsx ~ Contains all raw cardiac data and genes with Naratives.
+ - Generate_G2P_document.html ~ The rendered report in html format.
+ - Generate_G2P_document.md ~ The rendered report in md format.
+
 
 
 ## Terminology
