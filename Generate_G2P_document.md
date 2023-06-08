@@ -5,7 +5,6 @@ output:
     toc_depth: 3
     toc_float: true
     theme: lumen
-    mathjax: null
     keep_md: true
 ---
 
@@ -90,21 +89,23 @@ output:
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _SCN5A_-related Brugada syndrome is caused by **decreased gene product level or altered gene product sequence** due to a variety of mechanisms (e.g. decreased expression of cardiac sodium channel, Nav1.5 in the sarcolemma, expression of non-functional channels, or altered gating properties leading to a decreased INa sodium current (e.g., delayed activation or earlier or faster inactivation)) (PMID: 29798782). The disease mechanism is loss of function.  
+   <td style="text-align:left;"> *SCN5A*-related Brugada syndrome is caused by **decreased gene product level or altered gene product sequence** due to a variety of mechanisms (e.g. decreased expression of cardiac sodium channel, Nav1.5 in the sarcolemma, expression of non-functional channels, or altered gating properties leading to a decreased INa sodium current (e.g., delayed activation or earlier or faster inactivation)) (PMID: 29798782). The disease mechanism is loss of function.  
 
- To date, _SCN5A_ is the only gene classified as having definitive evidence as a cause of monogenic Brugada syndrome (BrS) by ClinGen (PMID: 29959160). _SCN5A_ pathogenic variants are identified in approx. 20- 30% of cases of European ancestry (PMID: 30139433; 33164571). This contribution may differ in other populations. 
+ To date, *SCN5A* is the only gene classified as having definitive evidence as a cause of monogenic Brugada syndrome (BrS) by ClinGen (PMID: 29959160). *SCN5A* pathogenic variants are identified in approx. 20- 30% of cases of European ancestry (PMID: 30139433; 33164571). This contribution may differ in other populations. 
 
- _SCN5A_-related Brugada syndrome is characterized by autosomal dominant inheritance with incomplete penetrance (PMID: 9521325; 11748104; 25905440; 20031634; 33164571; NBK1517). Hundreds of variants, both truncating and non-truncating, have been described in association with Brugada syndrome. Kapplinger et al 2010 (PMID: 20129283) identified 293 distinct variants in _SCN5A_: 193 missense, 32 nonsense, 38 frameshift, 21 splice-site, and 9 inframe deletions/insertions. More recently Walsh et al 2020 (PMID: 32893267) found that non truncating variants were highly enriched in European cases in the _SCN5A_ transmembrane regions.
+ *SCN5A*-related Brugada syndrome is characterized by autosomal dominant inheritance with incomplete penetrance (PMID: 9521325; 11748104; 25905440; 20031634; 33164571; NBK1517). Hundreds of variants, both truncating and non-truncating, have been described in association with Brugada syndrome. Kapplinger et al 2010 (PMID: 20129283) identified 293 distinct variants in *SCN5A*: 193 missense, 32 nonsense, 38 frameshift, 21 splice-site, and 9 inframe deletions/insertions. More recently Walsh et al 2020 (PMID: 32893267) found that non truncating variants were highly enriched in European cases in the *SCN5A* transmembrane regions.
 
- Gain of function variants are associated with Long QT syndrome. Although loss of function appears to be the accepted mechanism in Brugada syndrome the _SCN5A_ genotype/phenotype association is still not completely understood. Uncommonly, a single variant can cause both loss of peak current and gain of late current and can lead to a mixed phenotype of LQTS and BrS (PMID: 29806494). </td>
+ Gain of function variants are associated with Long QT syndrome. Although loss of function appears to be the accepted mechanism in Brugada syndrome the *SCN5A* genotype/phenotype association is still not completely understood. Uncommonly, a single variant can cause both loss of peak current and gain of late current and can lead to a mixed phenotype of LQTS and BrS (PMID: 29806494). </td>
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><h3>Catecholaminergic polymorphic ventricular tachycardia (CPVT)</h3><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -178,24 +179,26 @@ output:
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _RYR2_ is associated with CPVT with autosomal dominant inheritance. The allelic requirement for pathogenicity is monoallelic autosomal, and the disease is typified by incomplete penetrance. Disease is due to an **altered gene product sequence**. 
+   <td style="text-align:left;"> *RYR2* is associated with CPVT with autosomal dominant inheritance. The allelic requirement for pathogenicity is monoallelic autosomal, and the disease is typified by incomplete penetrance. Disease is due to an **altered gene product sequence**. 
 
-  The first reports of _RYR2_ variants in CPVT included numerous examples of _de novo_ inheritance (Priori et al, 2001, PMID: 11208676; Priori et al, 2002, PMID: 12093772), although _RYR2_ missense variants often occur through familial autosomal dominant inheritance. 
+  The first reports of *RYR2* variants in CPVT included numerous examples of *de novo* inheritance (Priori et al, 2001, PMID: 11208676; Priori et al, 2002, PMID: 12093772), although *RYR2* missense variants often occur through familial autosomal dominant inheritance. 
 
- The predicted functional consequence of _RYR2_ pathogenic variants is altered gene product sequence. The majority of causative _RYR2_ variants in CPVT patients are heterozygous missense variants which are detected in up to 60% of cases with a definitive CPVT diagnosis (Kapplinger et al, 2018, PMID: 29453246) and act through a gain-of-function mechanism. Pathogenic variants in CPVT cases tend to be clustered in a number of regions in the _RYR2_ gene/protein:
+ The predicted functional consequence of *RYR2* pathogenic variants is altered gene product sequence. The majority of causative *RYR2* variants in CPVT patients are heterozygous missense variants which are detected in up to 60% of cases with a definitive CPVT diagnosis (Kapplinger et al, 2018, PMID: 29453246) and act through a gain-of-function mechanism. Pathogenic variants in CPVT cases tend to be clustered in a number of regions in the *RYR2* gene/protein:
  -  Original exon hotspots: 3–15, 44–50, 83–90 and 93–105 (George et al, 2007, PMID: 17081562).
  -  Updated exon hotspots: 3, 8, 14, 43, 47–49, 81, 83, 88–90, 93, 95, 97–101, 103, 105 (Kapplinger et al, 2018, PMID: 29453246).
  -  Hotspots based on unsupervised clustering algorithm (not restricted to exon boundaries): amino acid residues 2138–2538, 3935–4196 and 4721–4959 (Walsh et al, 2019, PMID: 30696458). 
 
- Rare cases of whole exon deletions of _RYR2_ exon 3 have been described that can lead to a CPVT and/or left ventricular non-compaction phenotype (Bhuiyan et al, 2007, PMID: 17875969; Marjamaa et al, 2009, PMID: 19216760; Szentpali et al, 2013, PMID: 23479668; Onho et al, 2014, PMID: 24394973; Campbell et al, 2015, PMID: 26018045; Mazzarotto et al, 2021, PMID: 33500567). </td>
+ Rare cases of whole exon deletions of *RYR2* exon 3 have been described that can lead to a CPVT and/or left ventricular non-compaction phenotype (Bhuiyan et al, 2007, PMID: 17875969; Marjamaa et al, 2009, PMID: 19216760; Szentpali et al, 2013, PMID: 23479668; Onho et al, 2014, PMID: 24394973; Campbell et al, 2015, PMID: 26018045; Mazzarotto et al, 2021, PMID: 33500567). </td>
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -269,17 +272,19 @@ output:
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _CASQ2_ is an established gene for autosomal recessive CPVT (the second most common genetic cause of the disease, responsible for up to 5% of cases); disease is due to **absent gene product level or altered gene product sequence**. For the ClinGen curation, the maximum points were achieved with only a small subset of initial genetic and experimental reports leading to a definitive classification. 
+   <td style="text-align:left;"> *CASQ2* is an established gene for autosomal recessive CPVT (the second most common genetic cause of the disease, responsible for up to 5% of cases); disease is due to **absent gene product level or altered gene product sequence**. For the ClinGen curation, the maximum points were achieved with only a small subset of initial genetic and experimental reports leading to a definitive classification. 
 
-Biallelic loss-of-function variants in _CASQ2_ (both homozygous and compound heterozygous) have been reported in numerous CPVT probands, including frameshift, nonsense and splice donor/acceptor variants, as well as other splice region variants with verified effects on splicing, and missense variants with verified loss-of-function effects. </td>
+Biallelic loss-of-function variants in *CASQ2* (both homozygous and compound heterozygous) have been reported in numerous CPVT probands, including frameshift, nonsense and splice donor/acceptor variants, as well as other splice region variants with verified effects on splicing, and missense variants with verified loss-of-function effects. </td>
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -353,17 +358,19 @@ Biallelic loss-of-function variants in _CASQ2_ (both homozygous and compound het
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> _CASQ2_ is an established gene for autosomal recessive CPVT (the second most common genetic cause of the disease, responsible for up to 5% of cases).
- Recent reports have also associated monoallelic or heterozygous _CASQ2_ variants with CPVT.  Although the evidence for this association is not definitive, available data suggests that disease is likely due to **decreased gene product level or altered gene product sequence**. The main evidence for autosomal dominant _CASQ2_ association comes from an international multi-centre study describing CPVT patients with _CASQ2_ variants (Ng et al, 2020, PMID: 32693635). This study included 12 probands with heterozygous variants in _CASQ2_, as well as an assessment of heterozygous relatives of probands with homozygous/compound heterozygous _CASQ2_ variants (8/37 of these heterozygous relatives had a positive CPVT phenotype). While this study provides a substantive body of evidence to support autosomal dominant _CASQ2_ association with CPVT, the data should be cautiously interpreted. The multi-centre nature of the study precluded standardised phenotyping of the probands and relatives and therefore not every phenotype-positive individual may have a definitive diagnosis of CPVT. Additionally, several of the variants described have a gnomAD population minor allele frequency that is incompatible with being a penetrant autosomal dominant variant for a disease with the prevalence of CPVT (&gt;1x10-5). The variants also included presumed nonsense mediated decay-escaping C-terminal truncating variants and a splice region variant without a proven effect on splicing. In contrast to 97% penetrance for homozygous/compound heterozygous individuals, penetrance for heterozygotes was only 33% although it is expected that the population level penetrance of _CASQ2_ heterozygous variants will be lower still.
- Further support for the pathogenicity of heterozygous _CASQ2_ variants comes from a study that described the heterozygous p.Lys180Arg variant segregating with disease in a family (the published LOD score was 3.0 although there were only five meioses between genotype and phenotype positive individuals) (Gray et al, 2016, PMID: 27157848). </td>
+   <td style="text-align:left;"> *CASQ2* is an established gene for autosomal recessive CPVT (the second most common genetic cause of the disease, responsible for up to 5% of cases).
+ Recent reports have also associated monoallelic or heterozygous *CASQ2* variants with CPVT.  Although the evidence for this association is not definitive, available data suggests that disease is likely due to **decreased gene product level or altered gene product sequence**. The main evidence for autosomal dominant *CASQ2* association comes from an international multi-centre study describing CPVT patients with *CASQ2* variants (Ng et al, 2020, PMID: 32693635). This study included 12 probands with heterozygous variants in *CASQ2*, as well as an assessment of heterozygous relatives of probands with homozygous/compound heterozygous *CASQ2* variants (8/37 of these heterozygous relatives had a positive CPVT phenotype). While this study provides a substantive body of evidence to support autosomal dominant *CASQ2* association with CPVT, the data should be cautiously interpreted. The multi-centre nature of the study precluded standardised phenotyping of the probands and relatives and therefore not every phenotype-positive individual may have a definitive diagnosis of CPVT. Additionally, several of the variants described have a gnomAD population minor allele frequency that is incompatible with being a penetrant autosomal dominant variant for a disease with the prevalence of CPVT (&gt;1x10-5). The variants also included presumed nonsense mediated decay-escaping C-terminal truncating variants and a splice region variant without a proven effect on splicing. In contrast to 97% penetrance for homozygous/compound heterozygous individuals, penetrance for heterozygotes was only 33% although it is expected that the population level penetrance of *CASQ2* heterozygous variants will be lower still.
+ Further support for the pathogenicity of heterozygous *CASQ2* variants comes from a study that described the heterozygous p.Lys180Arg variant segregating with disease in a family (the published LOD score was 3.0 although there were only five meioses between genotype and phenotype positive individuals) (Gray et al, 2016, PMID: 27157848). </td>
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -437,25 +444,27 @@ Biallelic loss-of-function variants in _CASQ2_ (both homozygous and compound het
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> The disease mechanism in _CALM1_-related CPVT is likely a dominant negative effect caused by **altered gene product sequence** which reduces the calcium dependent inactivation of the calcium channel CaV1.2, resulting in increased inward calcium channel current (ICaL) and repolarization delay. 
+   <td style="text-align:left;"> The disease mechanism in *CALM1*-related CPVT is likely a dominant negative effect caused by **altered gene product sequence** which reduces the calcium dependent inactivation of the calcium channel CaV1.2, resulting in increased inward calcium channel current (ICaL) and repolarization delay. 
 
-The three _CALM_ genes encode an identical 149aa protein, calmodulin. The _CALM1_ gene is located on chromosome 14, _CALM2_ on chromosome 2 and _CALM3_ on chromosome 19. Calmodulin protein is involved in many calcium-dependent intracellular processes.  All three _CALM_ genes have been classified as Definitive for LQTS and Moderate for CPVT, certain variants are only associated with one or other phenotype, whereas others are associated with a mixed or variable phenotypes.  
+The three *CALM* genes encode an identical 149aa protein, calmodulin. The *CALM1* gene is located on chromosome 14, *CALM2* on chromosome 2 and *CALM3* on chromosome 19. Calmodulin protein is involved in many calcium-dependent intracellular processes.  All three *CALM* genes have been classified as Definitive for LQTS and Moderate for CPVT, certain variants are only associated with one or other phenotype, whereas others are associated with a mixed or variable phenotypes.  
 
- All variants with evidence of pathogenicity identified in the CALM genes are missense: at least 35 distinct missense variants have been identified and reported in the International Calmodulinopathy Registry including 11 (31%) in _CALM1_, 16 (46%) in _CALM2_, and 8 (23%) in _CALM3_. The majority of variants across the CALM genes affect amino acid residues in the EF-hand Ca2+ binding loop III and IV. Some variants have additional evidence in that the same substitution has been seen in paralogous CALM genes, or that the same substitution has been seen in a related phenotype (LQT). Most variants are unique, but 9 were present in more than one index case and among these, three (p.Asn98Ser, p.Asp130Gly, and p.Phe142Leu, identified in 10, 5, and 4 families, respectively.) appear to be recurrent. While p.Asp130Gly and p.Phe142Leu have always been reported as associated with the LQTS phenotype, the p.Asn98Ser has phenotypic variability, including LQTS, CPVT, idiopathic VF and sudden death. The majority of CALM variants are ___de novo___. 
+ All variants with evidence of pathogenicity identified in the CALM genes are missense: at least 35 distinct missense variants have been identified and reported in the International Calmodulinopathy Registry including 11 (31%) in *CALM1*, 16 (46%) in *CALM2*, and 8 (23%) in *CALM3*. The majority of variants across the CALM genes affect amino acid residues in the EF-hand Ca2+ binding loop III and IV. Some variants have additional evidence in that the same substitution has been seen in paralogous CALM genes, or that the same substitution has been seen in a related phenotype (LQT). Most variants are unique, but 9 were present in more than one index case and among these, three (p.Asn98Ser, p.Asp130Gly, and p.Phe142Leu, identified in 10, 5, and 4 families, respectively.) appear to be recurrent. While p.Asp130Gly and p.Phe142Leu have always been reported as associated with the LQTS phenotype, the p.Asn98Ser has phenotypic variability, including LQTS, CPVT, idiopathic VF and sudden death. The majority of CALM variants are ***de novo***. 
 
- Pathogenic variants in the CALM genes have been associated with: presentation in infancy or early childhood (up to 5 years); marked sinus bradycardia or atrioventricular block and QT prolongation; and, predominantly with _CALM1_ variants, a mild-to-severe neurological impairment, including seizures, development delay, motor and/or cognitive disability. 
+ Pathogenic variants in the CALM genes have been associated with: presentation in infancy or early childhood (up to 5 years); marked sinus bradycardia or atrioventricular block and QT prolongation; and, predominantly with *CALM1* variants, a mild-to-severe neurological impairment, including seizures, development delay, motor and/or cognitive disability. 
 
- The phenotype most frequently shown by patients with _CALM_ variants is LQTS, but some patients display other phenotypes including CPVT, idiopathic VF and sudden unexplained death. Some variants have been associated with both LQTS and CPVT, however Crotti et al (PMID: 31170290) report that "despite the relatively small numbers of cases, a significant association (P = 0.001) was observed between location of mutation and phenotype (Supplementary material online, Figure S1). Indeed, a pathogenic variant in EF-hand IV Ca2+ binding loop was found in the majority (17/32, 53%) of CALM-LQTS index cases but in only one of the nine CALM-CPVTs (11%). Conversely, variants identified in CALM-CPVT index cases were mostly located either in EF-hand III (n = 5, 56%), or in the inter-EF hand I-II linker (n = 3, 33%)."  
+ The phenotype most frequently shown by patients with *CALM* variants is LQTS, but some patients display other phenotypes including CPVT, idiopathic VF and sudden unexplained death. Some variants have been associated with both LQTS and CPVT, however Crotti et al (PMID: 31170290) report that "despite the relatively small numbers of cases, a significant association (P = 0.001) was observed between location of mutation and phenotype (Supplementary material online, Figure S1). Indeed, a pathogenic variant in EF-hand IV Ca2+ binding loop was found in the majority (17/32, 53%) of CALM-LQTS index cases but in only one of the nine CALM-CPVTs (11%). Conversely, variants identified in CALM-CPVT index cases were mostly located either in EF-hand III (n = 5, 56%), or in the inter-EF hand I-II linker (n = 3, 33%)."  
 
- For the ClinGen CPVT curation, _CALM1_ scored in the moderate range based on two reported variants in patients with CPVT or mixed CPVT/LQT phenotypes (p.Asn54Ile and p.Asn98Ser) and associated functional data. However, due to the unique characteristics of the calmodulin genes and their gene-disease associations, it was agreed by the expert panel to include them in this curation. The reasons were: 1) all three genes have already been established as disease-causing for an inherited arrhythmia syndrome (LQTS), 2) there are multiple examples of patients presenting with a phenotype indistinguishable from CPVT for each, either __de novo__ or supported by functional evidence and 3) the genes encode for identical proteins, are all expressed in the heart and equivalent __de novo__ variants in the three genes have been shown to lead to similar phenotypes, highlighting the functional equivalence of these genes. </td>
+ For the ClinGen CPVT curation, *CALM1* scored in the moderate range based on two reported variants in patients with CPVT or mixed CPVT/LQT phenotypes (p.Asn54Ile and p.Asn98Ser) and associated functional data. However, due to the unique characteristics of the calmodulin genes and their gene-disease associations, it was agreed by the expert panel to include them in this curation. The reasons were: 1) all three genes have already been established as disease-causing for an inherited arrhythmia syndrome (LQTS), 2) there are multiple examples of patients presenting with a phenotype indistinguishable from CPVT for each, either **de novo** or supported by functional evidence and 3) the genes encode for identical proteins, are all expressed in the heart and equivalent **de novo** variants in the three genes have been shown to lead to similar phenotypes, highlighting the functional equivalence of these genes. </td>
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -529,25 +538,27 @@ The three _CALM_ genes encode an identical 149aa protein, calmodulin. The _CALM1
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> The disease mechanism in _CALM2_-related CPVT is likely a dominant negative effect caused by **altered gene product sequence** which reduces the calcium dependent inactivation of the calcium channel CaV1.2, resulting in increased inward calcium channel current (ICaL) and repolarization delay.
+   <td style="text-align:left;"> The disease mechanism in *CALM2*-related CPVT is likely a dominant negative effect caused by **altered gene product sequence** which reduces the calcium dependent inactivation of the calcium channel CaV1.2, resulting in increased inward calcium channel current (ICaL) and repolarization delay.
 
- The three _CALM_ genes encode an identical 149aa protein, calmodulin. The _CALM1_ gene is located on chromosome 14, _CALM2_ on chromosome 2 and _CALM3_ on chromosome 19. Calmodulin protein is involved in many calcium-dependent intracellular processes.  All three _CALM_ genes have been classified as Definitive for LQTS and Moderate for CPVT, certain variants are only associated with one or other phenotype, whereas others are associated with a mixed or variable phenotypes.
+ The three *CALM* genes encode an identical 149aa protein, calmodulin. The *CALM1* gene is located on chromosome 14, *CALM2* on chromosome 2 and *CALM3* on chromosome 19. Calmodulin protein is involved in many calcium-dependent intracellular processes.  All three *CALM* genes have been classified as Definitive for LQTS and Moderate for CPVT, certain variants are only associated with one or other phenotype, whereas others are associated with a mixed or variable phenotypes.
 
- All variants with evidence of pathogenicity identified in the _CALM_ genes are missense: at least 35 distinct missense variants have been identified and reported in the International Calmodulinopathy Registry including 11 (31%) in _CALM1_, 16 (46%) in _CALM2_, and 8 (23%) in _CALM3_. The majority of variants across the _CALM_ genes affect amino acid residues in the EF-hand Ca2+ binding loop III and IV. Some variants have additional evidence in that the same substitution has been seen in paralogous _CALM_ genes, or that the same substitution has been seen in a related phenotype (LQTS). Most variants are unique, but 9 were present in more than one index case and among these, three (p.Asn98Ser, p.Asp130Gly, and p.Phe142Leu, identified in 10, 5, and 4 families, respectively.) appear to be recurrent. While variants p.Asp130Gly and p.Phe142Leu have always been reported as associated with the LQTS phenotype, the p.Asn98Ser has phenotypic variability, including LQTS, CPVT, idiopathic VF and sudden death. The majority of CALM variants are ___de novo___.
+ All variants with evidence of pathogenicity identified in the *CALM* genes are missense: at least 35 distinct missense variants have been identified and reported in the International Calmodulinopathy Registry including 11 (31%) in *CALM1*, 16 (46%) in *CALM2*, and 8 (23%) in *CALM3*. The majority of variants across the *CALM* genes affect amino acid residues in the EF-hand Ca2+ binding loop III and IV. Some variants have additional evidence in that the same substitution has been seen in paralogous *CALM* genes, or that the same substitution has been seen in a related phenotype (LQTS). Most variants are unique, but 9 were present in more than one index case and among these, three (p.Asn98Ser, p.Asp130Gly, and p.Phe142Leu, identified in 10, 5, and 4 families, respectively.) appear to be recurrent. While variants p.Asp130Gly and p.Phe142Leu have always been reported as associated with the LQTS phenotype, the p.Asn98Ser has phenotypic variability, including LQTS, CPVT, idiopathic VF and sudden death. The majority of CALM variants are ***de novo***.
 
- Pathogenic variants in the _CALM_ genes have been associated with: presentation in infancy or early childhood (up to 5 years); marked sinus bradycardia or atrioventricular block and QT prolongation; and, predominantly with _CALM1_ variants, a mild-to-severe neurological impairment, including seizures, development delay, motor and/or cognitive disability.
+ Pathogenic variants in the *CALM* genes have been associated with: presentation in infancy or early childhood (up to 5 years); marked sinus bradycardia or atrioventricular block and QT prolongation; and, predominantly with *CALM1* variants, a mild-to-severe neurological impairment, including seizures, development delay, motor and/or cognitive disability.
 
- The phenotype most frequently shown by patients with _CALM_ variants is LQTS, but some patients display other phenotypes including CPVT, idiopathic VF and sudden unexplained death. Some variants have been associated with both LQTS and CPVT, however Crotti et al (PMID: 31170290) report that "despite the relatively small numbers of cases, a significant association (P = 0.001) was observed between location of mutation and phenotype (Supplementary material online, Figure S1). Indeed, a pathogenic variant in EF-hand IV Ca2+ binding loop was found in the majority (17/32, 53%) of CALM-LQTS index cases but in only one of the nine CALM-CPVTs (11%). Conversely, variants identified in CALM-CPVT index cases were mostly located either in EF-hand III (n = 5, 56%), or in the inter-EF hand I-II linker (n = 3, 33%)."
+ The phenotype most frequently shown by patients with *CALM* variants is LQTS, but some patients display other phenotypes including CPVT, idiopathic VF and sudden unexplained death. Some variants have been associated with both LQTS and CPVT, however Crotti et al (PMID: 31170290) report that "despite the relatively small numbers of cases, a significant association (P = 0.001) was observed between location of mutation and phenotype (Supplementary material online, Figure S1). Indeed, a pathogenic variant in EF-hand IV Ca2+ binding loop was found in the majority (17/32, 53%) of CALM-LQTS index cases but in only one of the nine CALM-CPVTs (11%). Conversely, variants identified in CALM-CPVT index cases were mostly located either in EF-hand III (n = 5, 56%), or in the inter-EF hand I-II linker (n = 3, 33%)."
 
-For the ClinGen CPVT curation,_CALM2_ scored in the moderate range based on four reported variants in patients with CPVT or mixed CPVT/LQT phenotypes (p.Glu46Lys in two __de novo__ cases, p.Asn98Ser and p.Asp132Glu) and associated functional data. However, due to the unique characteristics of the calmodulin genes and their gene-disease associations, it was agreed by the expert panel to include them in this curation. The reasons were: 1) all three genes have already been established as disease-causing for an inherited arrhythmia syndrome (LQTS), 2) there are multiple examples of patients presenting with a phenotype indistinguishable from CPVT for each, either __de novo__ or supported by functional evidence and 3) the genes encode for identical proteins, are all expressed in the heart and equivalent __de novo__ variants in the three genes have been shown to lead to similar phenotypes, highlighting the functional equivalence of these genes. </td>
+For the ClinGen CPVT curation,*CALM2* scored in the moderate range based on four reported variants in patients with CPVT or mixed CPVT/LQT phenotypes (p.Glu46Lys in two **de novo** cases, p.Asn98Ser and p.Asp132Glu) and associated functional data. However, due to the unique characteristics of the calmodulin genes and their gene-disease associations, it was agreed by the expert panel to include them in this curation. The reasons were: 1) all three genes have already been established as disease-causing for an inherited arrhythmia syndrome (LQTS), 2) there are multiple examples of patients presenting with a phenotype indistinguishable from CPVT for each, either **de novo** or supported by functional evidence and 3) the genes encode for identical proteins, are all expressed in the heart and equivalent **de novo** variants in the three genes have been shown to lead to similar phenotypes, highlighting the functional equivalence of these genes. </td>
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -621,25 +632,27 @@ For the ClinGen CPVT curation,_CALM2_ scored in the moderate range based on four
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> The disease mechanism in _CALM3_-related CPVT is likely a dominant negative effect caused by **altered gene product sequence** which reduces the calcium dependent inactivation of the calcium channel CaV1.2, resulting in increased inward calcium channel current (ICaL) and repolarization delay.
+   <td style="text-align:left;"> The disease mechanism in *CALM3*-related CPVT is likely a dominant negative effect caused by **altered gene product sequence** which reduces the calcium dependent inactivation of the calcium channel CaV1.2, resulting in increased inward calcium channel current (ICaL) and repolarization delay.
 
- The three _CALM_ genes encode an identical 149aa protein, calmodulin. The _CALM1_ gene is located on chromosome 14, _CALM2_ on chromosome 2 and _CALM3_ on chromosome 19. Calmodulin protein is involved in many calcium-dependent intracellular processes.  All three _CALM_ genes have been classified as Definitive for LQTS and Moderate for CPVT, certain variants are only associated with one or other phenotype, whereas others are associated with a mixed or variable phenotypes.
+ The three *CALM* genes encode an identical 149aa protein, calmodulin. The *CALM1* gene is located on chromosome 14, *CALM2* on chromosome 2 and *CALM3* on chromosome 19. Calmodulin protein is involved in many calcium-dependent intracellular processes.  All three *CALM* genes have been classified as Definitive for LQTS and Moderate for CPVT, certain variants are only associated with one or other phenotype, whereas others are associated with a mixed or variable phenotypes.
 
- All variants with evidence of pathogenicity identified in the _CALM_ genes are missense: at least 35 distinct missense variants have been identified and reported in the International Calmodulinopathy Registry including 11 (31%) in _CALM1_, 16 (46%) in _CALM2_, and 8 (23%) in _CALM3_. The majority of variants across the _CALM_ genes affect amino acid residues in the EF-hand Ca2+ binding loop III and IV. Some variants have additional evidence in that the same substitution has been seen in paralogous _CALM_ genes, or that the same substitution has been seen in a related phenotype (LQTS). Most variants are unique, but 9 were present in more than one index case and among these, three (p.Asn98Ser, p.Asp130Gly, and p.Phe142Leu, identified in 10, 5, and 4 families, respectively.) appear to be recurrent. While variants p.Asp130Gly and p.Phe142Leu have always been reported as associated with the LQTS phenotype, the p.Asn98Ser has phenotypic variability, including LQTS, CPVT, idiopathic VF and sudden death. The majority of CALM variants are ___de novo___.
+ All variants with evidence of pathogenicity identified in the *CALM* genes are missense: at least 35 distinct missense variants have been identified and reported in the International Calmodulinopathy Registry including 11 (31%) in *CALM1*, 16 (46%) in *CALM2*, and 8 (23%) in *CALM3*. The majority of variants across the *CALM* genes affect amino acid residues in the EF-hand Ca2+ binding loop III and IV. Some variants have additional evidence in that the same substitution has been seen in paralogous *CALM* genes, or that the same substitution has been seen in a related phenotype (LQTS). Most variants are unique, but 9 were present in more than one index case and among these, three (p.Asn98Ser, p.Asp130Gly, and p.Phe142Leu, identified in 10, 5, and 4 families, respectively.) appear to be recurrent. While variants p.Asp130Gly and p.Phe142Leu have always been reported as associated with the LQTS phenotype, the p.Asn98Ser has phenotypic variability, including LQTS, CPVT, idiopathic VF and sudden death. The majority of CALM variants are ***de novo***.
 
- Pathogenic variants in the _CALM_ genes have been associated with: presentation in infancy or early childhood (up to 5 years); marked sinus bradycardia or atrioventricular block and QT prolongation; and, predominantly with _CALM1_ variants, a mild-to-severe neurological impairment, including seizures, development delay, motor and/or cognitive disability.
+ Pathogenic variants in the *CALM* genes have been associated with: presentation in infancy or early childhood (up to 5 years); marked sinus bradycardia or atrioventricular block and QT prolongation; and, predominantly with *CALM1* variants, a mild-to-severe neurological impairment, including seizures, development delay, motor and/or cognitive disability.
 
- The phenotype most frequently shown by patients with _CALM_ variants is LQTS, but some patients display other phenotypes including CPVT, idiopathic VF and sudden unexplained death. Some variants have been associated with both LQTS and CPVT, however Crotti et al (PMID: 31170290) report that "despite the relatively small numbers of cases, a significant association (P = 0.001) was observed between location of mutation and phenotype (Supplementary material online, Figure S1). Indeed, a pathogenic variant in EF-hand IV Ca2+ binding loop was found in the majority (17/32, 53%) of CALM-LQTS index cases but in only one of the nine CALM-CPVTs (11%). Conversely, variants identified in CALM-CPVT index cases were mostly located either in EF-hand III (n = 5, 56%), or in the inter-EF hand I-II linker (n = 3, 33%)."
+ The phenotype most frequently shown by patients with *CALM* variants is LQTS, but some patients display other phenotypes including CPVT, idiopathic VF and sudden unexplained death. Some variants have been associated with both LQTS and CPVT, however Crotti et al (PMID: 31170290) report that "despite the relatively small numbers of cases, a significant association (P = 0.001) was observed between location of mutation and phenotype (Supplementary material online, Figure S1). Indeed, a pathogenic variant in EF-hand IV Ca2+ binding loop was found in the majority (17/32, 53%) of CALM-LQTS index cases but in only one of the nine CALM-CPVTs (11%). Conversely, variants identified in CALM-CPVT index cases were mostly located either in EF-hand III (n = 5, 56%), or in the inter-EF hand I-II linker (n = 3, 33%)."
 
-For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on four reported variants in patients with CPVT or mixed CPVT/LQT phenotypes (p.Glu46Lys in two __de novo__ cases, p.Asn98Ser and p.Asp132Glu) and associated functional data. However, due to the unique characteristics of the calmodulin genes and their gene-disease associations, it was agreed by the expert panel to include them in this curation. The reasons were: 1) all three genes have already been established as disease-causing for an inherited arrhythmia syndrome (LQTS), 2) there are multiple examples of patients presenting with a phenotype indistinguishable from CPVT for each, either __de novo__ or supported by functional evidence and 3) the genes encode for identical proteins, are all expressed in the heart and equivalent __de novo__ variants in the three genes have been shown to lead to similar phenotypes, highlighting the functional equivalence of these genes. </td>
+For the ClinGen CPVT curation, *CALM3* scored in the moderate range based on four reported variants in patients with CPVT or mixed CPVT/LQT phenotypes (p.Glu46Lys in two **de novo** cases, p.Asn98Ser and p.Asp132Glu) and associated functional data. However, due to the unique characteristics of the calmodulin genes and their gene-disease associations, it was agreed by the expert panel to include them in this curation. The reasons were: 1) all three genes have already been established as disease-causing for an inherited arrhythmia syndrome (LQTS), 2) there are multiple examples of patients presenting with a phenotype indistinguishable from CPVT for each, either **de novo** or supported by functional evidence and 3) the genes encode for identical proteins, are all expressed in the heart and equivalent **de novo** variants in the three genes have been shown to lead to similar phenotypes, highlighting the functional equivalence of these genes. </td>
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -713,18 +726,20 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> **Absent gene product level and altered gene product sequence** of _TECRL_ is associated with CPVT. The disease mechanism appears to be loss of function.
- _TECRL_ is rarely associated with CPVT, but several reports have described biallelic loss of function variants in cases.  These include both homozygous and compound heterozygous inheritance, with a variety of variant types described – splice donor variant, stop gained, exon deletion (exon 2), missense variants (including homozygous p.Arg196Gln detected in 2 patients with exome sequencing), and a large duplication encompassing all of the _TECRL_ gene with an uncertain consequence.
+   <td style="text-align:left;"> **Absent gene product level and altered gene product sequence** of *TECRL* is associated with CPVT. The disease mechanism appears to be loss of function.
+ *TECRL* is rarely associated with CPVT, but several reports have described biallelic loss of function variants in cases.  These include both homozygous and compound heterozygous inheritance, with a variety of variant types described – splice donor variant, stop gained, exon deletion (exon 2), missense variants (including homozygous p.Arg196Gln detected in 2 patients with exome sequencing), and a large duplication encompassing all of the *TECRL* gene with an uncertain consequence.
 
  These cases presented with phenotypic features typical of CPVT, including exercise and emotion induced syncope and cardiac arrest and ventricular arrhythmias during exercise testing. A mild prolonged QT interval was observed in several cases, especially after stimulation by epinephrine or exercise, although overall the phenotypes are much more typical of CPVT than LQTS. </td>
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -798,17 +813,19 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> **Absent gene product level and altered gene product sequence** of _TRDN_ is associated with CPVT. The disease mechanism appears to be loss of function.
- _TRDN_ is rarely associated with CPVT, but several reports have described biallelic loss of function variants in cases.  These include both homozygous and compound heterozygous variants, with a variety of variant types described - stop gained, frameshift, exon deletion (exon 2), intronic variants (with proven effect on splicing) and missense variants (proven to lead to degraded protein).
- Biallelic loss of function variants in _TRDN_ have also been associated with LQTS with an atypical presentation (ClinGen: strong evidence). This, "triadin knockout syndrome" can lead to variable phenotypes. </td>
+   <td style="text-align:left;"> **Absent gene product level and altered gene product sequence** of *TRDN* is associated with CPVT. The disease mechanism appears to be loss of function.
+ *TRDN* is rarely associated with CPVT, but several reports have described biallelic loss of function variants in cases.  These include both homozygous and compound heterozygous variants, with a variety of variant types described - stop gained, frameshift, exon deletion (exon 2), intronic variants (with proven effect on splicing) and missense variants (proven to lead to degraded protein).
+ Biallelic loss of function variants in *TRDN* have also been associated with LQTS with an atypical presentation (ClinGen: strong evidence). This, "triadin knockout syndrome" can lead to variable phenotypes. </td>
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><h3>Long QT Syndrome (LQTS)</h3><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -882,7 +899,7 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -903,6 +920,8 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -976,7 +995,7 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -993,6 +1012,8 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -1066,7 +1087,7 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -1084,6 +1105,8 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -1157,7 +1180,7 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -1174,6 +1197,8 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -1247,7 +1272,7 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -1264,6 +1289,8 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -1337,7 +1364,7 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -1354,6 +1381,8 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -1427,7 +1456,7 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -1442,6 +1471,8 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -1515,7 +1546,7 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -1529,6 +1560,8 @@ Note: heterozygous variants in _KCNQ1_ lead to dominant LQTS. </td>
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -1602,7 +1635,7 @@ Note: heterozygous variants in _KCNQ1_ lead to dominant LQTS. </td>
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -1617,6 +1650,8 @@ The phenotype of _KCNE1_-related JLNS2 appears to be milder than JLNS1 (caused b
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -1690,7 +1725,7 @@ The phenotype of _KCNE1_-related JLNS2 appears to be milder than JLNS1 (caused b
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -1706,6 +1741,8 @@ Penetrance in families appears high, with estimates of ≥80% </td>
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -1779,7 +1816,7 @@ Penetrance in families appears high, with estimates of ≥80% </td>
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -1793,6 +1830,8 @@ Penetrance in families appears high, with estimates of ≥80% </td>
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><h3>Short QT Syndrome (SQTS)</h3><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -1866,7 +1905,7 @@ Penetrance in families appears high, with estimates of ≥80% </td>
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -1879,6 +1918,8 @@ It is noteworthy that of the 18 probands with SQTS in whom _KCNH2_ variants have
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -1952,7 +1993,7 @@ It is noteworthy that of the 18 probands with SQTS in whom _KCNH2_ variants have
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -1967,6 +2008,8 @@ Note: loss-of-function variants in _KCNQ1_ are associated with LQTS. </td>
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -2040,7 +2083,7 @@ Note: loss-of-function variants in _KCNQ1_ are associated with LQTS. </td>
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -2049,6 +2092,8 @@ Note: loss-of-function variants in _KCNQ1_ are associated with LQTS. </td>
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -2122,7 +2167,7 @@ Note: loss-of-function variants in _KCNQ1_ are associated with LQTS. </td>
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -2131,6 +2176,8 @@ Note: loss-of-function variants in _KCNQ1_ are associated with LQTS. </td>
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -2204,7 +2251,7 @@ Note: loss-of-function variants in _KCNQ1_ are associated with LQTS. </td>
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -2216,6 +2263,8 @@ Note: loss-of-function variants in _KCNQ1_ are associated with LQTS. </td>
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><h2>CARDIOMYOPATHY</h2><h3>Arrhythmogenic right ventricular cardiomyopathy (ARVC)</h3><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -2289,7 +2338,7 @@ Note: loss-of-function variants in _KCNQ1_ are associated with LQTS. </td>
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -2302,6 +2351,8 @@ Note: loss-of-function variants in _KCNQ1_ are associated with LQTS. </td>
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -2375,7 +2426,7 @@ Note: loss-of-function variants in _KCNQ1_ are associated with LQTS. </td>
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -2388,6 +2439,8 @@ Note: loss-of-function variants in _KCNQ1_ are associated with LQTS. </td>
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -2461,7 +2514,7 @@ Note: loss-of-function variants in _KCNQ1_ are associated with LQTS. </td>
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -2481,6 +2534,8 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -2554,7 +2609,7 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -2571,6 +2626,8 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -2644,7 +2701,7 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -2660,6 +2717,8 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -2733,7 +2792,7 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -2750,6 +2809,8 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><h3>Dilated Cardiomyopathy (DCM)</h3><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -2823,7 +2884,7 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -2836,6 +2897,8 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -2909,7 +2972,7 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -2923,6 +2986,8 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -2996,7 +3061,7 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -3010,6 +3075,8 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -3083,7 +3150,7 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -3095,6 +3162,8 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -3168,7 +3237,7 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -3182,6 +3251,8 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -3255,7 +3326,7 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -3267,6 +3338,8 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -3340,7 +3413,7 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -3352,6 +3425,8 @@ Missense variants are responsible for the majority of DCM cases although a small
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -3425,7 +3500,7 @@ Missense variants are responsible for the majority of DCM cases although a small
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -3438,6 +3513,8 @@ Missense variants are responsible for the majority of DCM cases although a small
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -3511,7 +3588,7 @@ Missense variants are responsible for the majority of DCM cases although a small
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -3525,6 +3602,8 @@ Missense variants are responsible for the majority of DCM cases although a small
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -3598,7 +3677,7 @@ Missense variants are responsible for the majority of DCM cases although a small
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -3612,6 +3691,8 @@ Missense variants are responsible for the majority of DCM cases although a small
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -3685,7 +3766,7 @@ Missense variants are responsible for the majority of DCM cases although a small
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -3702,6 +3783,8 @@ _TTN_-related DCM is inherited as an autosomal dominant trait and displays incom
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -3775,7 +3858,7 @@ _TTN_-related DCM is inherited as an autosomal dominant trait and displays incom
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -3792,6 +3875,8 @@ _TTN_-related DCM is inherited as an autosomal dominant trait and displays incom
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><h3>Hypertrophic Cardiomyopathy (HCM)</h3><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -3865,7 +3950,7 @@ _TTN_-related DCM is inherited as an autosomal dominant trait and displays incom
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -3878,6 +3963,8 @@ _TTN_-related DCM is inherited as an autosomal dominant trait and displays incom
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -3951,7 +4038,7 @@ _TTN_-related DCM is inherited as an autosomal dominant trait and displays incom
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -3967,6 +4054,8 @@ _TTN_-related DCM is inherited as an autosomal dominant trait and displays incom
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -4040,7 +4129,7 @@ _TTN_-related DCM is inherited as an autosomal dominant trait and displays incom
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -4058,6 +4147,8 @@ _TTN_-related DCM is inherited as an autosomal dominant trait and displays incom
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -4131,7 +4222,7 @@ _TTN_-related DCM is inherited as an autosomal dominant trait and displays incom
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -4149,6 +4240,8 @@ _TTN_-related DCM is inherited as an autosomal dominant trait and displays incom
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -4222,7 +4315,7 @@ _TTN_-related DCM is inherited as an autosomal dominant trait and displays incom
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -4237,6 +4330,8 @@ _TTN_-related DCM is inherited as an autosomal dominant trait and displays incom
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -4310,7 +4405,7 @@ _TTN_-related DCM is inherited as an autosomal dominant trait and displays incom
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -4328,6 +4423,8 @@ Mogensen et al found that 85% of variants were identified in exons 7 and 8 (amin
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -4401,7 +4498,7 @@ Mogensen et al found that 85% of variants were identified in exons 7 and 8 (amin
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -4422,6 +4519,8 @@ Mogensen et al found that 85% of variants were identified in exons 7 and 8 (amin
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -4495,7 +4594,7 @@ Mogensen et al found that 85% of variants were identified in exons 7 and 8 (amin
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -4512,6 +4611,8 @@ Mogensen et al found that 85% of variants were identified in exons 7 and 8 (amin
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -4585,7 +4686,7 @@ Mogensen et al found that 85% of variants were identified in exons 7 and 8 (amin
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -4603,6 +4704,8 @@ Mogensen et al found that 85% of variants were identified in exons 7 and 8 (amin
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -4676,7 +4779,7 @@ Mogensen et al found that 85% of variants were identified in exons 7 and 8 (amin
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -4692,6 +4795,8 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -4765,7 +4870,7 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -4781,6 +4886,8 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -4854,7 +4961,7 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -4866,6 +4973,8 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -4939,7 +5048,7 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -4951,6 +5060,8 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -5024,7 +5135,7 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -5036,6 +5147,8 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -5109,7 +5222,7 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -5127,6 +5240,8 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -5200,7 +5315,7 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -5211,6 +5326,8 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -5284,7 +5401,7 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -5302,6 +5419,8 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -5375,7 +5494,7 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -5388,6 +5507,8 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -5461,7 +5582,7 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -5472,6 +5593,8 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -5545,7 +5668,7 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -5558,6 +5681,8 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -5631,7 +5756,7 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -5642,6 +5767,8 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -5715,7 +5842,7 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -5738,6 +5865,8 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -5811,7 +5940,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -5829,6 +5958,8 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -5902,7 +6033,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -5917,6 +6048,8 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -5990,7 +6123,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -6005,6 +6138,8 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -6078,7 +6213,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -6091,6 +6226,8 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -6164,7 +6301,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -6179,6 +6316,8 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -6252,7 +6391,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -6269,6 +6408,8 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
@@ -6342,7 +6483,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
 </table><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narative </th>
+   <th style="text-align:left;font-weight: bold;font-size: 14px;"> Narrative </th>
   </tr>
  </thead>
 <tbody>
@@ -6361,7 +6502,10 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
 </tbody>
 </table>
+---
+
 <br>
 <p style="page-break-before: always;">&nbsp;</p>
+
 
 

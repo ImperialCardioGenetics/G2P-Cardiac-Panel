@@ -5,7 +5,6 @@ output:
     toc_depth: 3
     toc_float: true
     theme: lumen
-    mathjax: null
     keep_md: true
 ---
 
@@ -25,18 +24,26 @@ library(janitor)
 ```{r read_raw_data ,message=FALSE, warning=FALSE, include=FALSE}
 
 # read excel supp file
-g2p_formated<-read_excel("CardiacG2P_Additional_File4.xlsx",sheet = 1,col_types = "text") %>% 
-  rename("Expert panel review date" = Expert_panel_review_date,
-         "Curated date" = Curated_date)
-g2p_narative<-read_excel("CardiacG2P_Additional_File4.xlsx",sheet = 2,col_types = "text") %>% 
-  select("Narative"=`Narative...3`) %>%
-  mutate(across(c("Narative"), ~ str_replace_all(.,"<br/>","\n")))
+# g2p_formated<-read_excel("CardiacG2P_Additional_File4.xlsx",sheet = 1,col_types = "text") %>% 
+#   rename("Expert panel review date" = Expert_panel_review_date,
+#          "Curated date" = Curated_date)
+# g2p_narative<-read_excel("CardiacG2P_Additional_File4.xlsx",sheet = 2,col_types = "text") %>% 
+#   select("Narrative"=`Narative...3`) %>%
+#   mutate(across(c("Narrative"), ~ str_replace_all(.,"<br/>","\n")))
+# 
+# 
+# 
+# g2p <- g2p_formated %>% 
+#   cbind(g2p_narative) #%>%
+#   #mutate(across(everything(), ~ iconv(., from = 'UTF-8', to = 'ASCII//TRANSLIT'))) #%>% slice_head(n=10) 
+# 
+# 
+# 
+# 
+# write_csv(g2p,"CardiacG2P_Additional_File4.csv",quote = "all" )
 
+g2p <- read_csv("CardiacG2P_Additional_File4.csv", col_types = cols(.default = col_character()))
 
-
-g2p <- g2p_formated %>% 
-  cbind(g2p_narative) #%>%
-  #mutate(across(everything(), ~ iconv(., from = 'UTF-8', to = 'ASCII//TRANSLIT'))) #%>% slice_head(n=10) 
 
 arri_genes <- c("SCN5A","RYR2","CASQ2","CASQ2","CALM1","CALM2","CALM3","TECRL","TRDN","KCNQ1","KCNH2","SCN5A","CALM1","CALM2","CALM3","TRDN","KCNQ1","KCNE1","KCNJ2","CACNA1C","KCNH2","KCNQ1","SLC4A3","KCNJ2","SLC22A5")
 
@@ -86,20 +93,25 @@ for (i in 1:nrow(g2p)){
   
   )
   
-  narative <- g2p[i,ncol(g2p)] %>% tibble() %>%  set_names("Narative")
+  narrative <- g2p[i,ncol(g2p)] %>% tibble() %>%  set_names("Narrative")
   
-  # print narative text
+  # print narrative text
   print(
-    kbl(narative,
+    kbl(narrative,escape = T,
         full_width = T,
         booktabs = TRUE
         ) %>%
     kable_styling(font_size =12,
                   html_font = "sans-serif",
-                bootstrap_options = c("striped", "condensed", "scale_down")) %>% 
+                bootstrap_options = c("striped", "condensed")) %>% 
       row_spec(0, bold = TRUE,font_size =14)
   
   )
+  
+  
+  cat("\n")
+  cat("---")
+  cat("\n")
   
   cat("\n")
   cat("<br>")
@@ -112,4 +124,9 @@ for (i in 1:nrow(g2p)){
 }
 ```
 
+```{r session_info, message=FALSE, warning=FALSE, include=FALSE}
+
+sessionInfo()
+
+```
 
