@@ -24,19 +24,19 @@ library(janitor)
 ```{r read_raw_data ,message=FALSE, warning=FALSE, include=FALSE}
 
 # read excel supp file
-# g2p_formated<-read_excel("CardiacG2P_Additional_File4.xlsx",sheet = 1,col_types = "text") %>% 
+# g2p_formated<-read_excel("CardiacG2P_Additional_File4.xlsx",sheet = 1,col_types = "text") %>%
 #   rename("Expert panel review date" = Expert_panel_review_date,
 #          "Curated date" = Curated_date)
-# g2p_narative<-read_excel("CardiacG2P_Additional_File4.xlsx",sheet = 2,col_types = "text") %>% 
+# g2p_narative<-read_excel("CardiacG2P_Additional_File4.xlsx",sheet = 2,col_types = "text") %>%
 #   select("Narrative"=`Narative...3`) %>%
 #   mutate(across(c("Narrative"), ~ str_replace_all(.,"<br/>","\n")))
 # 
 # 
 # 
-# g2p <- g2p_formated %>% 
+# g2p <- g2p_formated %>%
 #   cbind(g2p_narative) #%>%
-#   #mutate(across(everything(), ~ iconv(., from = 'UTF-8', to = 'ASCII//TRANSLIT'))) #%>% slice_head(n=10) 
-# 
+#   #mutate(across(everything(), ~ iconv(., from = 'UTF-8', to = 'ASCII//TRANSLIT'))) #%>% slice_head(n=10)
+# #
 # 
 # 
 # 
@@ -93,11 +93,13 @@ for (i in 1:nrow(g2p)){
   
   )
   
-  narrative <- g2p[i,ncol(g2p)] %>% tibble() %>%  set_names("Narrative")
-  
+  #i=1
+  narrative <- g2p[i,ncol(g2p)] %>% 
+    tibble() %>%  set_names("Narrative") %>% transmute(Narrative = paste0("<br /> \n\n",Narrative))
+
   # print narrative text
   print(
-    kbl(narrative,escape = T,
+    kbl(narrative,escape = F,
         full_width = T,
         booktabs = TRUE
         ) %>%
@@ -108,10 +110,6 @@ for (i in 1:nrow(g2p)){
   
   )
   
-  
-  cat("\n")
-  cat("---")
-  cat("\n")
   
   cat("\n")
   cat("<br>")
