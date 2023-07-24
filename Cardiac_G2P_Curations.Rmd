@@ -1,4 +1,5 @@
 ---
+title: "Cardiac G2P curations"
 output:
   html_document:
     toc: true
@@ -17,30 +18,33 @@ library(kableExtra)
 library(janitor)
 ```
 
-<h1 style="font-size: 50px">Cardiac G2P curations</h1>
+
+<style type="text/css">
+
+h1.title {
+  font-size: 50px;
+}
+
+</style>
 
 <p style=\"page-break-before: always;\">&nbsp;</p>
 
-```{r read_raw_data ,message=FALSE, warning=FALSE, include=FALSE}
+```{r convert_xlsx_to_csv, eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
 
-# read excel supp file
-# g2p_formated<-read_excel("CardiacG2P_Additional_File4.xlsx",sheet = 1,col_types = "text") %>%
-#   rename("Expert panel review date" = Expert_panel_review_date,
-#          "Curated date" = Curated_date)
+# # read excel supp file
+# g2p_formated<-read_excel("CardiacG2P_Additional_File4.xlsx",sheet = 1,col_types = "text") 
 # g2p_narative<-read_excel("CardiacG2P_Additional_File4.xlsx",sheet = 2,col_types = "text") %>%
-#   select("Narrative"=`Narative...3`) %>%
+#   select("Narrative"=`Narrative...3`) %>%
 #   mutate(across(c("Narrative"), ~ str_replace_all(.,"<br/>","\n")))
 # 
-# 
-# 
 # g2p <- g2p_formated %>%
-#   cbind(g2p_narative) #%>%
-#   #mutate(across(everything(), ~ iconv(., from = 'UTF-8', to = 'ASCII//TRANSLIT'))) #%>% slice_head(n=10)
-# #
-# 
-# 
+#   cbind(g2p_narative)
 # 
 # write_csv(g2p,"CardiacG2P_Additional_File4.csv",quote = "all" )
+
+```
+
+```{r read_g2p, message=FALSE, warning=FALSE, include=FALSE}
 
 g2p <- read_csv("CardiacG2P_Additional_File4.csv", col_types = cols(.default = col_character()))
 
@@ -54,7 +58,7 @@ chapter2 <- "CARDIOMYOPATHY"
 ```
 
 
-```{r echo=FALSE, results='asis'}
+```{r render_tables, echo=FALSE, results='asis'}
 
 ref_ind <- g2p[1, 3]
 

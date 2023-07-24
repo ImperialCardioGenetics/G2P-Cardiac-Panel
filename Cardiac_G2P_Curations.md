@@ -1,4 +1,5 @@
 ---
+title: "Cardiac G2P curations"
 output:
   html_document:
     toc: true
@@ -10,9 +11,18 @@ output:
 
 
 
-<h1 style="font-size: 50px">Cardiac G2P curations</h1>
+
+<style type="text/css">
+
+h1.title {
+  font-size: 50px;
+}
+
+</style>
 
 <p style=\"page-break-before: always;\">&nbsp;</p>
+
+
 
 
 
@@ -67,7 +77,7 @@ output:
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Splice region; splice acceptor; splice donor; frameshift variant NMD triggering; stop gained variant NMD triggering; missense; inframe insertion; inframe deletion </td>
+   <td style="text-align:left;"> splice_region_variant; splice_acceptor_variant; splice_donor_variant; frameshift_variant_NMD_triggering; stop_gained_NMD_triggering; missense_variant; inframe_insertion; inframe_deletion </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -157,7 +167,7 @@ _SCN5A_-related Brugada syndrome is caused by **decreased gene product level or 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; exon deletion </td>
+   <td style="text-align:left;"> missense_variant; exon_loss_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -250,7 +260,7 @@ _RYR2_ is associated with CPVT with autosomal dominant inheritance. The allelic 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Splice region; splice donor variant NMD triggering; splice acceptor variant NMD triggering; frameshift variant NMD triggering; stop gained variant NMD triggering; missense </td>
+   <td style="text-align:left;"> splice_region_variant; splice_donor_variant_NMD_triggering; splice_acceptor_variant_NMD_triggering; frameshift_variant_NMD_triggering; stop_gained_NMD_triggering; missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -336,7 +346,7 @@ Biallelic loss-of-function variants in _CASQ2_ (both homozygous and compound het
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Splice region; splice donor variant NMD triggering; splice acceptor variant NMD triggering; frameshift variant NMD triggering; stop gained variant NMD triggering; missense </td>
+   <td style="text-align:left;"> splice_region_variant; splice_donor_variant_NMD_triggering; splice_acceptor_variant_NMD_triggering; frameshift_variant_NMD_triggering; stop_gained_NMD_triggering; missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -422,7 +432,7 @@ _CASQ2_ is an established gene for autosomal recessive CPVT (the second most com
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -516,7 +526,7 @@ The three _CALM_ genes encode an identical 149aa protein, calmodulin. The _CALM1
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -610,7 +620,7 @@ For the ClinGen CPVT curation,_CALM2_ scored in the moderate range based on four
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -704,7 +714,7 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Splice donor variant NMD triggering; stop gained variant NMD triggering; missense; exon deletion </td>
+   <td style="text-align:left;"> splice_donor_variant_NMD_triggering; stop_gained_NMD_triggering; missense_variant; exon_loss_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -791,7 +801,7 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Frameshift variant NMD triggering; stop gained variant NMD triggering; missense; exon deletion </td>
+   <td style="text-align:left;"> frameshift_variant_NMD_triggering; stop_gained_NMD_triggering; missense_variant; exon_loss_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -877,7 +887,7 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Splice acceptor; splice donor; frameshift; frameshift variant NMD triggering; stop gained; stop gained variant NMD triggering; missense; inframe insertion; inframe deletion; structural variants (whole exon deletions); structural variants (intragenic multi exon tandem duplication) </td>
+   <td style="text-align:left;"> splice_acceptor_variant; splice_donor_variant; frameshift_variant; frameshift_variant_NMD_triggering; stop_gained; stop_gained_NMD_triggering; missense_variant; inframe_insertion; inframe_deletion; exon_loss_variant; tandem_duplication </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -973,7 +983,7 @@ Pathogenic variants in _KCNQ1_ cause LQTS due to **decreased gene product level 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Splice acceptor; splice donor; frameshift variant NMD triggering; stop gained variant NMD triggering; missense; inframe insertion; inframe deletion; structural variants (whole exon deletions &amp; duplications) </td>
+   <td style="text-align:left;"> splice_acceptor_variant; splice_donor_variant; frameshift_variant_NMD_triggering; stop_gained_NMD_triggering; missense_variant; inframe_insertion; inframe_deletion; exon_loss_variant; duplication </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -1065,7 +1075,7 @@ _KCNH2_-related LQTS is due to **decreased gene product level or altered gene pr
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; inframe insertion; inframe deletion </td>
+   <td style="text-align:left;"> missense_variant; inframe_insertion; inframe_deletion </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -1158,7 +1168,7 @@ _KCNH2_-related LQTS is due to **decreased gene product level or altered gene pr
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -1250,7 +1260,7 @@ _CALM1_-related LQTS is caused by an **altered gene product sequence**. Reductio
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -1342,7 +1352,7 @@ _CALM2_-related LQTS is caused by an**altered gene product sequence** which redu
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -1434,7 +1444,7 @@ For LQTS, _CALM3_ variants lead to an **altered gene product sequence**. The dis
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Frameshift variant NMD triggering </td>
+   <td style="text-align:left;"> frameshift_variant_NMD_triggering </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -1524,7 +1534,7 @@ _TRDN_-related LQTS is due to an **absent gene product level**. The disease mech
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Splice acceptor; splice donor; frameshift variant NMD triggering; stop gained variant NMD triggering; missense; structural variants (whole exon deletions; complex rearrangements) </td>
+   <td style="text-align:left;"> splice_acceptor_variant; splice_donor_variant; frameshift_variant_NMD_triggering; stop_gained_NMD_triggering; missense_variant; exon_loss_variant; complex_structural_alteration </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -1613,7 +1623,7 @@ Note: heterozygous variants in _KCNQ1_ lead to dominant LQTS. </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; inframe insertion; inframe deletion, stop gained NMD escaping </td>
+   <td style="text-align:left;"> missense_variant; inframe_insertion; inframe_deletion, stop_gained_NMD_escaping </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -1703,7 +1713,7 @@ The phenotype of _KCNE1_-related JLNS2 appears to be milder than JLNS1 (caused b
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; inframe insertion; inframe deletion; stop gained NMD escaping </td>
+   <td style="text-align:left;"> missense_variant; inframe_insertion; inframe_deletion; stop_gained_NMD_escaping </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -1794,7 +1804,7 @@ Penetrance in families appears high, with estimates of ≥80% </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -1883,7 +1893,7 @@ _CACNA1C_-related Timothy syndrome is caused by variants leading to **altered ge
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -1971,11 +1981,11 @@ It is noteworthy that of the 18 probands with SQTS in whom _KCNH2_ variants have
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
-   <td style="text-align:left;"> Almost all evidence derived from: p.Val141Met; p.Val307Leu </td>
+   <td style="text-align:left;"> Almost all evidence derived from: NM_000218.3(KCNQ1):c.421G&gt;A (p.Val141Met); NM_000218.3(KCNQ1):c.919G&gt;C (p.Val307Leu) </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> PMIDs </td>
@@ -2061,11 +2071,11 @@ Note: loss-of-function variants in _KCNQ1_ are associated with LQTS. </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
-   <td style="text-align:left;"> p.Arg370His </td>
+   <td style="text-align:left;"> NM_201574(SLC4A3):c.1109 G &gt; A (p.Arg370His) </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> PMIDs </td>
@@ -2145,7 +2155,7 @@ _SLC4A3 _ encodes a plasma membrane anion exchange protein. Genetic evidence sup
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -2229,7 +2239,7 @@ Genetic variants in _KCNJ2_ have been identified in 6 patients from 5 families w
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -2316,7 +2326,7 @@ Variants in _SLC22A5_ cause autosomal recessive primary systemic carnitine defic
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Splice region; splice acceptor; splice donor; frameshift; stop gained; missense; inframe insertion; inframe deletion </td>
+   <td style="text-align:left;"> splice_region_variant; splice_acceptor_variant; splice_donor_variant; frameshift_variant; stop_gained; missense_variant; inframe_insertion; inframe_deletion </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -2404,7 +2414,7 @@ _DSC2_-related ARVC is due to **decreased gene product level or altered gene pro
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Splice acceptor; splice donor; frameshift; stop gained; missense; inframe insertion; inframe deletion </td>
+   <td style="text-align:left;"> splice_acceptor_variant; splice_donor_variant; frameshift_variant; stop_gained; missense_variant; inframe_insertion; inframe_deletion </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -2492,7 +2502,7 @@ _DSG2_-related ARVC is due to **decreased gene product level or altered gene pro
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Splice donor; splice acceptor; frameshift; stop gained; missense; inframe insertion; inframe deletion </td>
+   <td style="text-align:left;"> splice_donor_variant; splice_acceptor_variant; frameshift_variant; stop_gained; missense_variant; inframe_insertion; inframe_deletion </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -2587,7 +2597,7 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Splice region; splice acceptor; splice donor; stop gained; frameshift; missense; structural variants (deletions; duplications) </td>
+   <td style="text-align:left;"> splice_region_variant; splice_acceptor_variant; splice_donor_variant; stop_gained; frameshift_variant; missense_variant; deletion; duplication </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -2679,11 +2689,11 @@ _PKP2_ pathogenic variants cause ARVC through **decreased gene product level or 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
-   <td style="text-align:left;"> p.Ser358Leu </td>
+   <td style="text-align:left;"> NM_024334.3(TMEM43):c.1073C&gt;T (p.Ser358Leu) </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> PMIDs </td>
@@ -2770,7 +2780,7 @@ _TMEM43_-related ARVC is due to **altered gene product sequence.**
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Frameshift variant NMD escaping, missense, inframe deletion </td>
+   <td style="text-align:left;"> frameshift_variant_NMD_escaping, missense_variant, inframe_deletion </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -2862,7 +2872,7 @@ _JUP_-related Naxos disease (ARVC, woolly hair and palmoplantar keratoderma) is 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; stop gained NMD triggering; frameshift; splice acceptor; splice donor; structural variants (whole exon deletions), copy number variation (whole gene deletion) </td>
+   <td style="text-align:left;"> missense_variant; stop_gained_NMD_triggering; frameshift_variant; splice_acceptor_variant; splice_donor_variant; exon_loss_variant; transcript_ablation </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -2950,7 +2960,7 @@ Pathogenic variants in _BAG3_ cause an estimated 2-4% of familial DCM due to **d
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; splice acceptor variant NMD escaping </td>
+   <td style="text-align:left;"> missense_variant; splice_acceptor_variant_NMD_escaping </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -3039,7 +3049,7 @@ Pathogenic variants in _DES_ cause DCM due to **altered gene product sequence**.
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Stop gained NMD triggering; frameshift variant; splice acceptor variant NMD triggering; splice donor variant NMD triggering; missense </td>
+   <td style="text-align:left;"> stop_gained_NMD_triggering; frameshift_variant variant; splice_acceptor_variant_NMD_triggering; splice_donor_variant_NMD_triggering; missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -3129,7 +3139,7 @@ Pathogenic variants in _DSP_ cause DCM due to **decreased gene product level or 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Splice acceptor; splice donor; frameshift variant NMD triggering; stop gained NMD triggering </td>
+   <td style="text-align:left;"> splice_acceptor_variant; splice_donor_variant; frameshift_variant_NMD_triggering; stop_gained_NMD_triggering </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -3216,7 +3226,7 @@ Pathogenic variants in _FLNC_ account for approximately 2-4% of familial DCM due
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; stop gained NMD triggering; frameshift variant; splice acceptor variant NMD triggering; splice donor variant NMD triggering; structural variants (single and multi-exon deletion) </td>
+   <td style="text-align:left;"> missense_variant; stop_gained_NMD_triggering; frameshift_variant variant; splice_acceptor_variant_NMD_triggering; splice_donor_variant_NMD_triggering; exon_loss_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -3305,7 +3315,7 @@ Pathogenic variants in _LMNA_ cause DCM due to **decreased gene product level or
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -3392,7 +3402,7 @@ _MYH7_ encodes the β-myosin heavy chain, part of the sarcomere which plays a ma
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; stop gained NMD triggering </td>
+   <td style="text-align:left;"> missense_variant; stop_gained_NMD_triggering </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -3479,7 +3489,7 @@ Missense variants are responsible for the majority of DCM cases although a small
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; stop gained NMD triggering </td>
+   <td style="text-align:left;"> missense_variant; stop_gained_NMD_triggering </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -3568,7 +3578,7 @@ Pathogenic variants in _SCN5A_ cause DCM mainly due to **altered gene product se
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -3657,7 +3667,7 @@ Pathogenic variants in _TNNC1_ are a rare (&lt;1%) cause of familial DCM due to 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -3746,15 +3756,15 @@ Pathogenic variants in _TNNT2_ cause DCM due to **altered gene product sequence*
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Splice acceptor; splice donor; frameshift variant NMD triggering; stop gained NMD triggering; missense [v rare]; structural variants (whole exon deletions); [classes must occur in A-band or &gt;90% PSI exons] </td>
+   <td style="text-align:left;"> splice_acceptor_variant; splice_donor_variant; frameshift_variant_NMD_triggering; stop_gained_NMD_triggering; missense_variant; exon_loss_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
-   <td style="text-align:left;"> Variants must occur in exons (PSI &gt; 0.9). Missense variants with segregation evidence: p.Trp976Arg; p.Ala178Asp; p.Cys3575Ser </td>
+   <td style="text-align:left;"> Variants must occur in A-band or &gt;90% PSI exons. Pathogenic missense variants are very rare. Missense variants with segregation evidence: NM_001267550.2(TTN):c.2926T&gt;C (p.Trp976Arg); NM_001267550.2(TTN):c.533C&gt;A (p.Ala178Asp); NM_001267550.2(TTN):c.11674T&gt;A (p.Cys3892Ser) </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> PMIDs </td>
-   <td style="text-align:left;"> 9817758; 9826585; 19789381; 18765796; 25589632; 11788824; 22335739; 32013205; 23418287; 26084686; 28045975; 25759365; 26315439; 29316444; 27869827; 29238064; 32160020; 27869827; 31849696; 27625337; 11788824 </td>
+   <td style="text-align:left;"> 9817758; 9826585; 19789381; 18765796; 25589632; 11788824; 22335739; 32013205; 23418287; 26084686; 28045975; 25759365; 26315439; 29316444; 27869827; 29238064; 32160020; 27869827; 31849696; 27625337; 11788824; 37253077 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Curated date </td>
@@ -3838,7 +3848,7 @@ _TTN_-related DCM is inherited as an autosomal dominant trait and displays incom
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; inframe deletion; frameshift; stop gained; structural variants (whole exon deletions) </td>
+   <td style="text-align:left;"> missense_variant; inframe_deletion; frameshift_variant; stop_gained; exon_loss_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -3930,7 +3940,7 @@ Pathogenic variants in _PLN_ cause cardiomyopathy by **decreased gene product le
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; inframe deletion </td>
+   <td style="text-align:left;"> missense_variant; inframe_deletion </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -4018,7 +4028,7 @@ _ACTC1_ pathogenic variants cause HCM through **altered gene product sequence**.
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Splice region; splice acceptor; splice donor; frameshift; frameshift variant NMD triggering; stop gained; stop gained NMD triggering; missense; inframe insertion; inframe deletion; intronic; structural variants (whole exon deletions) </td>
+   <td style="text-align:left;"> splice_region_variant; splice_acceptor_variant; splice_donor_variant; frameshift_variant; frameshift_variant_NMD_triggering; stop_gained; stop_gained_NMD_triggering; missense_variant; inframe_insertion; inframe_deletion; exon_loss_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -4109,7 +4119,7 @@ _MYBPC3_ pathogenic variants cause HCM through **decreased gene product level or
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; inframe deletion; stop gained NMD escaping </td>
+   <td style="text-align:left;"> missense_variant; inframe_deletion; stop_gained_NMD_escaping </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -4202,7 +4212,7 @@ _MYH7_ pathogenic variants cause HCM through **altered gene product sequence** l
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -4295,7 +4305,7 @@ _MYL2_ pathogenic variants cause autosomal HCM through **altered gene product se
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -4385,7 +4395,7 @@ _MYL3_ pathogenic variants cause HCM through **altered gene product sequence**. 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; inframe deletion </td>
+   <td style="text-align:left;"> missense_variant; inframe_deletion </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -4478,7 +4488,7 @@ Mogensen et al found that 85% of variants were identified in exons 7 and 8 (amin
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; stop gained NMD escaping; inframe deletion; splice donor variant NMD escaping </td>
+   <td style="text-align:left;"> missense_variant; stop_gained_NMD_escaping; inframe_deletion; splice_donor_variant_NMD_escaping </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -4574,7 +4584,7 @@ _TNNT2_ pathogenic variants cause HCM through **altered gene product sequence**.
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -4666,7 +4676,7 @@ _TPM1_ pathogenic variants cause HCM through **altered gene product sequence**. 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; inframe deletion; frameshift; stop gained; structural variants (whole exon deletions) </td>
+   <td style="text-align:left;"> missense_variant; inframe_deletion; frameshift_variant; stop_gained; exon_loss_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -4759,7 +4769,7 @@ Pathogenic variants in _PLN_ cause cardiomyopathy by **decreased gene product le
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Stop gained; frameshift; splice acceptor; splice donor; missense </td>
+   <td style="text-align:left;"> stop_gained; frameshift_variant; splice_acceptor_variant; splice_donor_variant; missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -4851,11 +4861,11 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
-   <td style="text-align:left;"> A recurrent, de novo missense variant causing Classic Timothy Syndrome has been described: p.Gly406Arg </td>
+   <td style="text-align:left;"> A recurrent, de novo missense_variant causing Classic Timothy Syndrome has been described: NM_001167623.2(CACNA1C):c.1216G&gt;C (p.Gly406Arg) </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> PMIDs </td>
@@ -4942,7 +4952,7 @@ _CACNA1C_-related Timothy syndrome is caused by variants leading to **altered ge
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Splice acceptor variant NMD escaping; splice donor variant NMD escaping; frameshift variant NMD triggering; frameshift variant NMD escaping; stop gained NMD triggering; stop gained NMD escaping; missense variant; inframe deletion </td>
+   <td style="text-align:left;"> splice_acceptor_variant_NMD_escaping; splice_donor_variant_NMD_escaping; frameshift_variant_NMD_triggering; frameshift_variant_NMD_escaping; stop_gained_NMD_triggering; stop_gained_NMD_escaping; missense_variant; inframe_deletion </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -5029,7 +5039,7 @@ _DES_-related myofibrillar myopathy is typically inherited as an autosomal domin
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Splice region variant; frameshift variant NMD escaping; stop gained NMD escaping; stop lost; missense </td>
+   <td style="text-align:left;"> splice_region_variant; frameshift_variant_NMD_escaping; stop_gained_NMD_escaping; stop_lost; missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -5116,7 +5126,7 @@ _FHL1_-related Emery-Dreifuss muscular dystrophy is inherited as an X-linked con
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Stop gained NMD escaping; missense variant; inframe deletion </td>
+   <td style="text-align:left;"> stop_gained_NMD_escaping; missense_variant; inframe_deletion </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -5203,11 +5213,11 @@ _FLNC_-related myofibrillar myopathy is inherited as an autosomal dominant condi
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; inframe insertion; inframe deletion; splice donor; splice acceptor; frameshift; stop gained; intronic variants leading to cryptic splice site; structural variants </td>
+   <td style="text-align:left;"> missense_variant; inframe_insertion; inframe_deletion; splice_donor_variant; splice_acceptor_variant; frameshift_variant; stop_gained </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> A recurrent intronic variant NM_000169.3(GLA):c.640-801G&gt;A is recognised as pathogenic and leads to aberrant mRNA splicing </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> PMIDs </td>
@@ -5237,7 +5247,7 @@ Pathogenic _GLA_ variants cause Fabry disease by **decreased gene product level 
  Fabry disease is an X-linked lysosomal storage disease caused by pathogenic variants in the _GLA_ gene leading to a greatly reduced or absent activity of a-Gal A, responsible for metabolizing glycosphingolipids. This condition is associated with a progressive accumulation of globotriaosylceramide (Gb3) and its deacylated form, globotriaosylsphingosine (lysoGb3), potentially affecting any organ or tissue (PMID: 32640076).
  **Fabry disease is inherited in an X linked manner**. Heterozygous females typically have milder symptoms at a later age of onset than males. Rarely, they may be relatively asymptomatic throughout a normal life span or may have symptoms as severe as those observed in males with the classic phenotype (NBK1292). 
 
- Variant classes include missense, nonsense, splice site, frameshift, in-frame deletions, and structural variants. A recurrent intronic variant (c.640-801G\&gt;A) is recognised as pathogenic and leads to aberrant mRNA splicing. 
+ Variant classes include missense, nonsense, splice site, frameshift, in-frame deletions, and structural variants. A recurrent intronic variant (c.640-801G&gt;A) is recognised as pathogenic and leads to aberrant mRNA splicing. 
  Many variants are unique however there are recognised recurrent variants also. (NBK1292; PMID 27560961; 30988410; 11322659; 34576250). 
  Pathogenic variants leading to complete loss of function of the gene product are usually associated with classic forms of the disease, whereas variants resulting in amino acid substitutions and residual enzyme activity can present atypically with either symptoms not specific to Fabry's (e.g. cardiomyopathy) or a milder phenotype and later onset. Attempts to correlate genotype with clinical presentation have been largely unsuccessful. (PMID 27560961; 18940466). Experts noted that conduction disease can be the presenting or only feature of disease.
 
@@ -5296,7 +5306,7 @@ Pathogenic _GLA_ variants cause Fabry disease by **decreased gene product level 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Copy number variants; splice region variant; splice acceptor variant NMD triggering; splice donor variant NMD triggering; frameshift variant NMD triggering; stop gained NMD triggering; start lost; missense variant </td>
+   <td style="text-align:left;"> splice_region_variant; splice_acceptor_variant_NMD_triggering; splice_donor_variant_NMD_triggering; frameshift_variant_NMD_triggering; stop_gained_NMD_triggering; start_lost; missense_variant; copy_number_variation </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -5382,7 +5392,7 @@ Pathogenic _LAMP2_ variants cause Danon disease. Danon disease follows X-linked 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; inframe insertion </td>
+   <td style="text-align:left;"> missense_variant; inframe_insertion </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -5475,7 +5485,7 @@ _PRKAG2_ pathogenic variants cause disease through **altered gene product sequen
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; inframe deletion </td>
+   <td style="text-align:left;"> missense_variant; inframe_deletion </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -5563,7 +5573,7 @@ _PTPN11_-related Noonan syndrome is inherited as an autosomal dominant condition
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -5650,7 +5660,7 @@ Noonan syndrome with multiple lentigines (NSML, previously known as LEOPARD synd
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; inframe deletion </td>
+   <td style="text-align:left;"> missense_variant; inframe_deletion </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -5738,7 +5748,7 @@ _RAF1_ variants are responsible for ~5% of Noonan syndrome cases. _RAF1_-related
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -5824,7 +5834,7 @@ _RIT1_ variants are responsible for ~5% of Noonan syndrome cases. _RIT1_-related
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; inframe insertion; inframe deletion </td>
+   <td style="text-align:left;"> missense_variant; inframe_insertion; inframe_deletion </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -5922,7 +5932,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -6015,7 +6025,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Frameshift variant NMD escaping; stop gained NMD escaping; missense </td>
+   <td style="text-align:left;"> frameshift_variant_NMD_escaping; stop_gained_NMD_escaping; missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -6105,7 +6115,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Triplet repeat expansion; whole gene deletion; intragenic deletion; splice region; splice acceptor variant NMD triggering; splice donor variant NMD triggering; start lost; frameshift variant NMD triggering; stop gained NMD triggering; missense; inframe insertion; inframe deletion </td>
+   <td style="text-align:left;"> splice_region_variant; splice_acceptor_variant_NMD_triggering; splice_donor_variant_NMD_triggering; start_lost; frameshift_variant_NMD_triggering; stop_gained_NMD_triggering; missense_variant; inframe_insertion; inframe_deletion; trinucleotide_repeat_expansion; exon_loss_variant; transcript_ablation </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -6195,15 +6205,15 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> whole gene deletion; splice region; splice acceptor variant NMD triggering; splice donor variant NMD triggering; start lost; frameshift variant NMD escaping; frameshift variant NMD triggering; stop gained NMD triggering; missense; inframe deletion; 5 prime UTR variant; intron variant </td>
+   <td style="text-align:left;"> splice_region_variant; splice_acceptor_variant_NMD_triggering; splice_donor_variant_NMD_triggering; start_lost; frameshift_variant_NMD_escaping; frameshift_variant_NMD_triggering; stop_gained_NMD_triggering; missense_variant; inframe_deletion; transcript_ablation </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> A specific 5' UTR variant, NM_000152.5(GAA):c.-32-13T&gt;G, ClinVar variation ID 4027 has been reported in 40-70% of the alleles in patients affected with late onset disease (PMID 24150945; 7881425) </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> PMIDs </td>
-   <td style="text-align:left;"> 30681346; 31254424; 1652892; 8094613; 7981676; 7717400; 9535769; 14643388; 17056254; 19588081; 20882352; 4286143; 1856189; 3108320; 10973860; 21484825; 9668092; 11991748; 1680134; 28185884; 31254424; 31342611 </td>
+   <td style="text-align:left;"> 30681346; 31254424; 1652892; 8094613; 7981676; 7717400; 9535769; 14643388; 17056254; 19588081; 20882352; 4286143; 1856189; 3108320; 10973860; 21484825; 9668092; 11991748; 1680134; 28185884; 31254424; 31342611; 24150945; 7881425 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Curated date </td>
@@ -6227,6 +6237,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
 **Expert panel review pending.** Pompe disease is inherited as an autosomal recessive condition, caused by homozygous or compound heterozygous variants in _GAA_. **The mechanism of disease is loss of function** of acid alpha-glucosidase, resulting in lysosomal glycogen accumulation.
 
  There are currently over 900 variants in the Pompe variant database (N.B. this includes all known variants, regardless of pathogenicity). Multiple classes of variant have been shown to cause Pompe disease, including loss-of-function variants, missense variants, splice-site variants, 5’ UTR variants, intronic variants, and structural variants.
+ A specific 5' UTR variant, NM_000152.5(GAA):c.-32-13T&gt;G, ClinVar variation ID 4027 has been reported in 40-70% of the alleles in patients affected with late onset disease (PMID 24150945). Functional studies have shown the presence of the c.-32-13T&gt;G variant causes aberrant splicing, resulting in exclusion of exon 2 in the processed transcript (PMID 7881425) 
 
  There is a genotype-phenotype correlation, with bi-allelic loss of function expected to result in a severe phenotype (infantile-onset Pompe disease), while patients with residual enzymatic activity develop late-onset Pompe disease. Cardiac involvement is a classical feature of infantile-onset Pompe disease, but has also been reported in the late-onset form. </td>
   </tr>
@@ -6283,7 +6294,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Stop gained; frameshift; splice acceptor; splice donor; missense </td>
+   <td style="text-align:left;"> stop_gained; frameshift_variant; splice_acceptor_variant; splice_donor_variant; missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -6373,7 +6384,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense; frameshift NMD triggering; splice donor </td>
+   <td style="text-align:left;"> missense_variant; frameshift_variant_NMD_triggering; splice_donor_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
@@ -6465,11 +6476,11 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
-   <td style="text-align:left;"> Missense </td>
+   <td style="text-align:left;"> missense_variant </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
-   <td style="text-align:left;"> p.P209L </td>
+   <td style="text-align:left;"> NM_004281.4(BAG3):c.626C&gt;T (p.Pro209Leu) </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> PMIDs </td>
