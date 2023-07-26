@@ -11,8 +11,6 @@ output:
 ```{r message=FALSE, warning=FALSE, include=FALSE}
 library(tidyverse)
 library(readxl)
-library(openxlsx)
-#library(knitr)
 library(kableExtra)
 library(janitor)
 ```
@@ -24,22 +22,23 @@ library(janitor)
 
 ```{r convert_xlsx_to_csv, eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
 
-# # read excel supp file
-# g2p_formated<-read_excel("CardiacG2P_Additional_File4.xlsx",sheet = 1,col_types = "text") 
-# g2p_narative<-read_excel("CardiacG2P_Additional_File4.xlsx",sheet = 2,col_types = "text") %>%
-#   select("Narrative"=`Narrative...3`) %>%
-#   mutate(across(c("Narrative"), ~ str_replace_all(.,"<br/>","\n")))
-# 
-# g2p <- g2p_formated %>%
-#   cbind(g2p_narative)
-# 
-# write_csv(g2p,"CardiacG2P_Additional_File4.csv",quote = "all" )
+# read excel supp file
+g2p_formated <- read_excel("CardiacG2P.xlsx",sheet = 1,col_types = "text")
+g2p_narrative <- read_excel("CardiacG2P.xlsx",sheet = 2,col_types = "text") %>%
+  select("Narrative"=`Narrative...3`) %>%
+  mutate(across(c("Narrative"), ~ str_replace_all(.,"<br/>","\n")))
+
+g2p <- g2p_formated %>%
+  cbind(g2p_narrative)
+
+# write csv
+write_csv(g2p,"CardiacG2P.csv",quote = "all" )
 
 ```
 
 ```{r read_g2p, message=FALSE, warning=FALSE, include=FALSE}
 
-g2p <- read_csv("CardiacG2P_Additional_File4.csv", col_types = cols(.default = col_character()))
+g2p <- read_csv("CardiacG2P.csv", col_types = cols(.default = col_character()))
 
 
 arri_genes <- c("SCN5A","RYR2","CASQ2","CASQ2","CALM1","CALM2","CALM3","TECRL","TRDN","KCNQ1","KCNH2","SCN5A","CALM1","CALM2","CALM3","TRDN","KCNQ1","KCNE1","KCNJ2","CACNA1C","KCNH2","KCNQ1","SLC4A3","KCNJ2","SLC22A5")
@@ -90,7 +89,7 @@ for (i in 1:nrow(g2p)){
   
   )
   
-  #i=1
+  # Add a new line before the narrative free text so the md format of the first paragraph is rendered correctly 
   narrative <- g2p[i,ncol(g2p)] %>% 
     tibble() %>%  set_names("Narrative") %>% transmute(Narrative = paste0("<br /> \n\n",Narrative))
 
@@ -107,14 +106,12 @@ for (i in 1:nrow(g2p)){
   
   )
   
-  
+  # Add page breaks after every gene to be rendered by md and html
   cat("\n")
   cat("<br>")
   cat("\n")
-  #cat("\\pagebreak")
   cat("<p style=\"page-break-before: always;\">&nbsp;</p>")
-  #cat("<p style=\"page-break-after: always;\">&nbsp;</p>")
-  
+
    
 }
 ```

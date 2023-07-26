@@ -66,7 +66,7 @@ output:
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -249,7 +249,7 @@ _RYR2_ is associated with CPVT with autosomal dominant inheritance. The allelic 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Absent gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Absent gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -703,7 +703,7 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Absent gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Absent gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -790,7 +790,7 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Absent gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Absent gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -864,11 +864,11 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Inheritance </td>
-   <td style="text-align:left;"> Autosomal dominant; autosomal recessive </td>
+   <td style="text-align:left;"> Autosomal dominant; Autosomal recessive </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Allelic requirement </td>
-   <td style="text-align:left;"> Monoallelic autosomal; biallelic autosomal </td>
+   <td style="text-align:left;"> Monoallelic autosomal; Biallelic autosomal </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Inheritance modifiers </td>
@@ -876,7 +876,7 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -972,7 +972,7 @@ Pathogenic variants in _KCNQ1_ cause LQTS due to **decreased gene product level 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -1523,7 +1523,7 @@ _TRDN_-related LQTS is due to an **absent gene product level**. The disease mech
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Absent gene product; altered gene product sequence </td>
+   <td style="text-align:left;"> Absent gene product; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -2315,7 +2315,7 @@ Variants in _SLC22A5_ cause autosomal recessive primary systemic carnitine defic
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -2403,7 +2403,7 @@ _DSC2_-related ARVC is due to **decreased gene product level or altered gene pro
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -2491,7 +2491,7 @@ _DSG2_-related ARVC is due to **decreased gene product level or altered gene pro
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -2574,7 +2574,7 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Inheritance </td>
-   <td style="text-align:left;"> Autosomal dominant, Autosomal recessive </td>
+   <td style="text-align:left;"> Autosomal dominant; Autosomal recessive </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Allelic requirement </td>
@@ -2586,7 +2586,7 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -2861,7 +2861,7 @@ _JUP_-related Naxos disease (ARVC, woolly hair and palmoplantar keratoderma) is 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -3038,7 +3038,7 @@ Pathogenic variants in _DES_ cause DCM due to **altered gene product sequence**.
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -3215,7 +3215,7 @@ Pathogenic variants in _FLNC_ account for approximately 2-4% of familial DCM due
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -3391,7 +3391,7 @@ _MYH7_ encodes the β-myosin heavy chain, part of the sarcomere which plays a ma
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -3478,7 +3478,7 @@ Missense variants are responsible for the majority of DCM cases although a small
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -3745,7 +3745,7 @@ Pathogenic variants in _TNNT2_ cause DCM due to **altered gene product sequence*
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -3837,7 +3837,7 @@ _TTN_-related DCM is inherited as an autosomal dominant trait and displays incom
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -4017,7 +4017,7 @@ _ACTC1_ pathogenic variants cause HCM through **altered gene product sequence**.
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -4665,7 +4665,7 @@ _TPM1_ pathogenic variants cause HCM through **altered gene product sequence**. 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -4750,7 +4750,7 @@ Pathogenic variants in _PLN_ cause cardiomyopathy by **decreased gene product le
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Allelic requirement </td>
-   <td style="text-align:left;"> Biallelic autosomal; monoallelic autosomal </td>
+   <td style="text-align:left;"> Biallelic autosomal; Monoallelic autosomal </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Inheritance modifiers </td>
@@ -4758,7 +4758,7 @@ Pathogenic variants in _PLN_ cause cardiomyopathy by **decreased gene product le
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -4929,11 +4929,11 @@ _CACNA1C_-related Timothy syndrome is caused by variants leading to **altered ge
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Inheritance </td>
-   <td style="text-align:left;"> Autosomal dominant; autosomal recessive </td>
+   <td style="text-align:left;"> Autosomal dominant; Autosomal recessive </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Allelic requirement </td>
-   <td style="text-align:left;"> Monoallelic autosomal; biallelic autosomal </td>
+   <td style="text-align:left;"> Monoallelic autosomal; Biallelic autosomal </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Inheritance modifiers </td>
@@ -4941,7 +4941,7 @@ _CACNA1C_-related Timothy syndrome is caused by variants leading to **altered ge
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Altered gene product sequence; absent gene product </td>
+   <td style="text-align:left;"> Altered gene product sequence; Absent gene product </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -5028,7 +5028,7 @@ _DES_-related myofibrillar myopathy is typically inherited as an autosomal domin
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -5202,7 +5202,7 @@ _FLNC_-related myofibrillar myopathy is inherited as an autosomal dominant condi
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -5295,7 +5295,7 @@ Pathogenic _GLA_ variants cause Fabry disease by **decreased gene product level 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -6104,7 +6104,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -6194,7 +6194,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -6271,11 +6271,11 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Inheritance </td>
-   <td style="text-align:left;"> Autosomal dominant, Autosomal recessive </td>
+   <td style="text-align:left;"> Autosomal dominant; Autosomal recessive </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Allelic requirement </td>
-   <td style="text-align:left;"> Monoallelic autosomal; biallelic autosomal </td>
+   <td style="text-align:left;"> Monoallelic autosomal; Biallelic autosomal </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Inheritance modifiers </td>
@@ -6283,7 +6283,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Decreased gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Decreased gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
@@ -6373,7 +6373,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease-associated variant consequence </td>
-   <td style="text-align:left;"> Absent gene product level; altered gene product sequence </td>
+   <td style="text-align:left;"> Absent gene product level; Altered gene product sequence </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Variant classes reported with evidence of pathogenicity </td>
