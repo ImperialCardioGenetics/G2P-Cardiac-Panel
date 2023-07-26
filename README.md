@@ -12,12 +12,16 @@
 The easiest way to regenerate the html or the markdown reports locally would be to clone the repository and simply knit the `Cardiac_G2P_curations.Rmd` file in Rstudio  
 
 ## Terminology
+More information is available at https://clinicalgenome.org/, https://thegencc.org/ and https://www.medrxiv.org/content/10.1101/2023.03.30.23287948v1
 
 ### Gene disease validity (ClinGen)
+
  - DEFINITIVE ~ The role of this gene in this particular disease has been repeatedly demonstrated in both the research and clinical diagnostic settings and has been repeatedly demonstrated in both the research and clinical diagnostic settings, and has been upheld over time (at least 2 independent publication over 3 years' time). No convincing evidence has emerged that contradicts the role of the gene in the specified disease. (previously labelled as confirmed).
  - STRONG ~ The role of this gene as a monogenic cause of disease has been repeatedly and independently demonstrated providing very strong convincing evidence in humans and no conflicting evidence for this gene's role in this disease. (previously labelled as probable)
  - MODERATE ~ There is moderate evidence in humans to support a casual role for this gene in this disease with no contradictory eveidence. The body of evidence is not large (e.g possibly only one key paper) but appears convincing enough that the gene-disease pair is likely to be validated with additional evidence in the near future.
  - LIMITED ~ Little human evidence exists to support a casual role for this gene in this disease, but not all evidence has been refuted. For example, there may be a collection of rare missense variants in humans but without convincing functional impact, segegration data that could either arise by chance (e.g across one or two meioses) or does not implicate a single gene, or functional data without direct recapitulation of the phenotype. Overall, the body of evidence does not meet contemporary criteria for claiming a valid association with disease. The majority are probably false associations. (previously labelled as possible).
+ - DISPUTED ~ Convincing evidence disputing a role for this gene in this disease has arisen since the initial report identifying an association between the gene and disease
+
 
 ### Allelic requirement
  - Autosomal dominant ~ Monoallelic autosomal
