@@ -12,7 +12,6 @@ output:
 library(tidyverse)
 library(readxl)
 library(kableExtra)
-library(janitor)
 ```
 
 
@@ -40,8 +39,8 @@ write_csv(g2p,"CardiacG2P.csv",quote = "all" )
 
 g2p <- read_csv("CardiacG2P.csv", col_types = cols(.default = col_character()))
 
-
-arri_genes <- c("SCN5A","RYR2","CASQ2","CASQ2","CALM1","CALM2","CALM3","TECRL","TRDN","KCNQ1","KCNH2","SCN5A","CALM1","CALM2","CALM3","TRDN","KCNQ1","KCNE1","KCNJ2","CACNA1C","KCNH2","KCNQ1","SLC4A3","KCNJ2","SLC22A5")
+# get arrhythmia genes for chapter change
+arri_genes <- g2p %>% filter(!str_detect(.$`Referral indication`,c("ARVC|DCM|HCM"))) %>% pull(Gene)
 
 chapter1 <- "INHERITED ARRHYTHMIA SYNDROMES"
 chapter2 <- "CARDIOMYOPATHY"
@@ -61,8 +60,7 @@ cat(paste0("<h3>",ref_ind,"</h3>"))
 
 for (i in 1:nrow(g2p)){
   
-
-  gene <- g2p[i,] %>% pivot_longer(everything()) %>% janitor::row_to_names(1) %>% tibble() %>% slice_head(n=-1)
+  gene <- g2p[i,] %>% pivot_longer(everything()) %>% set_names(slice(.,1)) %>% slice(.,-1) %>% tibble() %>% slice_head(n=-1)
   
   if (i==(length(arri_genes)+1)) {
     cat(paste0("<h2>",chapter2,"</h2>"))
