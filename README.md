@@ -2,8 +2,7 @@
 
 ## Files in this repo
  - CardiacG2P.csv ~ Contains all raw cardiac data and genes with Narratives in a csv file format.
- - CardiacG2P.xlsx ~ Contains all raw cardiac data and genes with Narratives in an excel file format.
-
+ 
  - Cardiac_G2P_curations.Rmd ~ R markdown document to read the raw data in the CardiacG2P.csv file and generate the reports.
  - Cardiac_G2P_curations.html ~ The rendered report in a html file format.
  - Cardiac_G2P_curations.md ~ The rendered report in a markdown file format.
