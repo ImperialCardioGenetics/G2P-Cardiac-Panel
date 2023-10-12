@@ -1,5 +1,7 @@
 # Gene2Phenotype Cardiac Gene Panel
 
+[![DOI](https://zenodo.org/badge/259775533.svg)](https://zenodo.org/badge/latestdoi/259775533)
+
 ## Overview
 - CardiacG2P is an evidence-based dataset for inherited cardiac condition gene disease pairs. Each dataset entry annotates a disease with an allelic requirement, information pertaining to disease mechanism (represented as a disease-associated variant consequence), and known disease-relevant variant classes at a defined locus. This dataset is compatible with the existing G2P Ensembl Variant Effect Predictor plugin to support automated filtering of genomic variants accounting for inheritance pattern and mutational consequence. 
 - This dataset is also available through G2P https://www.ebi.ac.uk/gene2phenotype
