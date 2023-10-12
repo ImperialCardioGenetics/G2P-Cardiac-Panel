@@ -2,7 +2,7 @@
 output:
   html_document:
     toc: true
-    toc_depth: 3
+    toc_depth: 5
     toc_float: true
     theme: lumen
     keep_md: true
@@ -11,7 +11,9 @@ output:
 
 
 
-<h1 style="font-size: 50px">Cardiac G2P curations</h1>
+
+
+<h1 style="font-size: 50px">Gene2Phenotype Cardiac Gene Panel</h1>
 
 <p style=\"page-break-before: always;\">&nbsp;</p>
 
@@ -19,8 +21,15 @@ output:
 
 
 
+## Overview
+CardiacG2P is an evidence-based dataset for inherited cardiac condition gene disease pairs. Each dataset entry annotates a disease with an allelic requirement, information pertaining to disease mechanism (represented as a disease-associated variant consequence), and known disease-relevant variant classes at a defined locus. This dataset is compatible with the existing G2P Ensembl Variant Effect Predictor plugin to support automated filtering of genomic variants accounting for inheritance pattern and mutational consequence. 
 
-<h2>INHERITED ARRHYTHMIA SYNDROMES</h2><h3>Brugada syndrome</h3><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+This dataset is also available through G2P https://www.ebi.ac.uk/gene2phenotype
+
+## Citation
+https://www.medrxiv.org/content/10.1101/2023.04.03.23287612v1
+
+<h2>Inherited Arrhythmia Syndromes</h2><h3>Brugada syndrome</h3><h5>SCN5A</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -46,7 +55,7 @@ output:
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0011001 </td>
+   <td style="text-align:left;"> 11001 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -110,7 +119,7 @@ _SCN5A_-related Brugada syndrome is caused by **decreased gene product level or 
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><h3>Catecholaminergic polymorphic ventricular tachycardia (CPVT)</h3><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h3>Catecholaminergic polymorphic ventricular tachycardia (CPVT)</h3><h4>Classic CPVT phenotype</h4><h5>RYR2</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -136,7 +145,7 @@ _SCN5A_-related Brugada syndrome is caused by **decreased gene product level or 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0017990 </td>
+   <td style="text-align:left;"> 17990 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -194,16 +203,16 @@ _RYR2_ is associated with CPVT with autosomal dominant inheritance. The allelic 
   The first reports of _RYR2_ variants in CPVT included numerous examples of _de novo_ inheritance (Priori et al, 2001, PMID: 11208676; Priori et al, 2002, PMID: 12093772), although _RYR2_ missense variants often occur through familial autosomal dominant inheritance. 
 
  The predicted functional consequence of _RYR2_ pathogenic variants is altered gene product sequence. The majority of causative _RYR2_ variants in CPVT patients are heterozygous missense variants which are detected in up to 60% of cases with a definitive CPVT diagnosis (Kapplinger et al, 2018, PMID: 29453246) and act through a gain-of-function mechanism. Pathogenic variants in CPVT cases tend to be clustered in a number of regions in the _RYR2_ gene/protein:
- -  Original exon hotspots: 3–15, 44–50, 83–90 and 93–105 (George et al, 2007, PMID: 17081562).
- -  Updated exon hotspots: 3, 8, 14, 43, 47–49, 81, 83, 88–90, 93, 95, 97–101, 103, 105 (Kapplinger et al, 2018, PMID: 29453246).
- -  Hotspots based on unsupervised clustering algorithm (not restricted to exon boundaries): amino acid residues 2138–2538, 3935–4196 and 4721–4959 (Walsh et al, 2019, PMID: 30696458). 
+ -  Original exon hotspots: 3-15, 44-50, 83-90 and 93-105 (George et al, 2007, PMID: 17081562).
+ -  Updated exon hotspots: 3, 8, 14, 43, 47-49, 81, 83, 88-90, 93, 95, 97-101, 103, 105 (Kapplinger et al, 2018, PMID: 29453246).
+ -  Hotspots based on unsupervised clustering algorithm (not restricted to exon boundaries): amino acid residues 2138-2538, 3935-4196 and 4721-4959 (Walsh et al, 2019, PMID: 30696458). 
 
  Rare cases of whole exon deletions of _RYR2_ exon 3 have been described that can lead to a CPVT and/or left ventricular non-compaction phenotype (Bhuiyan et al, 2007, PMID: 17875969; Marjamaa et al, 2009, PMID: 19216760; Szentpali et al, 2013, PMID: 23479668; Onho et al, 2014, PMID: 24394973; Campbell et al, 2015, PMID: 26018045; Mazzarotto et al, 2021, PMID: 33500567). </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>CASQ2</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -229,7 +238,7 @@ _RYR2_ is associated with CPVT with autosomal dominant inheritance. The allelic 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0017990 </td>
+   <td style="text-align:left;"> 17990 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -289,7 +298,7 @@ Biallelic loss-of-function variants in _CASQ2_ (both homozygous and compound het
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>CASQ2</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -315,7 +324,7 @@ Biallelic loss-of-function variants in _CASQ2_ (both homozygous and compound het
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0017990 </td>
+   <td style="text-align:left;"> 17990 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -375,7 +384,7 @@ _CASQ2_ is an established gene for autosomal recessive CPVT (the second most com
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h4>Atypical CPVT phenotype</h4><h5>CALM1</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -401,7 +410,7 @@ _CASQ2_ is an established gene for autosomal recessive CPVT (the second most com
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0017990 </td>
+   <td style="text-align:left;"> 17990 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -462,14 +471,14 @@ The three _CALM_ genes encode an identical 149aa protein, calmodulin. The _CALM1
 
  Pathogenic variants in the CALM genes have been associated with: presentation in infancy or early childhood (up to 5 years); marked sinus bradycardia or atrioventricular block and QT prolongation; and, predominantly with _CALM1_ variants, a mild-to-severe neurological impairment, including seizures, development delay, motor and/or cognitive disability. 
 
- The phenotype most frequently shown by patients with _CALM_ variants is LQTS, but some patients display other phenotypes including CPVT, idiopathic VF and sudden unexplained death. Some variants have been associated with both LQTS and CPVT, however Crotti et al (PMID: 31170290) report that "despite the relatively small numbers of cases, a significant association (P = 0.001) was observed between location of mutation and phenotype (Supplementary material online, Figure S1). Indeed, a pathogenic variant in EF-hand IV Ca2+ binding loop was found in the majority (17/32, 53%) of CALM-LQTS index cases but in only one of the nine CALM-CPVTs (11%). Conversely, variants identified in CALM-CPVT index cases were mostly located either in EF-hand III (n = 5, 56%), or in the inter-EF hand I-II linker (n = 3, 33%)."  
+ The phenotype most frequently shown by patients with _CALM_ variants is LQTS, but some patients display other phenotypes including CPVT, idiopathic VF and sudden unexplained death. Some variants have been associated with both LQTS and CPVT, however Crotti et al (PMID: 31170290) report that "despite the relatively small numbers of cases, a significant association (P = 0.001) was observed between location of mutation and phenotype (Supplementary material online, Figure S1). Indeed, a pathogenic variant in EF-hand IV Ca2+ binding loop was found in the majority (17/32, 53%) of CALM-LQTS index cases but in only one of the nine CALM-CPVTs (11%). Conversely, variants identified in CALM-CPVT index cases were mostly located either in EF-hand III (n = 5, 56%), or in the inter-EF hand I-II linker (n = 3, 33%)."  
 
  For the ClinGen CPVT curation, _CALM1_ scored in the moderate range based on two reported variants in patients with CPVT or mixed CPVT/LQT phenotypes (p.Asn54Ile and p.Asn98Ser) and associated functional data. However, due to the unique characteristics of the calmodulin genes and their gene-disease associations, it was agreed by the expert panel to include them in this curation. The reasons were: 1) all three genes have already been established as disease-causing for an inherited arrhythmia syndrome (LQTS), 2) there are multiple examples of patients presenting with a phenotype indistinguishable from CPVT for each, either __de novo__ or supported by functional evidence and 3) the genes encode for identical proteins, are all expressed in the heart and equivalent __de novo__ variants in the three genes have been shown to lead to similar phenotypes, highlighting the functional equivalence of these genes. </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>CALM2</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -495,7 +504,7 @@ The three _CALM_ genes encode an identical 149aa protein, calmodulin. The _CALM1
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0017990 </td>
+   <td style="text-align:left;"> 17990 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -556,14 +565,14 @@ The disease mechanism in _CALM2_-related CPVT is likely a dominant negative effe
 
  Pathogenic variants in the _CALM_ genes have been associated with: presentation in infancy or early childhood (up to 5 years); marked sinus bradycardia or atrioventricular block and QT prolongation; and, predominantly with _CALM1_ variants, a mild-to-severe neurological impairment, including seizures, development delay, motor and/or cognitive disability.
 
- The phenotype most frequently shown by patients with _CALM_ variants is LQTS, but some patients display other phenotypes including CPVT, idiopathic VF and sudden unexplained death. Some variants have been associated with both LQTS and CPVT, however Crotti et al (PMID: 31170290) report that "despite the relatively small numbers of cases, a significant association (P = 0.001) was observed between location of mutation and phenotype (Supplementary material online, Figure S1). Indeed, a pathogenic variant in EF-hand IV Ca2+ binding loop was found in the majority (17/32, 53%) of CALM-LQTS index cases but in only one of the nine CALM-CPVTs (11%). Conversely, variants identified in CALM-CPVT index cases were mostly located either in EF-hand III (n = 5, 56%), or in the inter-EF hand I-II linker (n = 3, 33%)."
+ The phenotype most frequently shown by patients with _CALM_ variants is LQTS, but some patients display other phenotypes including CPVT, idiopathic VF and sudden unexplained death. Some variants have been associated with both LQTS and CPVT, however Crotti et al (PMID: 31170290) report that "despite the relatively small numbers of cases, a significant association (P = 0.001) was observed between location of mutation and phenotype (Supplementary material online, Figure S1). Indeed, a pathogenic variant in EF-hand IV Ca2+ binding loop was found in the majority (17/32, 53%) of CALM-LQTS index cases but in only one of the nine CALM-CPVTs (11%). Conversely, variants identified in CALM-CPVT index cases were mostly located either in EF-hand III (n=5, 56%), or in the inter-EF hand I-II linker (n=3, 33%)."
 
 For the ClinGen CPVT curation,_CALM2_ scored in the moderate range based on four reported variants in patients with CPVT or mixed CPVT/LQT phenotypes (p.Glu46Lys in two __de novo__ cases, p.Asn98Ser and p.Asp132Glu) and associated functional data. However, due to the unique characteristics of the calmodulin genes and their gene-disease associations, it was agreed by the expert panel to include them in this curation. The reasons were: 1) all three genes have already been established as disease-causing for an inherited arrhythmia syndrome (LQTS), 2) there are multiple examples of patients presenting with a phenotype indistinguishable from CPVT for each, either __de novo__ or supported by functional evidence and 3) the genes encode for identical proteins, are all expressed in the heart and equivalent __de novo__ variants in the three genes have been shown to lead to similar phenotypes, highlighting the functional equivalence of these genes. </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>CALM3</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -589,7 +598,7 @@ For the ClinGen CPVT curation,_CALM2_ scored in the moderate range based on four
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0017990 </td>
+   <td style="text-align:left;"> 17990 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -650,14 +659,14 @@ The disease mechanism in _CALM3_-related CPVT is likely a dominant negative effe
 
  Pathogenic variants in the _CALM_ genes have been associated with: presentation in infancy or early childhood (up to 5 years); marked sinus bradycardia or atrioventricular block and QT prolongation; and, predominantly with _CALM1_ variants, a mild-to-severe neurological impairment, including seizures, development delay, motor and/or cognitive disability.
 
- The phenotype most frequently shown by patients with _CALM_ variants is LQTS, but some patients display other phenotypes including CPVT, idiopathic VF and sudden unexplained death. Some variants have been associated with both LQTS and CPVT, however Crotti et al (PMID: 31170290) report that "despite the relatively small numbers of cases, a significant association (P = 0.001) was observed between location of mutation and phenotype (Supplementary material online, Figure S1). Indeed, a pathogenic variant in EF-hand IV Ca2+ binding loop was found in the majority (17/32, 53%) of CALM-LQTS index cases but in only one of the nine CALM-CPVTs (11%). Conversely, variants identified in CALM-CPVT index cases were mostly located either in EF-hand III (n = 5, 56%), or in the inter-EF hand I-II linker (n = 3, 33%)."
+ The phenotype most frequently shown by patients with _CALM_ variants is LQTS, but some patients display other phenotypes including CPVT, idiopathic VF and sudden unexplained death. Some variants have been associated with both LQTS and CPVT, however Crotti et al (PMID: 31170290) report that "despite the relatively small numbers of cases, a significant association (P = 0.001) was observed between location of mutation and phenotype (Supplementary material online, Figure S1). Indeed, a pathogenic variant in EF-hand IV Ca2+ binding loop was found in the majority (17/32, 53%) of CALM-LQTS index cases but in only one of the nine CALM-CPVTs (11%). Conversely, variants identified in CALM-CPVT index cases were mostly located either in EF-hand III (n=5, 56%), or in the inter-EF hand I-II linker (n=3, 33%)."
 
 For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on four reported variants in patients with CPVT or mixed CPVT/LQT phenotypes (p.Glu46Lys in two __de novo__ cases, p.Asn98Ser and p.Asp132Glu) and associated functional data. However, due to the unique characteristics of the calmodulin genes and their gene-disease associations, it was agreed by the expert panel to include them in this curation. The reasons were: 1) all three genes have already been established as disease-causing for an inherited arrhythmia syndrome (LQTS), 2) there are multiple examples of patients presenting with a phenotype indistinguishable from CPVT for each, either __de novo__ or supported by functional evidence and 3) the genes encode for identical proteins, are all expressed in the heart and equivalent __de novo__ variants in the three genes have been shown to lead to similar phenotypes, highlighting the functional equivalence of these genes. </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>TECRL</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -683,7 +692,7 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0017990 </td>
+   <td style="text-align:left;"> 17990 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -737,14 +746,14 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
    <td style="text-align:left;"> <br> 
 
 **Absent gene product level and altered gene product sequence** of _TECRL_ is associated with CPVT. The disease mechanism appears to be loss of function.
- _TECRL_ is rarely associated with CPVT, but several reports have described biallelic loss of function variants in cases.  These include both homozygous and compound heterozygous inheritance, with a variety of variant types described – splice donor variant, stop gained, exon deletion (exon 2), missense variants (including homozygous p.Arg196Gln detected in 2 patients with exome sequencing), and a large duplication encompassing all of the _TECRL_ gene with an uncertain consequence.
+ _TECRL_ is rarely associated with CPVT, but several reports have described biallelic loss of function variants in cases.  These include both homozygous and compound heterozygous inheritance, with a variety of variant types described - splice donor variant, stop gained, exon deletion (exon 2), missense variants (including homozygous p.Arg196Gln detected in 2 patients with exome sequencing), and a large duplication encompassing all of the _TECRL_ gene with an uncertain consequence.
 
  These cases presented with phenotypic features typical of CPVT, including exercise and emotion induced syncope and cardiac arrest and ventricular arrhythmias during exercise testing. A mild prolonged QT interval was observed in several cases, especially after stimulation by epinephrine or exercise, although overall the phenotypes are much more typical of CPVT than LQTS. </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>TRDN</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -770,7 +779,7 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0017990 </td>
+   <td style="text-align:left;"> 17990 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -830,7 +839,7 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><h3>Long QT Syndrome (LQTS)</h3><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h3>Long QT Syndrome (LQTS)</h3><h4>Familial Long QT Syndrome</h4><h5>KCNQ1</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -856,7 +865,7 @@ For the ClinGen CPVT curation, _CALM3_ scored in the moderate range based on fou
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0008646 </td>
+   <td style="text-align:left;"> 8646 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -920,13 +929,12 @@ Pathogenic variants in _KCNQ1_ cause LQTS due to **decreased gene product level 
 
  ClinGen have concluded there is sufficient evidence for haploinsufficiency. Variants conferring a dominant negative effect have also been described. Moss et al (PMID: 17470695) reported that dominant-negative variants are associated with a more severe phenotype than variants conferring haploinsufficiency.
 
- Phenotypes can differ according to regionality with some regions associated with more malignant phenotypes e.g. C-loop variants are associated with higher risk of sudden cardiac death (PMID: 22456477). In addition, there are gene regions where there is a high confidence for pathogenicity e.g. transmembrane regions and C-terminus domains (PMID: 32893267; 19841300).
-  </td>
+ Phenotypes can differ according to regionality with some regions associated with more malignant phenotypes e.g. C-loop variants are associated with higher risk of sudden cardiac death (PMID: 22456477). In addition, there are gene regions where there is a high confidence for pathogenicity e.g. transmembrane regions and C-terminus domains (PMID: 32893267; 19841300). </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>KCNH2</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -952,7 +960,7 @@ Pathogenic variants in _KCNQ1_ cause LQTS due to **decreased gene product level 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0013367 </td>
+   <td style="text-align:left;"> 13367 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -1018,7 +1026,7 @@ _KCNH2_-related LQTS is due to **decreased gene product level or altered gene pr
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>SCN5A</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -1044,7 +1052,7 @@ _KCNH2_-related LQTS is due to **decreased gene product level or altered gene pr
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0011377 </td>
+   <td style="text-align:left;"> 11377 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -1111,7 +1119,7 @@ _KCNH2_-related LQTS is due to **decreased gene product level or altered gene pr
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h4>Long QT syndrome with an atypical presentation</h4><h5>CALM1</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -1137,7 +1145,7 @@ _KCNH2_-related LQTS is due to **decreased gene product level or altered gene pr
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0014548 </td>
+   <td style="text-align:left;"> 14548 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -1198,12 +1206,12 @@ _CALM1_-related LQTS is caused by an **altered gene product sequence**. Reductio
 
  Pathogenic variants in the _CALM_ genes have been associated with: presentation in infancy or early childhood (up to 5 years); marked sinus bradycardia or atrioventricular block and QT prolongation; and, predominantly with _CALM1_ variants, a mild-to-severe neurological impairment, including seizures, development delay, motor and/or cognitive disability.
 
- The phenotype most frequently shown by patients with _CALM_ variants is LQTS, but some patients display other phenotypes including CPVT, idiopathic VF and sudden unexplained death. Some variants have been associated with both LQTS and CPVT, however Crotti et al (PMID: 31170290) report that "despite the relatively small numbers of cases, a significant association (P = 0.001) was observed between location of mutation and phenotype (Supplementary material online, Figure S1). Indeed, a pathogenic variant in EF-hand IV Ca2+ binding loop was found in the majority (17/32, 53%) of CALM-LQTS index cases but in only one of the nine CALM-CPVTs (11%). Conversely, variants identified in CALM-CPVT index cases were mostly located either in EF-hand III (n = 5, 56%), or in the inter-EF hand I-II linker (n = 3, 33%)." </td>
+ The phenotype most frequently shown by patients with _CALM_ variants is LQTS, but some patients display other phenotypes including CPVT, idiopathic VF and sudden unexplained death. Some variants have been associated with both LQTS and CPVT, however Crotti et al (PMID: 31170290) report that "despite the relatively small numbers of cases, a significant association (P = 0.001) was observed between location of mutation and phenotype (Supplementary material online, Figure S1). Indeed, a pathogenic variant in EF-hand IV Ca2+ binding loop was found in the majority (17/32, 53%) of CALM-LQTS index cases but in only one of the nine CALM-CPVTs (11%). Conversely, variants identified in CALM-CPVT index cases were mostly located either in EF-hand III (n = 5, 56%), or in the inter-EF hand I-II linker (n = 3, 33%)." </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>CALM2</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -1229,7 +1237,7 @@ _CALM1_-related LQTS is caused by an **altered gene product sequence**. Reductio
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0014550 </td>
+   <td style="text-align:left;"> 14550 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -1290,12 +1298,12 @@ _CALM2_-related LQTS is caused by an**altered gene product sequence** which redu
 
  Pathogenic variants in the _CALM_ genes have been associated with: presentation in infancy or early childhood (up to 5 years); marked sinus bradycardia or atrioventricular block and QT prolongation; and, predominantly with _CALM1_ variants, a mild-to-severe neurological impairment, including seizures, development delay, motor and/or cognitive disability.
 
- The phenotype most frequently shown by patients with _CALM_ variants is LQTS, but some patients display other phenotypes including CPVT, idiopathic VF and sudden unexplained death. Some variants have been associated with both LQTS and CPVT, however Crotti et al (PMID: 31170290) report that "despite the relatively small numbers of cases, a significant association (P = 0.001) was observed between location of mutation and phenotype (Supplementary material online, Figure S1). Indeed, a pathogenic variant in EF-hand IV Ca2+ binding loop was found in the majority (17/32, 53%) of CALM-LQTS index cases but in only one of the nine CALM-CPVTs (11%). Conversely, variants identified in CALM-CPVT index cases were mostly located either in EF-hand III (n = 5, 56%), or in the inter-EF hand I-II linker (n = 3, 33%)." </td>
+ The phenotype most frequently shown by patients with _CALM_ variants is LQTS, but some patients display other phenotypes including CPVT, idiopathic VF and sudden unexplained death. Some variants have been associated with both LQTS and CPVT, however Crotti et al (PMID: 31170290) report that "despite the relatively small numbers of cases, a significant association (P = 0.001) was observed between location of mutation and phenotype (Supplementary material online, Figure S1). Indeed, a pathogenic variant in EF-hand IV Ca2+ binding loop was found in the majority (17/32, 53%) of CALM-LQTS index cases but in only one of the nine CALM-CPVTs (11%). Conversely, variants identified in CALM-CPVT index cases were mostly located either in EF-hand III (n = 5, 56%), or in the inter-EF hand I-II linker (n = 3, 33%)." </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>CALM3</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -1321,7 +1329,7 @@ _CALM2_-related LQTS is caused by an**altered gene product sequence** which redu
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0019171 </td>
+   <td style="text-align:left;"> 19171 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -1382,12 +1390,12 @@ For LQTS, _CALM3_ variants lead to an **altered gene product sequence**. The dis
 
  Pathogenic variants in the _CALM_ genes have been associated with: presentation in infancy or early childhood (up to 5 years); marked sinus bradycardia or atrioventricular block and QT prolongation; and, predominantly with _CALM1_ variants, a mild-to-severe neurological impairment, including seizures, development delay, motor and/or cognitive disability.
 
- The phenotype most frequently shown by patients with _CALM_ variants is LQTS, but some patients display other phenotypes including CPVT, idiopathic VF and sudden unexplained death. Some variants have been associated with both LQTS and CPVT, however Crotti et al (PMID: 31170290) report that "despite the relatively small numbers of cases, a significant association (P = 0.001) was observed between location of mutation and phenotype (Supplementary material online, Figure S1). Indeed, a pathogenic variant in EF-hand IV Ca2+ binding loop was found in the majority (17/32, 53%) of CALM-LQTS index cases but in only one of the nine CALM-CPVTs (11%). Conversely, variants identified in CALM-CPVT index cases were mostly located either in EF-hand III (n = 5, 56%), or in the inter-EF hand I-II linker (n = 3, 33%)." </td>
+ The phenotype most frequently shown by patients with _CALM_ variants is LQTS, but some patients display other phenotypes including CPVT, idiopathic VF and sudden unexplained death. Some variants have been associated with both LQTS and CPVT, however Crotti et al (PMID: 31170290) report that "despite the relatively small numbers of cases, a significant association (P = 0.001) was observed between location of mutation and phenotype (Supplementary material online, Figure S1). Indeed, a pathogenic variant in EF-hand IV Ca2+ binding loop was found in the majority (17/32, 53%) of CALM-LQTS index cases but in only one of the nine CALM-CPVTs (11%). Conversely, variants identified in CALM-CPVT index cases were mostly located either in EF-hand III (n = 5, 56%), or in the inter-EF hand I-II linker (n = 3, 33%)." </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>TRDN</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -1413,7 +1421,7 @@ For LQTS, _CALM3_ variants lead to an **altered gene product sequence**. The dis
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0019171 </td>
+   <td style="text-align:left;"> 19171 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -1471,13 +1479,12 @@ _TRDN_-related LQTS is due to an **absent gene product level**. The disease mech
  The atypical LQTS phenotype described: extensive T-wave inversions in precordial leads V1 through V4, persistent or transient QT prolongation and severe disease expression of exercise-induced cardiac arrest in early childhood (≤3 years of age).
 
  Biallelic loss of function variants in _TRDN_ have also been associated with catecholaminergic polymorphic ventricular tachycardia (CPVT). As patients can have overlapping phenotypes, there is a term “triadin knockout syndrome”. The Triadin Knock Out Syndrome (TKOS) registry had 21 patients in 2019. All were homozygous or compound heterozygous for _TRDN_ variants. The majority were frameshift or nonsense. There were a small number of missense or splice altering variants.
- _TRDN_ is expressed in both cardiac and skeletal muscle and undergoes extensive alternative splicing to produce several isoforms. Only biallelic LoF variants affecting cardiac isoforms should be considered as pathogenic for LQTS.
-  </td>
+ _TRDN_ is expressed in both cardiac and skeletal muscle and undergoes extensive alternative splicing to produce several isoforms. Only biallelic LoF variants affecting cardiac isoforms should be considered as pathogenic for LQTS. </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h4>Syndrome with QT prolongation and cardiac arrhythmias</h4><h5>KCNQ1</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -1503,7 +1510,7 @@ _TRDN_-related LQTS is due to an **absent gene product level**. The disease mech
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0024540 </td>
+   <td style="text-align:left;"> 24540 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -1566,7 +1573,7 @@ Note: heterozygous variants in _KCNQ1_ lead to dominant LQTS. </td>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h4>Syndromic QT prolongation and cardiac arrhythmias</h4><h5>KCNE1</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -1592,7 +1599,7 @@ Note: heterozygous variants in _KCNQ1_ lead to dominant LQTS. </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0012871 </td>
+   <td style="text-align:left;"> 12871 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -1656,7 +1663,7 @@ The phenotype of _KCNE1_-related JLNS2 appears to be milder than JLNS1 (caused b
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>KCNJ2</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -1682,7 +1689,7 @@ The phenotype of _KCNE1_-related JLNS2 appears to be milder than JLNS1 (caused b
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0008222 </td>
+   <td style="text-align:left;"> 8222 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -1747,7 +1754,7 @@ Penetrance in families appears high, with estimates of ≥80% </td>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>CACNA1C</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -1773,7 +1780,7 @@ Penetrance in families appears high, with estimates of ≥80% </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0010979 </td>
+   <td style="text-align:left;"> 10979 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -1836,7 +1843,7 @@ _CACNA1C_-related Timothy syndrome is caused by variants leading to **altered ge
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><h3>Short QT Syndrome (SQTS)</h3><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h3>Short QT Syndrome (SQTS)</h3><h4>Classic SQTS</h4><h5>KCNH2</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -1862,7 +1869,7 @@ _CACNA1C_-related Timothy syndrome is caused by variants leading to **altered ge
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0012312 </td>
+   <td style="text-align:left;"> 12312 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -1917,14 +1924,14 @@ _CACNA1C_-related Timothy syndrome is caused by variants leading to **altered ge
 
 SQTS is a rare (&lt; 1/10,000) AD inherited arrhythmia syndrome associated with atrial fibrillation, ventricular arrhythmia, and risk of sudden cardiac arrest. Diagnosis is based on a diagnostic scorecard (PMID: 21310316), similar to LQTS. Approximately 20% of diagnosed cases will have a genetic cause, and _KCNH2_ is the most common identified gene.
 It is noteworthy that of the 18 probands with SQTS in whom _KCNH2_ variants have been identified, 13 had one of 2 variants; 7 with p.Thr618Ile variant (ClinVar Variation ID# 67297) and 6 with p.Asn588Lys (ClinVar Variation ID# 14436; NM_172056.2). There is high penetrance for these recurrent variants.
- Experimental evidence derived from non-patient cells, human-induced pluripotent stem cell-derived cells and a rabbit animal model (PMID: 30496390) all support this gene’s relationship with SQTS, with **a gain-of-function mechanism**. These experimental studies demonstrate that genetic variants identified in SQTS patients lead to potassium current perturbations concordant with SQTS phenotype and shortening of the QT interval.
+ Experimental evidence derived from non-patient cells, human-induced pluripotent stem cell-derived cells and a rabbit animal model (PMID: 30496390) all support this gene's relationship with SQTS, with **a gain-of-function mechanism**. These experimental studies demonstrate that genetic variants identified in SQTS patients lead to potassium current perturbations concordant with SQTS phenotype and shortening of the QT interval.
 
  Note loss-of-function variants in _KCNH2_ are associated with LQTS. </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>KCNQ1</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -1950,7 +1957,7 @@ It is noteworthy that of the 18 probands with SQTS in whom _KCNH2_ variants have
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0012313 </td>
+   <td style="text-align:left;"> 12313 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -2005,7 +2012,7 @@ It is noteworthy that of the 18 probands with SQTS in whom _KCNH2_ variants have
 
 Almost all evidence for _KCNQ1_ as a cause of SQTS is derived from a single variant (p.Val141Met) identified in 9 unrelated probands. All 9 cases presented with severe bradycardia in-utero or at birth and in 6 atrial fibrillation was also reported. In one case complete atrioventricular block was documented. (PMIDs: 24818999; 26279191; 16109388; 24380499; 25974115; 28491547).
 
- Five other variants have been reported for SQTS, but the phenotypic features of SQTS for 4 of these have been unclear or functional data supporting the mechanism of disease lacking in the published manuscripts. For the fifth additionally reported variant, 70-year-old patient presented with ‘idiopathic VF” and a short QT interval, a _KCNQ1_ variant, p.Val307Leu, was reported as the likely genetic culprit, with in vitro studies reporting a gain-of-function effect of the mutant (Bellocq et al, Circ 2004).
+ Five other variants have been reported for SQTS, but the phenotypic features of SQTS for 4 of these have been unclear or functional data supporting the mechanism of disease lacking in the published manuscripts. For the fifth additionally reported variant, 70-year-old patient presented with ”idiopathic VF” and a short QT interval, a _KCNQ1_ variant, p.Val307Leu, was reported as the likely genetic culprit, with in vitro studies reporting a gain-of-function effect of the mutant (Bellocq et al, Circ 2004).
 
  Functional characterisation in cell models confirms a gain of function mechanism for Val141Met and Val307Leu.
  Four cases of Val141Met are reported as ___de novo___ without noted confirmed paternity. Importantly, in none of the p.Val141Met cases was cardiac arrest or sudden cardiac death described. 
@@ -2014,7 +2021,7 @@ Note: loss-of-function variants in _KCNQ1_ are associated with LQTS. </td>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>SLC4A3</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -2040,7 +2047,7 @@ Note: loss-of-function variants in _KCNQ1_ are associated with LQTS. </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0000453 </td>
+   <td style="text-align:left;"> 453 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -2068,7 +2075,7 @@ Note: loss-of-function variants in _KCNQ1_ are associated with LQTS. </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Restricted repertoire of pathogenic variants </td>
-   <td style="text-align:left;"> NM_201574(SLC4A3):c.1109 G &gt; A (p.Arg370His) </td>
+   <td style="text-align:left;"> NM_201574(SLC4A3):c.1109G&gt;A (p.Arg370His) </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> PMIDs </td>
@@ -2098,7 +2105,7 @@ _SLC4A3 _ encodes a plasma membrane anion exchange protein. Genetic evidence sup
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>KCNJ2</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -2124,7 +2131,7 @@ _SLC4A3 _ encodes a plasma membrane anion exchange protein. Genetic evidence sup
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0012314 </td>
+   <td style="text-align:left;"> 12314 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -2182,7 +2189,7 @@ Genetic variants in _KCNJ2_ have been identified in 6 patients from 5 families w
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h4>Syndrome including shortened QT and cardiac arrhythmias</h4><h5>SLC22A5</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -2208,7 +2215,7 @@ Genetic variants in _KCNJ2_ have been identified in 6 patients from 5 families w
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0008919 </td>
+   <td style="text-align:left;"> 8919 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -2269,7 +2276,7 @@ Variants in _SLC22A5_ cause autosomal recessive primary systemic carnitine defic
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><h2>CARDIOMYOPATHY</h2><h3>Arrhythmogenic right ventricular cardiomyopathy (ARVC)</h3><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h2>Cardiomyopathy</h2><h3>Arrhythmogenic right ventricular cardiomyopathy (ARVC)</h3><h4>Familial isolated arrhythmogenic cardiomyopathy</h4><h5>DSC2</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -2295,7 +2302,7 @@ Variants in _SLC22A5_ cause autosomal recessive primary systemic carnitine defic
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0012506 </td>
+   <td style="text-align:left;"> 12506 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -2357,7 +2364,7 @@ _DSC2_-related ARVC is due to **decreased gene product level or altered gene pro
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>DSG2</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -2383,7 +2390,7 @@ _DSC2_-related ARVC is due to **decreased gene product level or altered gene pro
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0012434 </td>
+   <td style="text-align:left;"> 12434 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -2445,7 +2452,7 @@ _DSG2_-related ARVC is due to **decreased gene product level or altered gene pro
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>DSP</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -2471,7 +2478,7 @@ _DSG2_-related ARVC is due to **decreased gene product level or altered gene pro
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0011831 </td>
+   <td style="text-align:left;"> 11831 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -2530,17 +2537,16 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
 
  The initial variant description in _DSP_ was in Carvajal syndrome characterized by woolly hair, keratoderma and ARVC. In 2000 three families from Ecuador were found to be homozygous for the variant 7901delG in _DSP_ which produces a premature stop codon leading to a truncated desmoplakin protein missing the C domain of the tail region (PMID 11063735). Since then both autosomal dominant and autosomal recessive patterns of inheritance have been described in Carvajal syndrome (PMID: 27761164; 20940358; 22795705; 26604139; 23137101). This was followed by the description of a heterozygous variant in _DSP_ in an Italian family with ARVC with co-segregation of the variant with disease. There have been reports of digenic inheritance with other desmosomal pathogenic variants.
 
- In a retrospective multicentre study, curly hair and/or thick skin on the palms or soles (palmoplantar keratoderma) was commonly present in _DSP_ patients (54/98, 55%) but not in PKP2 patients (1/46, 2%) (PMID: 32372669). Maruthappu et al 2019 also describe 38 patients with arrhythmogenic cardiomyopathy who were carriers of a dominant loss-of-function (nonsense or frameshift) variants in _DSP_. Nearly all were found to have curly hair and palmoplantar keratoderma. However, there was one family described where the majority did not demonstrate a curly hair/cutaneous phenotype. The variant in this family was located in a fragment (c.3585–5379, (p.1195–1793)) only included in isoform 1 of _DSP_ (it has previously been shown that isoform 2 is the major isoform regulating keratinocyte adhesion (PMID: 30382575).
+ In a retrospective multicentre study, curly hair and/or thick skin on the palms or soles (palmoplantar keratoderma) was commonly present in _DSP_ patients (54/98, 55%) but not in PKP2 patients (1/46, 2%) (PMID: 32372669). Maruthappu et al 2019 also describe 38 patients with arrhythmogenic cardiomyopathy who were carriers of a dominant loss-of-function (nonsense or frameshift) variants in _DSP_. Nearly all were found to have curly hair and palmoplantar keratoderma. However, there was one family described where the majority did not demonstrate a curly hair/cutaneous phenotype. The variant in this family was located in a fragment (c.3585-5379, (p.1195-1793)) only included in isoform 1 of _DSP_ (it has previously been shown that isoform 2 is the major isoform regulating keratinocyte adhesion (PMID: 30382575).
 
  Both truncating (stop gained, frame shift, splice site) and non-truncating variants in _DSP_ have been reported in the literature associated with ARVC (PMID 31319917; 20716751; 23810894; 24503780; 27532257; 31514951; 27761164; 21636032; 32808748). Pathogenic truncating variants are more common.
  Grondin et al 2020 re-evaluated reported missense variants and found an enrichment localizing to the spectrin repeat domain (SRD) in cases vs gnomAD. A similar hot spot location (amino acid residues 250-604) was reported by Kapplinger et al in 2011 (PMID: 32808748; 21636032).
- Smith E et al 2020 report that _DSP_ variants are associated with a distinct type of cardiomyopathy with a high prevalence of LV inflammation, fibrosis, and systolic dysfunction, and _DSP_ cardiomyopathy should be considered in the differential diagnosis for myocarditis and sarcoidosis (PMID: 32372669).
-  </td>
+ Smith E et al 2020 report that _DSP_ variants are associated with a distinct type of cardiomyopathy with a high prevalence of LV inflammation, fibrosis, and systolic dysfunction, and _DSP_ cardiomyopathy should be considered in the differential diagnosis for myocarditis and sarcoidosis (PMID: 32372669). </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>PKP2</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -2566,7 +2572,7 @@ _DSP_-related ARVC is inherited in an **autosomal dominant manner characterized 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0012180 </td>
+   <td style="text-align:left;"> 12180 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -2632,7 +2638,7 @@ _PKP2_ pathogenic variants cause ARVC through **decreased gene product level or 
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>TMEM43</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -2658,7 +2664,7 @@ _PKP2_ pathogenic variants cause ARVC through **decreased gene product level or 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0011459 </td>
+   <td style="text-align:left;"> 11459 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -2723,7 +2729,7 @@ _TMEM43_-related ARVC is due to **altered gene product sequence.**
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h4>Rare familial disorder with ARVC</h4><h5>JUP</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -2749,7 +2755,7 @@ _TMEM43_-related ARVC is due to **altered gene product sequence.**
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0011017 </td>
+   <td style="text-align:left;"> 11017 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -2808,14 +2814,14 @@ _JUP_-related Naxos disease (ARVC, woolly hair and palmoplantar keratoderma) is 
  **A homozygous 2bp deletion** in plakoglobin (_JUP_), c.2157delTG, causing a frameshift and premature termination of the protein and expression of a truncated plakoglobin lacking 56 residues from the C terminus was described in 2000 (PMID: 10902626). The truncated protein was identified on western blot.
   **In 2017, a homozygous missense variant** was described in 7 unrelated French-Canadian individuals. All had typical hair and skin findings; 4/7 had ARVC presenting after 28 years (PMID: 28098346). The effect of this variant in the heterozygous state was not investigated.
  Two siblings of consanguineous parents were found to have a **homozygous 3bp deletion** in _JUP_ c.901_903delGAG (p.Glu301del). Both had woolly hair and skin findings, only the older sister had ARVC and neither had palmoplantar keratoderma (PMID: 28098346).
- In OMIM there have been reports of other types of homozygous variants (nonsense, splice, missense) in _JUP_ causing overlapping phenotypes and segregating with disease. Data on biallelic LoF variants are sparse.  In mice, generation of a null mutation of the plakoglobin gene by homologous recombination results in embryonic lethality (PMID: 8954745; 8858175). There are 2 reports in humans who had skin features but no obvious cardiomyopathy (PMID: 20130592; 21320868). In one, _JUP_ expression in the skin was absent. Cardiac _JUP_ expression was not directly measured to establish the consequence in the heart – it is not known whether variant allele was expressed, degraded, or rescued by alternate splicing.
+ In OMIM there have been reports of other types of homozygous variants (nonsense, splice, missense) in _JUP_ causing overlapping phenotypes and segregating with disease. Data on biallelic LoF variants are sparse.  In mice, generation of a null mutation of the plakoglobin gene by homologous recombination results in embryonic lethality (PMID: 8954745; 8858175). There are 2 reports in humans who had skin features but no obvious cardiomyopathy (PMID: 20130592; 21320868). In one, _JUP_ expression in the skin was absent. Cardiac _JUP_ expression was not directly measured to establish the consequence in the heart - it is not known whether variant allele was expressed, degraded, or rescued by alternate splicing.
 
  To note dominant pathogenic variants in _JUP_ have also been rarely described in association with ARVC. Asimaki et al reported a dominant variant in _JUP_ in a German family with ARVC and no obvious cutaneous abnormalities (PMID: 17924338). Other studies have identified heterozygous missense variants however their pathogenicity is still debated (PMID: 25820315; 20031617; 31402444). </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><h3>Dilated Cardiomyopathy (DCM)</h3><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h3>Dilated Cardiomyopathy (DCM)</h3><h4>Familial dilated cardiomyopathy</h4><h5>BAG3</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -2833,7 +2839,7 @@ _JUP_-related Naxos disease (ARVC, woolly hair and palmoplantar keratoderma) is 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease grouping </td>
-   <td style="text-align:left;"> Familial Dilated Cardiomyopathy </td>
+   <td style="text-align:left;"> Familial dilated cardiomyopathy </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; font-weight: bold;"> Disease name </td>
@@ -2841,7 +2847,7 @@ _JUP_-related Naxos disease (ARVC, woolly hair and palmoplantar keratoderma) is 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0013479 </td>
+   <td style="text-align:left;"> 13479 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -2897,13 +2903,12 @@ _JUP_-related Naxos disease (ARVC, woolly hair and palmoplantar keratoderma) is 
 Pathogenic variants in _BAG3_ cause an estimated 2-4% of familial DCM due to **decreased gene product level or altered gene product sequence**. This likely leads to loss of function causing several pathological effects on cardiomyocytes including direct destabilization of the Z-disc, impaired protein homeostasis leading to proteotoxicity and increased susceptibility to apoptosis.
  **Truncating variants are responsible for most _BAG3_-related DCM cases**, the majority of which are nonsense and frameshift, and include several single, multi-exon, and whole gene deletions. ClinGen have concluded there is good evidence for haploinsufficiency. There is not yet evidence for dominant-negative effects.
  There is no apparent enrichment for non-truncating mutations in any specific domain, and it should be noted that different missense variants in similar domains can lead to different phenotypes (e.g., p.Pro209Leu leading to myofibrillar myopathy, and p.Arg218Trp leading to DCM).
- _BAG3_-related DCM is inherited as an autosomal dominant trait, characterised by incomplete penetrance.
-  </td>
+ _BAG3_-related DCM is inherited as an autosomal dominant trait, characterised by incomplete penetrance. </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>DES</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -2921,7 +2926,7 @@ Pathogenic variants in _BAG3_ cause an estimated 2-4% of familial DCM due to **d
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease grouping </td>
-   <td style="text-align:left;"> Familial Dilated Cardiomyopathy </td>
+   <td style="text-align:left;"> Familial dilated cardiomyopathy </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; font-weight: bold;"> Disease name </td>
@@ -2929,7 +2934,7 @@ Pathogenic variants in _BAG3_ cause an estimated 2-4% of familial DCM due to **d
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0011482 </td>
+   <td style="text-align:left;"> 11482 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -2992,7 +2997,7 @@ Pathogenic variants in _DES_ cause DCM due to **altered gene product sequence**.
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>DSP</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -3010,7 +3015,7 @@ Pathogenic variants in _DES_ cause DCM due to **altered gene product sequence**.
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease grouping </td>
-   <td style="text-align:left;"> Familial Dilated Cardiomyopathy </td>
+   <td style="text-align:left;"> Familial dilated cardiomyopathy </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; font-weight: bold;"> Disease name </td>
@@ -3018,7 +3023,7 @@ Pathogenic variants in _DES_ cause DCM due to **altered gene product sequence**.
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0005021 </td>
+   <td style="text-align:left;"> 5021 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -3082,7 +3087,7 @@ Pathogenic variants in _DSP_ cause DCM due to **decreased gene product level or 
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>FLNC</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -3100,7 +3105,7 @@ Pathogenic variants in _DSP_ cause DCM due to **decreased gene product level or 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease grouping </td>
-   <td style="text-align:left;"> Familial Dilated Cardiomyopathy </td>
+   <td style="text-align:left;"> Familial dilated cardiomyopathy </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; font-weight: bold;"> Disease name </td>
@@ -3108,7 +3113,7 @@ Pathogenic variants in _DSP_ cause DCM due to **decreased gene product level or 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0005021 </td>
+   <td style="text-align:left;"> 5021 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -3169,7 +3174,7 @@ Pathogenic variants in _FLNC_ account for approximately 2-4% of familial DCM due
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>LMNA</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -3187,7 +3192,7 @@ Pathogenic variants in _FLNC_ account for approximately 2-4% of familial DCM due
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease grouping </td>
-   <td style="text-align:left;"> Familial Dilated Cardiomyopathy </td>
+   <td style="text-align:left;"> Familial dilated cardiomyopathy </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; font-weight: bold;"> Disease name </td>
@@ -3195,7 +3200,7 @@ Pathogenic variants in _FLNC_ account for approximately 2-4% of familial DCM due
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0007269 </td>
+   <td style="text-align:left;"> 7269 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -3258,7 +3263,7 @@ Pathogenic variants in _LMNA_ cause DCM due to **decreased gene product level or
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>MYH7</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -3276,7 +3281,7 @@ Pathogenic variants in _LMNA_ cause DCM due to **decreased gene product level or
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease grouping </td>
-   <td style="text-align:left;"> Familial Dilated Cardiomyopathy </td>
+   <td style="text-align:left;"> Familial dilated cardiomyopathy </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; font-weight: bold;"> Disease name </td>
@@ -3284,7 +3289,7 @@ Pathogenic variants in _LMNA_ cause DCM due to **decreased gene product level or
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0013262 </td>
+   <td style="text-align:left;"> 13262 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -3345,7 +3350,7 @@ _MYH7_ encodes the β-myosin heavy chain, part of the sarcomere which plays a ma
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>PLN</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -3363,7 +3368,7 @@ _MYH7_ encodes the β-myosin heavy chain, part of the sarcomere which plays a ma
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease grouping </td>
-   <td style="text-align:left;"> Familial Dilated Cardiomyopathy </td>
+   <td style="text-align:left;"> Familial dilated cardiomyopathy </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; font-weight: bold;"> Disease name </td>
@@ -3371,7 +3376,7 @@ _MYH7_ encodes the β-myosin heavy chain, part of the sarcomere which plays a ma
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0012362 </td>
+   <td style="text-align:left;"> 12362 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -3424,15 +3429,21 @@ _MYH7_ encodes the β-myosin heavy chain, part of the sarcomere which plays a ma
   <tr>
    <td style="text-align:left;"> <br> 
 
-Pathogenic variants in _RBM20_ cause DCM due to **decreased gene product level or altered gene product sequence** due to a variety of mechanisms including altered splicing of targets. A dominant negative effect causing disrupted RNA binding is also a possible/likely mechanism.
-Missense variants are responsible for the majority of DCM cases although a small number of truncating variants (nonsense) have been reported. Of note, there are multiple ClinVar entries of truncating variants associated with DCM reported by diagnostic laboratories, comparing to the very low number of truncating variants detected in gnomAD.
- **Loss of function via truncating variants is not absolutely established, but highly likely.**
- _RBM20_-related DCM is inherited in an autosomal dominant manner, and disease is often an aggressive arrhythmogenic phenotype with high rates of heart failure and sudden cardiac death. Pathogenic _RBM20_ variants are likely to account for approximately 1.5-3% of familial DCM cases. There is a pathogenic variant hotspot in exon 9 (RS motif, amino acids 634-638). </td>
+Pathogenic variants in _PLN_ cause cardiomyopathy by **decreased gene product level or altered gene product sequence**.
+  Inheritance is typically autosomal dominant with incomplete penetrance but biallelic variants have been described and appear to confer an earlier onset and more severe phenotype (PMID: 12639993).
+
+ **_PLN_ is encoded by one coding exon (52 amino acids)**. Schmitt et al described a missense variant (p.Arg9Cys) in a patient with DCM. The variant segregated with disease in the family; transgenic mice developed biventricular dilatation (PMID: 12610310). A stop gained variant and inframe deletion have also been described (PMID: 12639993; PMID 16432188). There are 6 pathogenic/likely pathogenic variants reported on ClinVar: 1 missense, 2 stop gained, 2 frameshift and a large deletion all associated with dilated cardiomyopathy.
+
+ In the Netherlands there is a founder mutation p.Arg14del. Up to 10-15% of both dilated cardiomyopathy and arrhythmogenic cardiomyopathy patients are reported to be caused by _PLN_-R14del. (PMID: 33020536).
+
+ ClinGen found no difference in the molecular mechanism(s) underlying _PLN_-related DCM and HCM and observed that inter and intrafamilial variability in phenotype had been reported. Haghighi et al describe the same variant (p. Leu39X) in a family causing severe DCM in the homozygous state and both DCM and HCM phenotypes in the heterozygous state (PMID: 12639993). This variant has also been reported in other HCM families (PMID: 21167350). As a result, ClinGen curated _PLN_ for an association with intrinsic cardiomyopathy and did not separately evaluate the evidence for the role in hypertrophic vs dilated phenotypes.
+
+ _PLN_ is definitively associated with cardiomyopathy and the majority of variants reported appear to be associated with DCM. Experts commented that further investigation into _PLN_ and HCM and the variant classes associated needs to be undertaken. </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>RBM20</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -3450,7 +3461,7 @@ Missense variants are responsible for the majority of DCM cases although a small
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease grouping </td>
-   <td style="text-align:left;"> Familial Dilated Cardiomyopathy </td>
+   <td style="text-align:left;"> Familial dilated cardiomyopathy </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; font-weight: bold;"> Disease name </td>
@@ -3458,7 +3469,7 @@ Missense variants are responsible for the majority of DCM cases although a small
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0013168 </td>
+   <td style="text-align:left;"> 13168 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -3511,17 +3522,15 @@ Missense variants are responsible for the majority of DCM cases although a small
   <tr>
    <td style="text-align:left;"> <br> 
 
-
-Pathogenic variants in _SCN5A_ cause DCM mainly due to **altered gene product sequence leading to gain of function, and more rarely decreased/absent gene product level**. The mechanism by which changes in sodium conductivity lead to cardiomyopathy is not fully understood; however, it is thought to be due to disruption of the voltage-sensing mechanism of this channel and subsequent disruption to action potential and cardiac contraction over time. It is unclear whether loss of function is a true disease mechanism (for DCM).
-
- Pathogenic variants in _SCN5A_ are likely to cause &lt;2% of familial DCM cases (PMID: 26916278, 21596231) and are associated with an arrhythmogenic phenotype with high rates of sudden cardiac death. There are no defined hotspot regions for _SCN5A_ missense variants in DCM, however, they do appear to commonly lie within voltage sensing regions (S3 and S4 transmembrane segments) of the protein.
-
- Of note _SCN5A_ loss of function is generally more associated with Brugada syndrome (BrS); _SCN5A_ is the only gene definitively associated with BrS. Gain of function variants are also associated with Long QT syndrome. </td>
+Pathogenic variants in _RBM20_ cause DCM due to **decreased gene product level or altered gene product sequence** due to a variety of mechanisms including altered splicing of targets. A dominant negative effect causing disrupted RNA binding is also a possible/likely mechanism.
+Missense variants are responsible for the majority of DCM cases although a small number of truncating variants (nonsense) have been reported. Of note, there are multiple ClinVar entries of truncating variants associated with DCM reported by diagnostic laboratories, comparing to the very low number of truncating variants detected in gnomAD.
+ **Loss of function via truncating variants is not absolutely established, but highly likely.**
+ _RBM20_-related DCM is inherited in an autosomal dominant manner, and disease is often an aggressive arrhythmogenic phenotype with high rates of heart failure and sudden cardiac death. Pathogenic _RBM20_ variants are likely to account for approximately 1.5-3% of familial DCM cases. There is a pathogenic variant hotspot in exon 9 (RS motif, amino acids 634-638). </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>SCN5A</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -3539,7 +3548,7 @@ Pathogenic variants in _SCN5A_ cause DCM mainly due to **altered gene product se
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease grouping </td>
-   <td style="text-align:left;"> Familial Dilated Cardiomyopathy </td>
+   <td style="text-align:left;"> Familial dilated cardiomyopathy </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; font-weight: bold;"> Disease name </td>
@@ -3547,7 +3556,7 @@ Pathogenic variants in _SCN5A_ cause DCM mainly due to **altered gene product se
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0011003 </td>
+   <td style="text-align:left;"> 11003 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -3600,17 +3609,16 @@ Pathogenic variants in _SCN5A_ cause DCM mainly due to **altered gene product se
   <tr>
    <td style="text-align:left;"> <br> 
 
-Pathogenic variants in _TNNC1_ are a rare (&lt;1%) cause of familial DCM due to **altered gene product sequence**. This leads to a likely ‘poison peptide’ dominant negative effect, causing alteration of troponin interactions, and altered (decreased) calcium binding of myofilaments and resulting in decreased force production.
+Pathogenic variants in _SCN5A_ cause DCM mainly due to **altered gene product sequence leading to gain of function, and more rarely decreased/absent gene product level**. The mechanism by which changes in sodium conductivity lead to cardiomyopathy is not fully understood; however, it is thought to be due to disruption of the voltage-sensing mechanism of this channel and subsequent disruption to action potential and cardiac contraction over time. It is unclear whether loss of function is a true disease mechanism (for DCM).
 
- Missense variants are responsible for all reported cases of _TNNC1_-related DCM, with no evidence that truncating variants are causative of disease.
- There is no apparent enrichment for non-truncating mutations in any specific domain, although exon 1-3 show regional constraint (gnomAD database).
+ Pathogenic variants in _SCN5A_ are likely to cause &lt;2% of familial DCM cases (PMID: 26916278, 21596231) and are associated with an arrhythmogenic phenotype with high rates of sudden cardiac death. There are no defined hotspot regions for _SCN5A_ missense variants in DCM, however, they do appear to commonly lie within voltage sensing regions (S3 and S4 transmembrane segments) of the protein.
 
- _TNNC1_-related DCM is inherited as an autosomal dominant trait, with high penetrance observed in families. There is currently insufficient evidence for autosomal recessive inheritance, although there are some reports of early onset DCM and other cardiomyopathy associated with compound heterozygosity for _TNNC1_ variants (PMID: 27604170). </td>
+ Of note _SCN5A_ loss of function is generally more associated with Brugada syndrome (BrS); _SCN5A_ is the only gene definitively associated with BrS. Gain of function variants are also associated with Long QT syndrome. </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>TNNC1</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -3628,7 +3636,7 @@ Pathogenic variants in _TNNC1_ are a rare (&lt;1%) cause of familial DCM due to 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease grouping </td>
-   <td style="text-align:left;"> Familial Dilated Cardiomyopathy </td>
+   <td style="text-align:left;"> Familial dilated cardiomyopathy </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; font-weight: bold;"> Disease name </td>
@@ -3636,7 +3644,7 @@ Pathogenic variants in _TNNC1_ are a rare (&lt;1%) cause of familial DCM due to 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0012745 </td>
+   <td style="text-align:left;"> 12745 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -3689,17 +3697,17 @@ Pathogenic variants in _TNNC1_ are a rare (&lt;1%) cause of familial DCM due to 
   <tr>
    <td style="text-align:left;"> <br> 
 
-Pathogenic variants in _TNNT2_ cause DCM due to **altered gene product sequence**.
- Only missense variants have confidently been reported as pathogenic in _TNNT2_ DCM cases. There are no reports of truncating variants and _TNNT2_ has a ClinGen Dosage haploinsufficiency score of 0, and a PLi of 0 in gnomAD (19.6 expected and 20 observed).
+Pathogenic variants in _TNNC1_ are a rare (&lt;1%) cause of familial DCM due to **altered gene product sequence**. This leads to a likely 'poison peptide' dominant negative effect, causing alteration of troponin interactions, and altered (decreased) calcium binding of myofilaments and resulting in decreased force production.
 
- _TNNT2_-related DCM is inherited in an autosomal dominant manner, and disease is often an aggressive arrhythmogenic phenotype with high rates of heart failure and sudden cardiac death. _TNNT2_ missense mutations account for 3% of genetic DCM (PMID: 27532257).
- _TNNT2_ variants are associated with an early-onset and more severe form of DCM.
- Of note pathogenic variants in _TNNT2_ are also associated hypertrophic and restrictive cardiomyopathies. </td>
+ Missense variants are responsible for all reported cases of _TNNC1_-related DCM, with no evidence that truncating variants are causative of disease.
+ There is no apparent enrichment for non-truncating mutations in any specific domain, although exon 1-3 show regional constraint (gnomAD database).
+
+ _TNNC1_-related DCM is inherited as an autosomal dominant trait, with high penetrance observed in families. There is currently insufficient evidence for autosomal recessive inheritance, although there are some reports of early onset DCM and other cardiomyopathy associated with compound heterozygosity for _TNNC1_ variants (PMID: 27604170). </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>TNNT2</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -3717,7 +3725,7 @@ Pathogenic variants in _TNNT2_ cause DCM due to **altered gene product sequence*
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease grouping </td>
-   <td style="text-align:left;"> Familial Dilated Cardiomyopathy </td>
+   <td style="text-align:left;"> Familial dilated cardiomyopathy </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; font-weight: bold;"> Disease name </td>
@@ -3725,7 +3733,7 @@ Pathogenic variants in _TNNT2_ cause DCM due to **altered gene product sequence*
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0011095 </td>
+   <td style="text-align:left;"> 11095 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -3778,20 +3786,17 @@ Pathogenic variants in _TNNT2_ cause DCM due to **altered gene product sequence*
   <tr>
    <td style="text-align:left;"> <br> 
 
-Pathogenic variants in _TTN_ cause an estimated 15-20% of familial DCM due to **decreased gene product level and altered gene product sequence**. The likely disease mechanism is loss of function however, it is unclear whether this is due to haploinsufficiency or a dominant negative effect, and it is likely that both mechanisms contribute. It is likely that the reduced function has a direct effect on the sarcomere, leading to impaired contractility.
-  Truncating variants, specifically in exons constitutively expressed in cardiac tissue (PSI &gt;0.9) see (PMID: 25589632; 27869827; 32160020), are responsible for the vast majority of _TTN_-related DCM cases. Missense variants are difficult to interpret, and generally not classified as disease-causing, although there are reports of at least three missense variants with evidence of pathogenicity.  
-_TTN_ missense variants with segregation evidence:
- p.Trp976Arg (PMID: 11788824)
- p.Ala178Asp (PMID: 27625337)
- p.Cys3575Ser (https://www.biorxiv.org/content/10.1101/2020.09.05.282913v1.full.pdf) – note not yet peer reviewed
+Pathogenic variants in _TNNT2_ cause DCM due to **altered gene product sequence**.
+ Only missense variants have confidently been reported as pathogenic in _TNNT2_ DCM cases. There are no reports of truncating variants and _TNNT2_ has a ClinGen Dosage haploinsufficiency score of 0, and a PLi of 0 in gnomAD (19.6 expected and 20 observed).
 
-
-_TTN_-related DCM is inherited as an autosomal dominant trait and displays incomplete and age-related onset. _TTN_ truncating variants are present in ~1% of the general population, although these variants are more likely to reside in isoforms with lower functional expression in cardiac tissue. </td>
+ _TNNT2_-related DCM is inherited in an autosomal dominant manner, and disease is often an aggressive arrhythmogenic phenotype with high rates of heart failure and sudden cardiac death. _TNNT2_ missense mutations account for 3% of genetic DCM (PMID: 27532257).
+ _TNNT2_ variants are associated with an early-onset and more severe form of DCM.
+ Of note pathogenic variants in _TNNT2_ are also associated hypertrophic and restrictive cardiomyopathies. </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>TTN</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -3809,7 +3814,7 @@ _TTN_-related DCM is inherited as an autosomal dominant trait and displays incom
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease grouping </td>
-   <td style="text-align:left;"> Familial Dilated Cardiomyopathy </td>
+   <td style="text-align:left;"> Familial dilated cardiomyopathy </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; font-weight: bold;"> Disease name </td>
@@ -3817,7 +3822,7 @@ _TTN_-related DCM is inherited as an autosomal dominant trait and displays incom
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0011400 </td>
+   <td style="text-align:left;"> 11400 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -3870,20 +3875,20 @@ _TTN_-related DCM is inherited as an autosomal dominant trait and displays incom
   <tr>
    <td style="text-align:left;"> <br> 
 
-Pathogenic variants in _PLN_ cause cardiomyopathy by **decreased gene product level or altered gene product sequence**.
- Inheritance is typically autosomal dominant with incomplete penetrance but biallelic variants have been described and appear to confer an earlier onset and more severe phenotype (PMID: 12639993).
+Pathogenic variants in _TTN_ cause an estimated 15-20% of familial DCM due to **decreased gene product level and altered gene product sequence**. The likely disease mechanism is loss of function however, it is unclear whether this is due to haploinsufficiency or a dominant negative effect, and it is likely that both mechanisms contribute. It is likely that the reduced function has a direct effect on the sarcomere, leading to impaired contractility.
+  Truncating variants, specifically in exons constitutively expressed in cardiac tissue (PSI &gt;0.9) see (PMID: 25589632; 27869827; 32160020), are responsible for the vast majority of _TTN_-related DCM cases. Missense variants are difficult to interpret, and generally not classified as disease-causing, although there are reports of at least three missense variants with evidence of pathogenicity.  
+_TTN_ missense variants with segregation evidence:
+ p.Trp976Arg (PMID: 11788824)
+ p.Ala178Asp (PMID: 27625337)
+ p.Cys3575Ser (https://www.biorxiv.org/content/10.1101/2020.09.05.282913v1.full.pdf) - note not yet peer reviewed
 
- **_PLN_ is encoded by one coding exon (52 amino acids)**. Schmitt et al described a missense variant (p.Arg9Cys) in a patient with DCM. The variant segregated with disease in the family; transgenic mice developed biventricular dilatation (PMID: 12610310). A stop gained variant and inframe deletion have also been described (PMID: 12639993; 16432188). There are 6 pathogenic/likely pathogenic variants reported on ClinVar: 1 missense, 2 stop gained, 2 frameshift and a large deletion all associated with dilated cardiomyopathy.
- In the Netherlands there is a founder mutation p.Arg14del. Up to 10–15% of both dilated cardiomyopathy and arrhythmogenic cardiomyopathy patients are reported to be caused by _PLN_-R14del. (PMID: 33020536).
 
- ClinGen found no difference in the molecular mechanism(s) underlying _PLN_-related DCM and HCM and observed that inter and intrafamilial variability in phenotype had been reported. Haghighi et al describe the same variant (p.Leu39X) in a family causing severe DCM in the homozygous state and both DCM and HCM phenotypes in the heterozygous state (PMID: 12639993). This variant has also been reported in other HCM families (PMID: 21167350). As a result, ClinGen curated _PLN_ for an association with intrinsic cardiomyopathy and did not separately evaluate the evidence for the role in hypertrophic vs dilated phenotypes.
-
- _PLN_ is definitively associated with cardiomyopathy and the majority of variants reported appear to be associated with DCM. Experts commented that further investigation into _PLN_ and HCM and the variant classes associated needs to be undertaken. </td>
+_TTN_-related DCM is inherited as an autosomal dominant trait and displays incomplete and age-related onset. _TTN_ truncating variants are present in ~1% of the general population, although these variants are more likely to reside in isoforms with lower functional expression in cardiac tissue. </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><h3>Hypertrophic Cardiomyopathy (HCM)</h3><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h3>Hypertrophic Cardiomyopathy (HCM)</h3><h4>Familial hypertrophic cardiomyopathy</h4><h5>ACTC1</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -3909,7 +3914,7 @@ Pathogenic variants in _PLN_ cause cardiomyopathy by **decreased gene product le
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0012799 </td>
+   <td style="text-align:left;"> 12799 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -3971,7 +3976,7 @@ _ACTC1_ pathogenic variants cause HCM through **altered gene product sequence**.
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>MYBPC3</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -3997,7 +4002,7 @@ _ACTC1_ pathogenic variants cause HCM through **altered gene product sequence**.
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0007268 </td>
+   <td style="text-align:left;"> 7268 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -4062,7 +4067,7 @@ _MYBPC3_ pathogenic variants cause HCM through **decreased gene product level or
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>MYH7</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -4088,7 +4093,7 @@ _MYBPC3_ pathogenic variants cause HCM through **decreased gene product level or
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0008647 </td>
+   <td style="text-align:left;"> 8647 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -4141,7 +4146,7 @@ _MYBPC3_ pathogenic variants cause HCM through **decreased gene product level or
   <tr>
    <td style="text-align:left;"> <br> 
 
-_MYH7_ pathogenic variants cause HCM through **altered gene product sequence** leading to an increase in sarcomere force generation. Variants produce an abnormal activated protein that incorporates into the sarcomere as a ‘poison peptide’. Variants can either directly affect motor function or can impact on myosin "interacting head motif" and therefore impair inactivation kinetics. There is currently no evidence to support haploinsufficiency as a disease mechanism.
+_MYH7_ pathogenic variants cause HCM through **altered gene product sequence** leading to an increase in sarcomere force generation. Variants produce an abnormal activated protein that incorporates into the sarcomere as a 'poison peptide'. Variants can either directly affect motor function or can impact on myosin "interacting head motif" and therefore impair inactivation kinetics. There is currently no evidence to support haploinsufficiency as a disease mechanism.
  Inheritance is autosomal dominant, typified by incomplete penetrance and variable expressivity. 
 
  **Most pathogenic variants are missense**. There are some inframe deletions reported.
@@ -4155,7 +4160,7 @@ _MYH7_ pathogenic variants cause HCM through **altered gene product sequence** l
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>MYL2</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -4181,7 +4186,7 @@ _MYH7_ pathogenic variants cause HCM through **altered gene product sequence** l
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0012112 </td>
+   <td style="text-align:left;"> 12112 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -4248,7 +4253,7 @@ _MYL2_ pathogenic variants cause autosomal HCM through **altered gene product se
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>MYL3</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -4274,7 +4279,7 @@ _MYL2_ pathogenic variants cause autosomal HCM through **altered gene product se
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0012111 </td>
+   <td style="text-align:left;"> 12111 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -4333,12 +4338,12 @@ _MYL3_ pathogenic variants cause HCM through **altered gene product sequence**. 
  Osborn et al 2021 (PMID: 33288880) report a homozygous missense variant in a large family with HCM and sudden cardiac death. Heterozygous carriers were unaffected. Another biallelic variant was also described by Olson et al in 2002 (E143K) (PMID: 12021217), however this variant has also been associated with HCM variably in the heterozygous state. 
 
 **Heterozygous missense variants are the major type of pathogenic variants found** (PMID: 8673105; 20031618; 25611685). There are reports on ClinVar of frameshift and splice site variants, but these are classified as uncertain significance or conflicting. There is currently insufficient evidence to support loss of function as a mechanism.
-  Walsh et al reported a cluster of non-truncating _MYL3_ variants in HCM at amino acid residues 143-180 (PMID: 30696458). </td>
+  Walsh et al reported a cluster of non-truncating _MYL3_ variants in HCM at amino acid residues 143 - 180 (PMID: 30696458). </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>PLN</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -4356,7 +4361,7 @@ _MYL3_ pathogenic variants cause HCM through **altered gene product sequence**. 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Disease grouping </td>
-   <td style="text-align:left;"> Familial Hypertrophic Cardiomyopathy </td>
+   <td style="text-align:left;"> Familial hypertrophic cardiomyopathy </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; font-weight: bold;"> Disease name </td>
@@ -4364,7 +4369,7 @@ _MYL3_ pathogenic variants cause HCM through **altered gene product sequence**. 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0012362 </td>
+   <td style="text-align:left;"> 12362 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -4417,21 +4422,21 @@ _MYL3_ pathogenic variants cause HCM through **altered gene product sequence**. 
   <tr>
    <td style="text-align:left;"> <br> 
 
-_TNNI3_ pathogenic variants cause HCM through **altered gene product sequence**. The disease mechanism is not definitively known but a review by Tardif et al reported functional studies on missense variants that found an increase in the Ca2+ sensitivity of myofilament activation (PMID: 21415410). ClinGen also conclude that “missense mutations have [been] shown to affect Ca2+ binding to myofilaments containing the mutant _TNNI3_ (PMIDs: 16531415 and 22675533) or result in an increased myofilament response to Ca2+ (PMID: 11735257).” https://search.clinicalgenome.org/kb/genes/HGNC:11947.
- _TNNI3_ variants account for approx. 3-5% of HCM cases (NBK1768; PMID: 15607392).
+Pathogenic variants in _PLN_ cause cardiomyopathy by **decreased gene product level or altered gene product sequence**.
+  Inheritance is typically autosomal dominant with incomplete penetrance but biallelic variants have been described and appear to confer an earlier onset and more severe phenotype (PMID: 12639993).
 
- **Inheritance is autosomal dominant characterised by incomplete penetrance** (PMID: 26440512; 15607392; 9241277). Lorenzini et al found that subjects with _TNNI3_ variants had a lower penetrance than variants in MYBPC3, MYH7, and TNNT2 (PMID: 32731933). Experts commented that variants seen in _TNNI3_ in severe/early onset disease were more likely to be ___de novo___ in origin.
- Maron et al 2012 describe 4 HCM probands with both pathogenic variants in _TNNI3_ and _MYBPC3_ (PMID: 21839045). In addition, 2 siblings have been reported with homozygous _TNNI3_ missense variants (Arg162Trp) and severe myocardial hypertrophy. Parents of the affected children are consanguineous and along with other family members harbouring the same variant in the heterozygous state, were unaffected (PMID: 23270746). Multiple disease-causing sarcomeric variants appear to be associated with more severe disease. There is not enough evidence to suggest biallelic variants in _TNNI3_ have a distinct mechanism compared to monoallelic variants. Of note both dominant and recessive modes of inheritance have been reported in _TNNI3_-related DCM (PMID: 26440512).
+ **_PLN_ is encoded by one coding exon (52 amino acids)**. Schmitt et al described a missense variant (p.Arg9Cys) in a patient with DCM. The variant segregated with disease in the family; transgenic mice developed biventricular dilatation (PMID: 12610310). A stop gained variant and inframe deletion have also been described (PMID: 12639993; PMID 16432188). There are 6 pathogenic/likely pathogenic variants reported on ClinVar: 1 missense, 2 stop gained, 2 frameshift and a large deletion all associated with dilated cardiomyopathy.
 
- **Heterozygous missense variants are the major type of pathogenic variants found**. There are also reports of inframe deletions. In a systematic review, Mogensen et al reported 91% of all variants were missense variants. Six variants (Arg141Gln, Arg145Trp, Arg157Val, Arg162Gln, Ser166Phe, and Lys183Del) appeared with a particularly high frequency and were identified in 116 of the 256 probands (45%) (PMID: 26440512). There are reports on ClinVar of frameshift, splice site variants and nonsense variants but these are either classified as uncertain significance/conflicting, not associated with HCM specifically or have no functional evidence to demonstrate loss of function as a mechanism. ClinGen have concluded that there is currently limited evidence to support haploinsufficiency as a mechanism.
- 
-Mogensen et al found that 85% of variants were identified in exons 7 and 8 (amino acid residues 125 – 210). (PMID: 26440512).
- Similarly, Walsh et al detected a cluster of non-truncating _TNNI3_ variants in HCM at amino acid residues 141–209 (PMID: 30696458). </td>
+ In the Netherlands there is a founder mutation p.Arg14del. Up to 10-15% of both dilated cardiomyopathy and arrhythmogenic cardiomyopathy patients are reported to be caused by _PLN_-R14del. (PMID: 33020536).
+
+ ClinGen found no difference in the molecular mechanism(s) underlying _PLN_-related DCM and HCM and observed that inter and intrafamilial variability in phenotype had been reported. Haghighi et al describe the same variant (p. Leu39X) in a family causing severe DCM in the homozygous state and both DCM and HCM phenotypes in the heterozygous state (PMID: 12639993). This variant has also been reported in other HCM families (PMID: 21167350). As a result, ClinGen curated _PLN_ for an association with intrinsic cardiomyopathy and did not separately evaluate the evidence for the role in hypertrophic vs dilated phenotypes.
+
+ _PLN_ is definitively associated with cardiomyopathy and the majority of variants reported appear to be associated with DCM. Experts commented that further investigation into _PLN_ and HCM and the variant classes associated needs to be undertaken. </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>TNNI3</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -4457,7 +4462,7 @@ Mogensen et al found that 85% of variants were identified in exons 7 and 8 (amin
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0013369 </td>
+   <td style="text-align:left;"> 13369 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -4510,24 +4515,21 @@ Mogensen et al found that 85% of variants were identified in exons 7 and 8 (amin
   <tr>
    <td style="text-align:left;"> <br> 
 
-_TNNT2_ pathogenic variants cause HCM through **altered gene product sequence**. Troponin T is a regulatory protein found in striated muscles that forms a complex with troponin I (TnI) and troponin C (TnC) that, together with tropomyosin (TM), is required for Ca2+ dependent regulation of muscle contraction.
+_TNNI3_ pathogenic variants cause HCM through **altered gene product sequence**. The disease mechanism is not definitively known but a review by Tardif et al reported functional studies on missense variants that found an increase in the Ca2+ sensitivity of myofilament activation (PMID: 21415410). ClinGen also conclude that “missense mutations have [been] shown to affect Ca2+ binding to myofilaments containing the mutant _TNNI3_ (PMIDs: 16531415 and 22675533) or result in an increased myofilament response to Ca2+ (PMID: 11735257).” https://search.clinicalgenome.org/kb/genes/HGNC:11947.
+ _TNNI3_ variants account for approx. 3-5% of HCM cases (NBK1768; PMID: 15607392).
 
-  The mechanism appears to be dominant negative rather than haploinsufficiency. **The majority of pathogenic variants are missense**. A functional study of a splice variant associated with HCM concluded that the resulting truncated protein does not function as a “null protein, but rather as a dominant-negative leading to reduction in the level of calcium activated force production” (PMID: 8958207). Gangadharan et al suggest the primary reason by which _TNNT2_ variants between residues 92 and 144 cause cardiomyopathy is by changing the affinity of TnT for Tm within the N terminal part of Troponin T (PMID: 28973951).
- _TNNT2_ variants account for &lt;5% of HCM cases (NBK1768; 12860912)
- **Inheritance is autosomal dominant characterised by incomplete penetrance** (PMID: 32731933).
- Homozygous _TNNT2_ variants causing HCM are rare and have been reported to be associated with more severe disease (PMID 30578328; 10965086; 11034944). Piroddi et al investigated a patient with severe, early onset HCM with a homozygous K280N variant. There was no family information available, however the authors demonstrated that it resulted in 100% mutant cTnT with no evidence of haploinsufficiency and suggested this supports the idea of a gene dose–dependent effect of HCM variants on the severity of the phenotype (PMID: 30578328).
- Experts commented that variants seen in _TNNT2_ in severe/early onset disease were more likely to be ___de novo___ in origin.
- Nearly all pathogenic variants are missense (PMID: 12707239; 22144547; 25611685). However, there are a few reports of inframe deletions, nonsense variants in the final exon which likely escape nonsense mediated decay and splice donor variants (PMID: 8958207; 12707239; 22144547; 25611685).
- https://www.ncbi.nlm.nih.gov/clinvar/variation/43673/; 
- https://www.ncbi.nlm.nih.gov/clinvar/variation/177636/ 
+ **Inheritance is autosomal dominant characterised by incomplete penetrance** (PMID: 26440512; 15607392; 9241277). Lorenzini et al found that subjects with _TNNI3_ variants had a lower penetrance than variants in MYBPC3, MYH7, and TNNT2 (PMID: 32731933). Experts commented that variants seen in _TNNI3_ in severe/early onset disease were more likely to be ___de novo___ in origin.
+ Maron et al 2012 describe 4 HCM probands with both pathogenic variants in _TNNI3_ and _MYBPC3_ (PMID: 21839045). In addition, 2 siblings have been reported with homozygous _TNNI3_ missense variants (Arg162Trp) and severe myocardial hypertrophy. Parents of the affected children are consanguineous and along with other family members harbouring the same variant in the heterozygous state, were unaffected (PMID: 23270746). Multiple disease-causing sarcomeric variants appear to be associated with more severe disease. There is not enough evidence to suggest biallelic variants in _TNNI3_ have a distinct mechanism compared to monoallelic variants. Of note both dominant and recessive modes of inheritance have been reported in _TNNI3_-related DCM (PMID: 26440512).
 
- Walsh et al found non truncating variants in the _TNNT2_ gene to be significantly enriched in HCM cases, odds ratio 11.4 (8.5 – 15.2). They found a clustering of non-truncating variants conveying a high probability of pathogenicity in the tropomyosin binding domain (amino acid residues 79 – 179) (PMID: 30696458).
-  </td>
+ **Heterozygous missense variants are the major type of pathogenic variants found**. There are also reports of inframe deletions. In a systematic review, Mogensen et al reported 91% of all variants were missense variants. Six variants (Arg141Gln, Arg145Trp, Arg157Val, Arg162Gln, Ser166Phe, and Lys183Del) appeared with a particularly high frequency and were identified in 116 of the 256 probands (45%) (PMID: 26440512). There are reports on ClinVar of frameshift, splice site variants and nonsense variants but these are either classified as uncertain significance/conflicting, not associated with HCM specifically or have no functional evidence to demonstrate loss of function as a mechanism. ClinGen have concluded that there is currently limited evidence to support haploinsufficiency as a mechanism.
+ 
+Mogensen et al found that 85% of variants were identified in exons 7 and 8 (amino acid residues 125 - 210). (PMID: 26440512).
+ Similarly, Walsh et al detected a cluster of non-truncating _TNNI3_ variants in HCM at amino acid residues 141 - 209 (PMID: 30696458). </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>TNNT2</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -4553,7 +4555,7 @@ _TNNT2_ pathogenic variants cause HCM through **altered gene product sequence**.
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0007266 </td>
+   <td style="text-align:left;"> 7266 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -4606,20 +4608,23 @@ _TNNT2_ pathogenic variants cause HCM through **altered gene product sequence**.
   <tr>
    <td style="text-align:left;"> <br> 
 
-_TPM1_ pathogenic variants cause HCM through **altered gene product sequence**. _TPM1_ encodes alpha-tropomyosin which acts to place the troponin complex on cardiac actin. The mechanism is through altered function rather than haploinsufficiency – Bottinelli et al examined the Asp175Asn variant from 2 HCM patients and found equal expression of wild type and mutant alpha-tropomyosin proteins (PMID: 9440709). Gupte et al concluded that “_TPM1_ mutations cause differences in protein stability, actin binding, and Tn conformation. All of these differences could converge to change the Ca2+ dependence of myosin activity” (PMID: 25548289).
- _TPM1_ variants account for &lt;3% of HCM cases (NBK1768; PMID: 7898523; 12860912).
- **Inheritance is autosomal dominant characterised by incomplete penetrance** (PMID: 32731933). 
- There are reports of homozygous or compound heterozygous variants in _TPM1_. (PMID: 33642254; 32744700).
- A homozygous missense variant, (p.Gly3Arg), in exon 1 of _TPM1_ was identified in triplets (two had HCM and one patent ductus arteriosus). The parents were heterozygous for the variant and unaffected clinically and on echocardiogram (PMID: 32744700).
+_TNNT2_ pathogenic variants cause HCM through **altered gene product sequence**. Troponin T is a regulatory protein found in striated muscles that forms a complex with troponin I (TnI) and troponin C (TnC) that, together with tropomyosin (TM), is required for Ca2+ dependent regulation of muscle contraction.
 
- **Pathogenic variants are nearly always heterozygous missense variants**. There is one ___de novo___ inframe deletion (6bp, 2 amino acids) associated with HCM classified as likely pathogenic on ClinVar, no additional details are given. 
- Redwood and Robinson reviewed _TPM1_ variants in 2013 and reported “at least 15 described in the current literature (Table1). Most of these mutations are unique and have been reported in only a single family or individual…Each mutation is missense causing a single amino acid substitution, and no truncation or nonsense mutations have been reported.” (PMID: 24005378).
- Walsh et al found that in HCM non-truncating variants across the whole _TPM1_ gene showed a high probability of pathogenicity. (PMID: 30696458) </td>
+  The mechanism appears to be dominant negative rather than haploinsufficiency. **The majority of pathogenic variants are missense**. A functional study of a splice variant associated with HCM concluded that the resulting truncated protein does not function as a “null protein, but rather as a dominant-negative leading to reduction in the level of calcium activated force production” (PMID: 8958207). Gangadharan et al suggest the primary reason by which _TNNT2_ variants between residues 92 and 144 cause cardiomyopathy is by changing the affinity of TnT for Tm within the N terminal part of Troponin T (PMID: 28973951).
+ _TNNT2_ variants account for &lt;5% of HCM cases (NBK1768; 12860912)
+ **Inheritance is autosomal dominant characterised by incomplete penetrance** (PMID: 32731933).
+ Homozygous _TNNT2_ variants causing HCM are rare and have been reported to be associated with more severe disease (PMID 30578328; 10965086; 11034944). Piroddi et al investigated a patient with severe, early onset HCM with a homozygous K280N variant. There was no family information available, however the authors demonstrated that it resulted in 100% mutant cTnT with no evidence of haploinsufficiency and suggested this supports the idea of a gene dose-dependent effect of HCM variants on the severity of the phenotype (PMID: 30578328).
+ Experts commented that variants seen in _TNNT2_ in severe/early onset disease were more likely to be ___de novo___ in origin.
+ Nearly all pathogenic variants are missense (PMID: 12707239; 22144547; 25611685). However, there are a few reports of inframe deletions, nonsense variants in the final exon which likely escape nonsense mediated decay and splice donor variants (PMID: 8958207; 12707239; 22144547; 25611685).
+ https://www.ncbi.nlm.nih.gov/clinvar/variation/43673/; 
+ https://www.ncbi.nlm.nih.gov/clinvar/variation/177636/ 
+
+ Walsh et al found non truncating variants in the _TNNT2_ gene to be significantly enriched in HCM cases, odds ratio 11.4 (8.5 - 15.2). They found a clustering of non-truncating variants conveying a high probability of pathogenicity in the tropomyosin binding domain (amino acid residues 79 - 179) (PMID: 30696458). </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>TPM1</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -4645,7 +4650,7 @@ _TPM1_ pathogenic variants cause HCM through **altered gene product sequence**. 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0007267 </td>
+   <td style="text-align:left;"> 7267 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -4698,21 +4703,20 @@ _TPM1_ pathogenic variants cause HCM through **altered gene product sequence**. 
   <tr>
    <td style="text-align:left;"> <br> 
 
-Pathogenic variants in _PLN_ cause cardiomyopathy by **decreased gene product level or altered gene product sequence**.
-  Inheritance is typically autosomal dominant with incomplete penetrance but biallelic variants have been described and appear to confer an earlier onset and more severe phenotype (PMID: 12639993).
+_TPM1_ pathogenic variants cause HCM through **altered gene product sequence**. _TPM1_ encodes alpha-tropomyosin which acts to place the troponin complex on cardiac actin. The mechanism is through altered function rather than haploinsufficiency - Bottinelli et al examined the Asp175Asn variant from 2 HCM patients and found equal expression of wild type and mutant alpha-tropomyosin proteins (PMID: 9440709). Gupte et al concluded that “_TPM1_ mutations cause differences in protein stability, actin binding, and Tn conformation. All of these differences could converge to change the Ca2+ dependence of myosin activity” (PMID: 25548289).
+ _TPM1_ variants account for &lt;3% of HCM cases (NBK1768; PMID: 7898523; 12860912).
+ **Inheritance is autosomal dominant characterised by incomplete penetrance** (PMID: 32731933). 
+ There are reports of homozygous or compound heterozygous variants in _TPM1_. (PMID: 33642254; 32744700).
+ A homozygous missense variant, (p.Gly3Arg), in exon 1 of _TPM1_ was identified in triplets (two had HCM and one patent ductus arteriosus). The parents were heterozygous for the variant and unaffected clinically and on echocardiogram (PMID: 32744700).
 
- **_PLN_ is encoded by one coding exon (52 amino acids)**. Schmitt et al described a missense variant (p.Arg9Cys) in a patient with DCM. The variant segregated with disease in the family; transgenic mice developed biventricular dilatation (PMID: 12610310). A stop gained variant and inframe deletion have also been described (PMID: 12639993; PMID 16432188). There are 6 pathogenic/likely pathogenic variants reported on ClinVar: 1 missense, 2 stop gained, 2 frameshift and a large deletion all associated with dilated cardiomyopathy.
-
- In the Netherlands there is a founder mutation p.Arg14del. Up to 10–15% of both dilated cardiomyopathy and arrhythmogenic cardiomyopathy patients are reported to be caused by _PLN_-R14del. (PMID: 33020536).
-
- ClinGen found no difference in the molecular mechanism(s) underlying _PLN_-related DCM and HCM and observed that inter and intrafamilial variability in phenotype had been reported. Haghighi et al describe the same variant (p. Leu39X) in a family causing severe DCM in the homozygous state and both DCM and HCM phenotypes in the heterozygous state (PMID: 12639993). This variant has also been reported in other HCM families (PMID: 21167350). As a result, ClinGen curated _PLN_ for an association with intrinsic cardiomyopathy and did not separately evaluate the evidence for the role in HCM and DCM phenotypes.
-
- _PLN_ is definitively associated with cardiomyopathy and the majority of variants reported appear to be associated with DCM. Experts commented that further investigation into _PLN_ and HCM and the variant classes associated needs to be undertaken. </td>
+ **Pathogenic variants are nearly always heterozygous missense variants**. There is one ___de novo___ inframe deletion (6bp, 2 amino acids) associated with HCM classified as likely pathogenic on ClinVar, no additional details are given. 
+ Redwood and Robinson reviewed _TPM1_ variants in 2013 and reported “at least 15 described in the current literature (Table1). Most of these mutations are unique and have been reported in only a single family or individual…Each mutation is missense causing a single amino acid substitution, and no truncation or nonsense mutations have been reported.” (PMID: 24005378).
+ Walsh et al found that in HCM non-truncating variants across the whole _TPM1_ gene showed a high probability of pathogenicity. (PMID: 30696458) </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h4>Rare syndromic disorder with hypertrophic cardiomyopathy - isolated LVH</h4><h5>ALPK3</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -4738,7 +4742,7 @@ Pathogenic variants in _PLN_ cause cardiomyopathy by **decreased gene product le
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0011001 </td>
+   <td style="text-align:left;"> 11001 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -4804,7 +4808,7 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>CACNA1C</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -4830,7 +4834,7 @@ Haploinsufficiency is the proposed mechanism. Herkert et al found notable differ
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0010979 </td>
+   <td style="text-align:left;"> 10979 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -4895,7 +4899,7 @@ _CACNA1C_-related Timothy syndrome is caused by variants leading to **altered ge
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>DES</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -4921,7 +4925,7 @@ _CACNA1C_-related Timothy syndrome is caused by variants leading to **altered ge
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0011076 </td>
+   <td style="text-align:left;"> 11076 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -4982,7 +4986,7 @@ _DES_-related myofibrillar myopathy is typically inherited as an autosomal domin
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>FHL1</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -5008,7 +5012,7 @@ _DES_-related myofibrillar myopathy is typically inherited as an autosomal domin
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0010680 </td>
+   <td style="text-align:left;"> 10680 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -5069,7 +5073,7 @@ _FHL1_-related Emery-Dreifuss muscular dystrophy is inherited as an X-linked con
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>FLNC</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -5095,7 +5099,7 @@ _FHL1_-related Emery-Dreifuss muscular dystrophy is inherited as an X-linked con
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0019150 </td>
+   <td style="text-align:left;"> 19150 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -5156,7 +5160,7 @@ _FLNC_-related myofibrillar myopathy is inherited as an autosomal dominant condi
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>GLA</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -5182,7 +5186,7 @@ _FLNC_-related myofibrillar myopathy is inherited as an autosomal dominant condi
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0010526 </td>
+   <td style="text-align:left;"> 10526 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -5249,7 +5253,7 @@ Pathogenic _GLA_ variants cause Fabry disease by **decreased gene product level 
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>LAMP2</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -5275,7 +5279,7 @@ Pathogenic _GLA_ variants cause Fabry disease by **decreased gene product level 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0010281 </td>
+   <td style="text-align:left;"> 10281 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -5335,7 +5339,7 @@ Pathogenic _LAMP2_ variants cause Danon disease. Danon disease follows X-linked 
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>PRKAG2</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -5361,7 +5365,7 @@ Pathogenic _LAMP2_ variants cause Danon disease. Danon disease follows X-linked 
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0010946 </td>
+   <td style="text-align:left;"> 10946 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -5418,7 +5422,7 @@ _PRKAG2_ pathogenic variants cause disease through **altered gene product sequen
  _PRKAG2_ syndrome is a rare, early-onset autosomal dominant inherited disease, characterized by ventricular pre-excitation, supraventricular arrhythmias, and cardiac hypertrophy (PMID: 26729852; 32259713; 32646570).
  There is a debate about penetrance but there appears to be variable expressivity of the clinical phenotype which may be variant specific (PMID: 32646569; 12015471).
 
- _PRKAG2_ variants have been recognized mainly in the context of patients with non-sarcomeric familial hypertrophic cardiomyopathy associated with Wolff-Parkinson-White (WPW) syndrome (PMID: 26729852). The _PRKAG2_ gene encodes for the 5’ Adenosine Monophosphate-Activated Protein Kinase (AMPK), specifically for its γ2 regulatory subunit (_PRKAG2_). _PRKAG2_ pathogenic variants are suspected to modify the tri-dimensional structure of AMPK, altering its affinity for AMP and modifying the enzyme activity (PMID: 32259713; 28009297).
+ _PRKAG2_ variants have been recognized mainly in the context of patients with non-sarcomeric familial hypertrophic cardiomyopathy associated with Wolff-Parkinson-White (WPW) syndrome (PMID: 26729852). The _PRKAG2_ gene encodes for the 5' Adenosine Monophosphate-Activated Protein Kinase (AMPK), specifically for its γ2 regulatory subunit (_PRKAG2_). _PRKAG2_ pathogenic variants are suspected to modify the tri-dimensional structure of AMPK, altering its affinity for AMP and modifying the enzyme activity (PMID: 32259713; 28009297).
 
  **Nearly all pathogenic variants are missense** (PMID: 32259713; 32646569; 12015471; 28009297). 
  Blair et al. documented a TTA codon insertion in exon 5 in 2001 in a family affected by severe early onset cardiomyopathy and multiple sudden deaths in early adult life (PMID: 11371514). The variant is in a highly conserved region and co-segregated with disease. This has not been reported again on ClinVar.
@@ -5428,7 +5432,7 @@ _PRKAG2_ pathogenic variants cause disease through **altered gene product sequen
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>PTPN11</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -5454,7 +5458,7 @@ _PRKAG2_ pathogenic variants cause disease through **altered gene product sequen
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0008104 </td>
+   <td style="text-align:left;"> 8104 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -5516,7 +5520,7 @@ _PTPN11_-related Noonan syndrome is inherited as an autosomal dominant condition
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>PTPN11</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -5542,7 +5546,7 @@ _PTPN11_-related Noonan syndrome is inherited as an autosomal dominant condition
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0100082 </td>
+   <td style="text-align:left;"> 100082 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -5603,7 +5607,7 @@ Noonan syndrome with multiple lentigines (NSML, previously known as LEOPARD synd
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>RAF1</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -5629,7 +5633,7 @@ Noonan syndrome with multiple lentigines (NSML, previously known as LEOPARD synd
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0012690 </td>
+   <td style="text-align:left;"> 12690 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -5691,7 +5695,7 @@ _RAF1_ variants are responsible for ~5% of Noonan syndrome cases. _RAF1_-related
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>RIT1</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -5717,7 +5721,7 @@ _RAF1_ variants are responsible for ~5% of Noonan syndrome cases. _RAF1_-related
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0014143 </td>
+   <td style="text-align:left;"> 14143 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -5777,7 +5781,7 @@ _RIT1_ variants are responsible for ~5% of Noonan syndrome cases. _RIT1_-related
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>TTR</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -5803,7 +5807,7 @@ _RIT1_ variants are responsible for ~5% of Noonan syndrome cases. _RIT1_-related
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0019441 </td>
+   <td style="text-align:left;"> 19441 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -5875,7 +5879,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h4>Syndrome with hypertrophic cardiomyopathy - no isolated LVH</h4><h5>ABCC9</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -5901,7 +5905,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0009406 </td>
+   <td style="text-align:left;"> 9406 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -5957,18 +5961,18 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
 **Expert panel review pending.** _ABCC9_ pathogenic variants cause Cantu Syndrome (CS) through **altered gene product sequence**. The mechanism is likely gain of function (NBK246980; PMID: 22610116; 31175705; 30089727).
  Harakalova et al showed that variants in _ABCC9_ reduce the ATP-mediated potassium channel inhibition, resulting in channel opening (PMID: 22610116). Pathophysiologic mechanisms resulting in the clinical manifestations remain poorly understood. 
 
- Cantu syndrome is characterized by congenital hypertrichosis, distinctive facial features, osteochondrodysplasia and cardiac defects. The cardiac manifestations include patent ductus arteriosus, cardiomegaly, hypertrophy and pericardial effusion. It does not present with isolated LVH. All participants in the Cantu registry who harboured a pathogenic missense variant have at least some features in keeping with Cantu syndrome, even if mild. There is however significant variability in phenotype even amongst family members with the same variant (PMID: 33529173) and no clear genotype phenotype correlation (PMID: 31828977). 
+ Cantu syndrome is characterized by congenital hypertrichosis, distinctive facial features, osteochondrodysplasia and cardiac defects. The cardiac manifestations include patent ductus arteriosus, cardiomegaly, hypertrophy and pericardial effusion. It does not present with isolated LVH. All participants in the Cantu registry who harboured a pathogenic missense variant have at least some features in keeping with Cantu syndrome, even if mild. There is however significant variability in phenotype even amongst family members with the same variant (PMID: 33529173) and no clear genotype phenotype correlation (PMID: 31828977). 
 
  Inheritance is autosomal dominant characterized by variable expressivity. De novo variants are common, Grange et al found only 16/74 (22%) patients had inherited the _ABCC9_ variant from an affected parent (PMID: 31828977). 
 
  It is caused by heterozygous missense mutations in _ABCC9_ (or less commonly variants in KCNJ8). A review of 74 patients in the International Registry for Cantu syndrome in 2019 found 28 distinct variants (97% were in _ABCC9_). All were simple missense apart from one insertion deletion involving 2 nucleotides (c.3055_3,056 del ins GA). Missense variants were located throughout the protein, however a majority (68%) clustered around transmembrane domain 2 (TMD2). Variants at p.Arg1154 (identified in 24 subjects, 33%) and p.Arg1116 (identified in 11 subjects, 15%), were most commonly observed (PMID: 31828977). 
 
- Zhang et al 2021 showed that R1154Q variants in genetically modified mice might result in an effective mixed loss/gain of function phenotype, potentially explaining the diverse disease features in patients with CS. However, due to its extreme rarity, the mechanisms resulting in the clinical manifestations of CS remain to be fully elucidated (PMID: 33529173; 34453476). </td>
+ Zhang et al 2021 showed that R1154Q variants in genetically modified mice might result in an effective mixed loss/gain of function phenotype, potentially explaining the diverse disease features in patients with CS. However, due to its extreme rarity, the mechanisms resulting in the clinical manifestations of CS remain to be fully elucidated (PMID: 33529173; 34453476). </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>BAG3</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -5994,7 +5998,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0013061 </td>
+   <td style="text-align:left;"> 13061 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -6047,18 +6051,22 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   <tr>
    <td style="text-align:left;"> <br> 
 
-**Expert panel review pending.** _CRYAB_-related alpha-crystallinopathy is typically inherited as an autosomal dominant condition with age-related penetrance.
+_BAG3_ pathogenic variants cause a rare subtype of myofibrillar myopathy through **altered gene product sequence**.
 
- The mechanism is likely **altered gene sequence** of _CRYAB_ due to either (1) missense variants or (2) truncating variants in the 3’ region which are predicted to escape NMD. A dominant-negative mechanism has been suggested.
+ Of note, loss of function of _BAG3_ is an established cause of dilated cardiomyopathy. Multiple missense, nonsense, frameshift variants have been described in association with DCM and there is sufficient evidence for haploinsufficiency as a mechanism (https://search.clinicalgenome.org/kb/genes/HGNC:939). 
 
- Variants in _CRYAB_ have been variably associated with dilated, hypertrophic, and restrictive cardiomyopathy, as well as cases with other systemic features of crystallinopathy (cataract, skeletal myopathy) without cardiac involvement.
+ In contrast, missense variants are associated with myofibrillar myopathy (MFM). Typical presentation is toe walking and clumsiness with progression to cardiomyopathy and restrictive lung disease. The majority of evidence comes from one recurrent missense variant which causes MFM with prominent cardiac involvement. To our knowledge isolated hypertrophic or restrictive cardiomyopathy without skeletal muscle pathology has not been reported for _BAG3_ related MFM. In 2013, Olive et al (PMID: 23995273) summarised that only 12 patients with _BAG3_ related MFM, all carrying the same p.P209L recurrent de-novo mutation transmitted from a mosaic parent, have been reported to date (PMID: 19085932; 22734908; 21361913; 20605452). 
 
- Evidence for dosage sensitivity is limited. Homozygous truncating variants predicted to cause NMD have been associated with autosomal recessive congenital/early-onset cataracts and myopathy with respiratory involvement in early childhood, and the heterozygous parents of probands are reported as being healthy. </td>
+ Malatesta L et al 2020 found that most patients who carry the p.P209L variant have cardiomyopathy (restrictive or hypertrophic) (14 of 18 patients) (PMID: 32453099).
+
+ Functional studies have revealed that _BAG3_ pathogenic variants impair Z-disc assembly and increase the sensitivity to stress-induced apoptosis (PMID: 25728519; 19085932; 32453099). 
+
+ Selcen et al found that mutant _BAG3_ migrated faster and there was abnormal aggregation of mutant protein in COS cells. The authors hypothesised that this missense change may result in altered folding of _BAG3_ or affect the binding properties of the canonical domains (PMID: 19085932). </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>CRYAB</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -6084,7 +6092,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0013472 </td>
+   <td style="text-align:left;"> 13472 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -6137,18 +6145,18 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   <tr>
    <td style="text-align:left;"> <br> 
 
-**Expert panel review pending.** _FXN_-related Friedreich ataxia is inherited as an autosomal recessive condition. Heterozygous carriers of _FXN_ expansions or other pathogenic variants have not been reported to develop symptoms.
+**Expert panel review pending.** _CRYAB_-related alpha-crystallinopathy is typically inherited as an autosomal dominant condition with age-related penetrance.
 
- Homozygous expansion of the GAA triplet repeat in exon 1 of _FXN_ is responsible for the majority of cases (95-98%). There is an inverse correlation between the size of the expansion and age of onset (particularly the size of the shorter allele). Anticipation is not observed as the disorder follows autosomal recessive inheritance.
+ The mechanism is likely **altered gene sequence** of _CRYAB_ due to either (1) missense variants or (2) truncating variants in the 3' region which are predicted to escape NMD. A dominant-negative mechanism has been suggested.
 
- The remaining cases are due to compound heterozygosity for a GAA expansion and a sequence variant (truncating, splice-site, or missense) or structural variant (single-/multi-exon or whole-gene deletion). There is evidence that compound heterozygosity is associated with earlier onset of symptoms than homozygosity for the GAA triplet repeat expansion, but cardiomyopathy is more common in patients with a homozygous GAA triplet repeat expansion.
+ Variants in _CRYAB_ have been variably associated with dilated, hypertrophic, and restrictive cardiomyopathy, as well as cases with other systemic features of crystallinopathy (cataract, skeletal myopathy) without cardiac involvement.
 
- The mechanism is likely loss of function of _FXN_ due to transcriptional silencing (in the case of the GAA triplet repeat), absent/decreased gene product (truncating variants, structural variants), or missense variants causing loss of function. </td>
+ Evidence for dosage sensitivity is limited. Homozygous truncating variants predicted to cause NMD have been associated with autosomal recessive congenital/early-onset cataracts and myopathy with respiratory involvement in early childhood, and the heterozygous parents of probands are reported as being healthy. </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>FXN</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -6174,7 +6182,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0100339 </td>
+   <td style="text-align:left;"> 100339 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -6227,17 +6235,18 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   <tr>
    <td style="text-align:left;"> <br> 
 
-**Expert panel review pending.** Pompe disease is inherited as an autosomal recessive condition, caused by homozygous or compound heterozygous variants in _GAA_. **The mechanism of disease is loss of function** of acid alpha-glucosidase, resulting in lysosomal glycogen accumulation.
+**Expert panel review pending.** _FXN_-related Friedreich ataxia is inherited as an autosomal recessive condition. Heterozygous carriers of _FXN_ expansions or other pathogenic variants have not been reported to develop symptoms.
 
- There are currently over 900 variants in the Pompe variant database (N.B. this includes all known variants, regardless of pathogenicity). Multiple classes of variant have been shown to cause Pompe disease, including loss-of-function variants, missense variants, splice-site variants, 5’ UTR variants, intronic variants, and structural variants.
- A specific 5' UTR variant, NM_000152.5(GAA):c.-32-13T&gt;G, ClinVar variation ID 4027 has been reported in 40-70% of the alleles in patients affected with late onset disease (PMID 24150945). Functional studies have shown the presence of the c.-32-13T&gt;G variant causes aberrant splicing, resulting in exclusion of exon 2 in the processed transcript (PMID 7881425) 
+ Homozygous expansion of the GAA triplet repeat in exon 1 of _FXN_ is responsible for the majority of cases (95-98%). There is an inverse correlation between the size of the expansion and age of onset (particularly the size of the shorter allele). Anticipation is not observed as the disorder follows autosomal recessive inheritance.
 
- There is a genotype-phenotype correlation, with bi-allelic loss of function expected to result in a severe phenotype (infantile-onset Pompe disease), while patients with residual enzymatic activity develop late-onset Pompe disease. Cardiac involvement is a classical feature of infantile-onset Pompe disease, but has also been reported in the late-onset form. </td>
+ The remaining cases are due to compound heterozygosity for a GAA expansion and a sequence variant (truncating, splice-site, or missense) or structural variant (single-/multi-exon or whole-gene deletion). There is evidence that compound heterozygosity is associated with earlier onset of symptoms than homozygosity for the GAA triplet repeat expansion, but cardiomyopathy is more common in patients with a homozygous GAA triplet repeat expansion.
+
+ The mechanism is likely loss of function of _FXN_ due to transcriptional silencing (in the case of the GAA triplet repeat), absent/decreased gene product (truncating variants, structural variants), or missense variants causing loss of function. </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>GAA</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -6263,7 +6272,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0009290 </td>
+   <td style="text-align:left;"> 9290 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -6316,18 +6325,17 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   <tr>
    <td style="text-align:left;"> <br> 
 
-**Expert panel review pending.** There is evidence from multiple reports that loss-of-function and missense variants in _MYO6_ are associated with autosomal dominant progressive hearing loss. Homozygosity or compound heterozygosity is associated with congenital hearing loss, suggesting a dose-dependent mechanism.
+**Expert panel review pending.** Pompe disease is inherited as an autosomal recessive condition, caused by homozygous or compound heterozygous variants in _GAA_. **The mechanism of disease is loss of function** of acid alpha-glucosidase, resulting in lysosomal glycogen accumulation.
 
- **The evidence for cardiac involvement is limited**. Mohiddin et al. (2004, PMID: 15060111) reported a family with autosomal dominant hearing loss who were initially ascertained due to the proband presenting with hypertrophic cardiomyopathy. Linkage studies implicated the region containing _MYO6_, and a missense variant was identified (p.His246Arg) and segregated with disease (with the exception of one individual who was negative for the variant but described as a “double phenocopy”). QT prolongation was observed in 5 out of 12 carriers of the variant. Evidence of LV hypertrophy was observed in 4 out of 11 carriers who underwent echocardiogram. No specific mechanism of disease causation was suggested.
+ There are currently over 900 variants in the Pompe variant database (N.B. this includes all known variants, regardless of pathogenicity). Multiple classes of variant have been shown to cause Pompe disease, including loss-of-function variants, missense variants, splice-site variants, 5' UTR variants, intronic variants, and structural variants.
+ A specific 5' UTR variant, NM_000152.5(GAA):c.-32-13T&gt;G, ClinVar variation ID 4027 has been reported in 40-70% of the alleles in patients affected with late onset disease (PMID 24150945). Functional studies have shown the presence of the c.-32-13T&gt;G variant causes aberrant splicing, resulting in exclusion of exon 2 in the processed transcript (PMID 7881425) 
 
- Studies in transgenic mouse models have suggested a link with cardiac hypertrophy, but only in biallelic knockout mice.
-
- In summary, there is a single report linking the p.His246Arg variant in _MYO6_ with a hypertrophic cardiomyopathy phenotype exhibiting incomplete penetrance (Mohiddin et al. 2004, PMID: 15060111). The authors note that they were unable to definitively rule out an alternative cause for the cardiac phenotype in the family. This phenotype has not been observed in other families presenting with _MYO6_-related hearing loss (e.g., Sanggaard et al. 2008, PMID: 18348273; Miyagawa et al. 2015, PMID: 25999546), including patients with homozygous loss-of-function or missense variants (Ahmed et al. 2003, PMID: 12687499). </td>
+ There is a genotype-phenotype correlation, with bi-allelic loss of function expected to result in a severe phenotype (infantile-onset Pompe disease), while patients with residual enzymatic activity develop late-onset Pompe disease. Cardiac involvement is a classical feature of infantile-onset Pompe disease, but has also been reported in the late-onset form. </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>MYO6</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -6353,7 +6361,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0019497 </td>
+   <td style="text-align:left;"> 19497 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -6406,20 +6414,18 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   <tr>
    <td style="text-align:left;"> <br> 
 
-**Expert panel review pending.** Pathogenic variants in _SLC25A4_ cause mitochondrial DNA depletion syndrome through **altered gene product sequence or absent gene product level**. 
+**Expert panel review pending.** There is evidence from multiple reports that loss-of-function and missense variants in _MYO6_ are associated with autosomal dominant progressive hearing loss. Homozygosity or compound heterozygosity is associated with congenital hearing loss, suggesting a dose-dependent mechanism.
 
- _SLC25A4_ encodes AAC1 (also known as ANT1), an ADP/ATP carrier isoform expressed at high levels in the skeletal muscle, heart and brain. “Phenotypically, _SLC25A4_ mutations manifest as progressive external ophthalmoplegia if transmitted in an autosomal dominant fashion and associated with multiple mtDNA deletions or as familial hypertrophic cardiomyopathy and skeletal muscle myopathy if transmitted in an autosomal recessive way and associated with mtDNA depletion” (PMID: 30013777). _SLC25A4_ variants do not present with isolated LVH.
+ **The evidence for cardiac involvement is limited**. Mohiddin et al. (2004, PMID: 15060111) reported a family with autosomal dominant hearing loss who were initially ascertained due to the proband presenting with hypertrophic cardiomyopathy. Linkage studies implicated the region containing _MYO6_, and a missense variant was identified (p.His246Arg) and segregated with disease (with the exception of one individual who was negative for the variant but described as a “double phenocopy”). QT prolongation was observed in 5 out of 12 carriers of the variant. Evidence of LV hypertrophy was observed in 4 out of 11 carriers who underwent echocardiogram. No specific mechanism of disease causation was suggested.
 
- Null recessive mutations cause a mitochondrial myopathy and cardiomyopathy phenotype that presents in childhood or early adulthood (mitochondrial DNA depletion syndrome 12). It is suggested that transporter dysfunction causes insufficient adenine nucleotide availability for dATP synthesis and consequent imbalanced dNTP pools, leading to mtDNA depletion (PMID: 27693233; 30013777).
+ Studies in transgenic mouse models have suggested a link with cardiac hypertrophy, but only in biallelic knockout mice.
 
- A small number of homozygous and compound heterozygous variants have been described including missense, frameshift and splice variants. There are 4 pathogenic submissions on ClinVar. All are predicted to cause loss of function (PMID: 16155110; 22187496; 25732997). Thompson et al found that 3 previously reported recessive variants resulted in &lt;1% transport activity compared to wild-type (PMID: 27693233).
-
- Of note, heterozygous variants in _SLC25A4_ have also been described and can cause adult-onset autosomal-dominant progressive external ophthalmoplegia (MIM: 609283) or a distinct severe early-onset mitochondrial disease representing a third distinctive phentotypic group associated with _SLC25A4_ pathogenic variants (PMID: 27693233). </td>
+ In summary, there is a single report linking the p.His246Arg variant in _MYO6_ with a hypertrophic cardiomyopathy phenotype exhibiting incomplete penetrance (Mohiddin et al. 2004, PMID: 15060111). The authors note that they were unable to definitively rule out an alternative cause for the cardiac phenotype in the family. This phenotype has not been observed in other families presenting with _MYO6_-related hearing loss (e.g., Sanggaard et al. 2008, PMID: 18348273; Miyagawa et al. 2015, PMID: 25999546), including patients with homozygous loss-of-function or missense variants (Ahmed et al. 2003, PMID: 12687499). </td>
   </tr>
 </tbody>
 </table>
 <br>
-<p style="page-break-before: always;">&nbsp;</p><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
+<p style="page-break-before: always;">&nbsp;</p><h5>SLC25A4</h5><table class="table table-striped table-condensed" style="font-size: 12px; font-family: sans-serif; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;font-weight: bold;font-size: 14px;"> Gene </th>
@@ -6445,7 +6451,7 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> MONDO ID </td>
-   <td style="text-align:left;"> 0014175 </td>
+   <td style="text-align:left;"> 14175 </td>
   </tr>
   <tr>
    <td style="text-align:left;width: 6cm; "> Gene disease validity (ClinGen) </td>
@@ -6498,17 +6504,15 @@ The ATTR Val122Ile variant (also reported as pVal142Ile) is a risk allele in pat
   <tr>
    <td style="text-align:left;"> <br> 
 
-_BAG3_ pathogenic variants cause a rare subtype of myofibrillar myopathy through **altered gene product sequence**.
+**Expert panel review pending.** Pathogenic variants in _SLC25A4_ cause mitochondrial DNA depletion syndrome through **altered gene product sequence or absent gene product level**. 
 
- Of note, loss of function of _BAG3_ is an established cause of dilated cardiomyopathy. Multiple missense, nonsense, frameshift variants have been described in association with DCM and there is sufficient evidence for haploinsufficiency as a mechanism (https://search.clinicalgenome.org/kb/genes/HGNC:939). 
+ _SLC25A4_ encodes AAC1 (also known as ANT1), an ADP/ATP carrier isoform expressed at high levels in the skeletal muscle, heart and brain. “Phenotypically, _SLC25A4_ mutations manifest as progressive external ophthalmoplegia if transmitted in an autosomal dominant fashion and associated with multiple mtDNA deletions or as familial hypertrophic cardiomyopathy and skeletal muscle myopathy if transmitted in an autosomal recessive way and associated with mtDNA depletion” (PMID: 30013777). _SLC25A4_ variants do not present with isolated LVH.
 
- In contrast, missense variants are associated with myofibrillar myopathy (MFM). Typical presentation is toe walking and clumsiness with progression to cardiomyopathy and restrictive lung disease. The majority of evidence comes from one recurrent missense variant which causes MFM with prominent cardiac involvement. To our knowledge isolated hypertrophic or restrictive cardiomyopathy without skeletal muscle pathology has not been reported for _BAG3_ related MFM. In 2013, Olive et al (PMID: 23995273) summarised that only 12 patients with _BAG3_ related MFM, all carrying the same p.P209L recurrent de-novo mutation transmitted from a mosaic parent, have been reported to date (PMID: 19085932; 22734908; 21361913; 20605452). 
+ Null recessive mutations cause a mitochondrial myopathy and cardiomyopathy phenotype that presents in childhood or early adulthood (mitochondrial DNA depletion syndrome 12). It is suggested that transporter dysfunction causes insufficient adenine nucleotide availability for dATP synthesis and consequent imbalanced dNTP pools, leading to mtDNA depletion (PMID: 27693233; 30013777).
 
- Malatesta L et al 2020 found that most patients who carry the p.P209L variant have cardiomyopathy (restrictive or hypertrophic) (14 of 18 patients) (PMID: 32453099).
+ A small number of homozygous and compound heterozygous variants have been described including missense, frameshift and splice variants. There are 4 pathogenic submissions on ClinVar. All are predicted to cause loss of function (PMID: 16155110; 22187496; 25732997). Thompson et al found that 3 previously reported recessive variants resulted in &lt;1% transport activity compared to wild-type (PMID: 27693233).
 
- Functional studies have revealed that _BAG3_ pathogenic variants impair Z-disc assembly and increase the sensitivity to stress-induced apoptosis (PMID: 25728519; 19085932; 32453099). 
-
- Selcen et al found that mutant _BAG3_ migrated faster and there was abnormal aggregation of mutant protein in COS cells. The authors hypothesised that this missense change may result in altered folding of _BAG3_ or affect the binding properties of the canonical domains (PMID: 19085932). </td>
+ Of note, heterozygous variants in _SLC25A4_ have also been described and can cause adult-onset autosomal-dominant progressive external ophthalmoplegia (MIM: 609283) or a distinct severe early-onset mitochondrial disease representing a third distinctive phentotypic group associated with _SLC25A4_ pathogenic variants (PMID: 27693233). </td>
   </tr>
 </tbody>
 </table>
