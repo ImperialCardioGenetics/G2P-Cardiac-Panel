@@ -26,11 +26,10 @@ For example, if most known pathogenic variants for disease A were 'stop_gained' 
 Variant classes with a likelihood score of '*3:possible*', '*4:probable*' and '*5:almost always*' for the different disease associated variant consequences are given below 
 
 
-*<sup>1</sup>Roberts AM, DiStefano MT, Rooney Riggs E, Josephs KS, Alkuraya FS, Amberger J, et al. Towards robust clinical genome interpretation: developing a consistent terminology to characterize disease-gene relationships - allelic requirement, inheritance modes and disease mechanisms. MedRxiv. 2023;* https://doi.org/10.1101/2023.03.30.23287948.
+*<sup>1</sup>Roberts AM, DiStefano MT, Rooney Riggs E, Josephs KS, Alkuraya FS, Amberger J, et al. Towards robust clinical genome interpretation: developing a consistent terminology to characterize disease-gene relationships - allelic requirement, inheritance modes and disease mechanisms. MedRxiv. 2023;* <https://doi.org/10.1101/2023.03.30.23287948>
 
 ## License
 The data provided here is available under the ODC Open Database License (ODbL) : you are free to share and modify the data provided here as long as you attribute any public use of the database, or works produced from the database; keep the resulting data-sets open; and offer your shared or adapted version of the dataset under the same ODbL license.
 
 ## Citation
-*Katherine S Josephs, Angharad M Roberts, Pantazis Theotokis, et al. Beyond gene-disease validity: capturing structured data on inheritance, allelic-requirement, disease-relevant variant classes, and disease mechanism for inherited cardiac conditions;*
-https://www.medrxiv.org/content/10.1101/2023.04.03.23287612v1
+*Josephs, K.S., Roberts, A.M., Theotokis, P. et al. Beyond gene-disease validity: capturing structured data on inheritance, allelic requirement, disease-relevant variant classes, and disease mechanism for inherited cardiac conditions. Genome Med 15, 86 (2023).* <https://doi.org/10.1186/s13073-023-01246-8>

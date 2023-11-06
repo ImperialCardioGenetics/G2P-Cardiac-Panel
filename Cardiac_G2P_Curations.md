@@ -29,12 +29,11 @@ This dataset is also available through G2P
 Citation
 </h2>
 
-*Katherine S Josephs, Angharad M Roberts, Pantazis Theotokis, et
-al. Beyond gene-disease validity: capturing structured data on
-inheritance, allelic-requirement, disease-relevant variant classes, and
-disease mechanism for inherited cardiac conditions.*
-
-<https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-023-01246-8>
+*Josephs, K.S., Roberts, A.M., Theotokis, P. et al. Beyond gene-disease
+validity: capturing structured data on inheritance, allelic requirement,
+disease-relevant variant classes, and disease mechanism for inherited
+cardiac conditions. Genome Med 15, 86 (2023).*
+<https://doi.org/10.1186/s13073-023-01246-8>
 
 <h2>
 Inherited Arrhythmia Syndromes
@@ -14158,6 +14157,5 @@ variant consequences, see Tables 2 and 3 from Roberts et al.
 Amberger J, et al. Towards robust clinical genome interpretation:
 developing a consistent terminology to characterize disease-gene
 relationships - allelic requirement, inheritance modes and disease
-mechanisms. MedRxiv. 2023*
-
-<https://doi.org/10.1101/2023.03.30.23287948>.
+mechanisms. MedRxiv. 2023;*
+<https://doi.org/10.1101/2023.03.30.23287948>
