@@ -10,7 +10,7 @@ This dataset is also available through G2P https://www.ebi.ac.uk/gene2phenotype
  - Cardiac_G2P_curations.html ~ The rendered report in a html file format.
  - Cardiac_G2P_curations.md ~ The rendered report in a markdown file format.
 
-## How to use
+## How to use the panel
 The easiest way to regenerate the html or the markdown reports locally would be to clone the repository and simply knit the `Cardiac_G2P_curations.Rmd` file in Rstudio  
 
 ## Terminology
