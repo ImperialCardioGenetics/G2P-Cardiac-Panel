@@ -1,0 +1,168 @@
+---
+always_allow_html: true
+output:
+  github_document:
+    preserve_yaml: false
+    html_preview: false
+    keep_html: false
+knit: (function(input, ...) {
+  rmarkdown::render(
+    input, 
+    output_dir="docs/",
+    output_file="index.md",
+    clean=T, 
+    output_format="github_document")
+  })
+---
+
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+suppressWarnings(suppressPackageStartupMessages({
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+}))
+
+```
+
+
+```{r read_g2p, eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+
+g2p_raw <- read_excel("master.xlsx",col_types = "text") 
+
+g2p_raw |> write_csv("Cardiac_G2P.csv",col_names = T,quote = "all")
+
+```
+
+
+```{r read_csv, message=FALSE, warning=FALSE, include=FALSE}
+
+g2p <- read_csv("Cardiac_G2P.csv",col_names = T, col_types = cols(.default = "c"))
+
+g2p <- g2p |> 
+  mutate(Indication = str_remove_all(str_extract_all(`Referral indication`, "\\(([^)]+)\\)"),"[()]"),.after = 2) |>
+  relocate(comments,Narrative2,.after=last_col())|>
+  rename_with(~ str_to_sentence(.x))|>
+  rename("PMIDs"=Pmids,
+         "HGNC ID"=`Hgnc id`,
+         "G2P gene disease pair entry date"=`G2p gene disease pair entry date`,
+         "Gene disease validity (ClinGen)"=`Gene disease validity (clingen)`)|>
+  mutate(`HGNC ID` = as.character(`HGNC ID`))|>
+  mutate(across(everything(), ~replace_na(.x, "NA")))|>
+  mutate(Indication = factor(Indication, levels = c("BrS","CPVT","LQTS","SQTS", "ARVC", "DCM", "HCM")))|>
+  arrange(Indication, `Disease grouping`)|>
+  mutate(across(c("Mutation consequence flag",
+                  "Disease-associated variant consequence",
+                  "Variant classes reported with evidence of pathogenicity",
+                  "PMIDs"), ~ str_replace_all(.x, ";", "; ")))|>
+  mutate(`Gene disease validity (ClinGen)` = str_to_upper(`Gene disease validity (ClinGen)`))|>
+  mutate(Indication = as.character(Indication))|>
+  select(-Comments)
+
+```
+
+# Overview
+
+CardiacG2P is an evidence-based dataset for inherited cardiac condition gene disease pairs. Each entry annotates a disease-associated gene with information about the gene-disease relationship, including the inheritance mode and allelic requirement, information pertaining to disease mechanism (represented as a disease-associated variant consequence), and known disease-relevant variant classes at a defined locus.
+
+This dataset is also available through G2P <https://www.ebi.ac.uk/gene2phenotype>
+
+## Citation
+
+*Josephs, K.S., Roberts, A.M., Theotokis, P. et al. Beyond gene-disease validity: capturing structured data on inheritance, allelic requirement, disease-relevant variant classes, and disease mechanism for inherited cardiac conditions. Genome Med 15, 86 (2023).* <https://doi.org/10.1186/s13073-023-01246-8>
+
+
+```{r render_tables, echo=FALSE, results='asis'}
+options(knitr.kable.NA = 'NA')
+ref_ind <- g2p[1, 4]
+disease_group <- g2p[1, 5]
+
+cat(paste0("## ",ref_ind," \n\n"))
+
+cat(paste0("### ",disease_group," \n\n"))
+
+
+for (i in 1:nrow(g2p)){
+  # i=1
+  # gene <- g2p[i,] %>% select(-last_col()) %>% pivot_longer(everything()) %>% set_names(slice(.,1)) %>% slice(.,-1) %>% as_tibble()
+  gene <- g2p[i,] %>% select(-c(21:26)) %>% pivot_longer(everything()) %>% set_names(slice(.,1)) %>% slice(.,-1) %>% as_tibble()
+
+  gene[14,1]<- paste0(gene[14,1]," <a href='#other-potentially-relevant-variant-classes'>(Other potentially relevant variant classes)</a>")
+
+  # Referral Indication
+  if ((g2p[i, 4]) != ref_ind) {
+    cat(paste0("## ",g2p[i, 4]," \n\n"))
+    ref_ind <- g2p[i, 4]
+  }
+  
+  # Disease Grouping
+  if ((g2p[i, 5]) != disease_group) {
+    cat(paste0("### ",g2p[i, 5]," \n\n"))
+    disease_group <- g2p[i, 5]
+  }
+  
+  # Gene symbol - id
+  # cat(paste0("##### ",g2p[i, 1]," \n\n"))
+  cat(paste0("#### **",g2p[i, 1],"** - *",g2p[i, 3],"* - *",g2p[i, 9],"* \n\n"))
+
+  # print gene text
+  print(
+    kbl(gene, 
+        full_width = T,
+        escape = F,
+        booktabs = TRUE
+        )%>%
+    kable_styling(font_size =12,
+                  html_font = "sans-serif",
+                  bootstrap_options = c("striped", "responsive"))%>% 
+      column_spec(1, width = "8cm", extra_css = "word-wrap: break-word; white-space: normal;") %>% 
+      column_spec(2, width = "10cm", extra_css = "word-wrap: break-word; white-space: normal;") %>% 
+      row_spec(0, bold = TRUE,font_size =14) %>% 
+      row_spec(5, bold = TRUE) %>% 
+      row_spec(6, bold = TRUE)
+  )
+  
+  # Narrative title
+  cat(paste0("**_Narrative_** \n\n"))
+
+  cat(paste0(g2p[i,ncol(g2p)]))
+
+  # Add page breaks after every gene to be rendered by md and html
+  cat(" \n\n")
+   
+}
+```
+
+## Other potentially relevant variant classes
+
+Which variant classes should I filter for? The main table shows variant classes that have been reported to cause disease. We would expect other variant classes with similar consequences to cause disease (e.g. if NMD_triggering frameshift cause disease, then NMD_triggering nonsense probably do too). This table below shows the full list of variant classes mapped to each variant consequence.
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+options(knitr.kable.NA = '')
+Decreased_gene_product_level <- c("splice_region_variant","splice_acceptor_variant","splice_acceptor_variant_NMD_triggering","splice_donor_variant","splice_donor_variant_NMD_triggering","start_lost","frameshift_variant","frameshift_variant_NMD_triggering","stop_gained","stop_gained_NMD_triggering")
+
+Absent_gene_product_level <- c("splice_acceptor_variant","splice_acceptor_variant_NMD_triggering","splice_donor_variant","splice_donor_variant_NMD_triggering","start_lost","frameshift_variant","frameshift_variant_NMD_triggering","stop_gained","stop_gained_NMD_triggering",NA)
+
+Altered_gene_product_sequence <- c("splice_acceptor_variant","splice_acceptor_variant_NMD_escaping","splice_donor_variant","splice_donor_variant_NMD_escaping","frameshift_variant_NMD_escaping","stop_gained_NMD_escaping","stop_lost","missense_variant","inframe_insertion","inframe_deletion")
+
+
+tibble(Decreased_gene_product_level,Absent_gene_product_level,Altered_gene_product_sequence) %>% 
+  kbl(full_width = T,
+      booktabs = TRUE) %>% 
+  add_header_above(c("Disease-associated variant consequence" = 3))%>%
+  kable_styling(font_size =12,
+                bootstrap_options = c("striped", "condensed", "scale_down")) %>% 
+  footnote(general = "Variant classes with a likelihood score of '3:possible', '4:probable' and '5:almost always' \nFor the different disease associated variant consequences, see Tables 2 and 3 from Roberts et al.",
+           footnote_as_chunk = F, title_format = c("italic", "underline"))
+
+
+```
+
+*Roberts AM, DiStefano MT, Riggs ER, Josephs KS, Alkuraya FS, Amberger J, Amin M, Berg JS, Cunningham F, Eilbeck K, Firth HV, Foreman J, Hamosh A, Hay E, Leigh S, Martin CL, McDonagh EM, Perrett D, Ramos EM, Robinson PN, Rath A, Sant DW, Stark Z, Whiffin N, Rehm HL, Ware JS. Toward robust clinical genome interpretation: Developing a consistent terminology to characterize Mendelian disease-gene relationships-allelic requirement, inheritance modes, and disease mechanisms. Genet Med. 2024 Feb;26(2):101029.* <https://doi.org/10.1016/j.gim.2023.101029>
+
+```{r session_info, message=FALSE, warning=FALSE, include=FALSE}
+
+sessionInfo()
+
+```

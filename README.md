@@ -5,13 +5,8 @@ CardiacG2P is an evidence-based dataset for inherited cardiac condition gene dis
 This dataset is also available through G2P https://www.ebi.ac.uk/gene2phenotype
 
 ## Files in this repo
- - CardiacG2P.csv ~ Contains all raw cardiac data and genes with narrative summaries in a csv file format.
- - Cardiac_G2P_curations.Rmd ~ R markdown document to read the raw data in the CardiacG2P.csv file and generate the reports.
- - Cardiac_G2P_curations.html ~ The rendered report in a html file format.
- - Cardiac_G2P_curations.md ~ The rendered report in a markdown file format.
-
-## How to use
-The easiest way to regenerate the html or the markdown reports locally would be to clone the repository and simply knit the `Cardiac_G2P_curations.Rmd` file in Rstudio  
+ - Cardiac_G2P.csv ~ Contains all raw cardiac data and genes with narrative summaries in a csv file format.
+ - Cardiac_G2P.Rmd ~ R markdown document to read the raw data in the CardiacG2P.csv file and generate the reports.
 
 ## Terminology
 Inheritance, allelic requirement, and disease-associated variant consequences (as a proxy for disease mechanism), are described using previously agreed standardised terms developed by the GenCC.
