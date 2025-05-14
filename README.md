@@ -1,5 +1,8 @@
 # Gene2Phenotype Cardiac Gene Panel
 
+The Cardiac Gene2Phenotype webpage is hosted in
+https://imperialcardiogenetics.github.io/G2P-Cardiac-Panel/
+
 ## Overview
 CardiacG2P is an evidence-based dataset for inherited cardiac condition gene disease pairs. Each entry annotates a disease-associated gene with information about the gene-disease relationship, including the inheritance mode and allelic requirement, information pertaining to disease mechanism (represented as a disease-associated variant consequence), and known disease-relevant variant classes at a defined locus.
 This dataset is also available through G2P https://www.ebi.ac.uk/gene2phenotype
@@ -21,7 +24,7 @@ For example, if most known pathogenic variants for disease A were 'stop_gained' 
 Variant classes with a likelihood score of '*3:possible*', '*4:probable*' and '*5:almost always*' for the different disease associated variant consequences are given below 
 
 
-*<sup>1</sup>Roberts AM, DiStefano MT, Rooney Riggs E, Josephs KS, Alkuraya FS, Amberger J, et al. Towards robust clinical genome interpretation: developing a consistent terminology to characterize disease-gene relationships - allelic requirement, inheritance modes and disease mechanisms. MedRxiv. 2023;* <https://doi.org/10.1101/2023.03.30.23287948>
+*<sup>1</sup>Roberts AM, DiStefano MT, Riggs ER, Josephs KS, Alkuraya FS, Amberger J, Amin M, Berg JS, Cunningham F, Eilbeck K, Firth HV, Foreman J, Hamosh A, Hay E, Leigh S, Martin CL, McDonagh EM, Perrett D, Ramos EM, Robinson PN, Rath A, Sant DW, Stark Z, Whiffin N, Rehm HL, Ware JS. Toward robust clinical genome interpretation: Developing a consistent terminology to characterize Mendelian disease-gene relationships-allelic requirement, inheritance modes, and disease mechanisms. Genet Med. 2024 Feb;26(2):101029.* <https://doi.org/10.1016/j.gim.2023.101029>
 
 ## License
 The data provided here is available under the ODC Open Database License (ODbL) : you are free to share and modify the data provided here as long as you attribute any public use of the database, or works produced from the database; keep the resulting data-sets open; and offer your shared or adapted version of the dataset under the same ODbL license.
