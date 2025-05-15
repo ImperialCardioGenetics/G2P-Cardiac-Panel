@@ -13,9 +13,7 @@ locus.
 
 The Cardiac G2P Gene Panel can be downloaded in a csv file format
 [here](Cardiac_G2P.csv) This dataset is also available through the
-official G2P website <https://www.ebi.ac.uk/gene2phenotype> and
-programmatically through the G2P API
-<https://wwwdev.ebi.ac.uk/gene2phenotype/api/>
+official G2P website <https://www.ebi.ac.uk/gene2phenotype>.
 
 ## Citation
 
