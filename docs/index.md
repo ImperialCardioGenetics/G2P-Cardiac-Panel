@@ -1,7 +1,7 @@
 
 # Overview
 
-CardiacG2P is an evidence-based dataset for inherited cardiac condition
+Cardiac G2P is an evidence-based dataset for inherited cardiac condition
 gene disease pairs. Each entry annotates a disease-associated gene with
 information about the gene-disease relationship, including the
 inheritance mode and allelic requirement, information pertaining to
@@ -9,8 +9,13 @@ disease mechanism (represented as a disease-associated variant
 consequence), and known disease-relevant variant classes at a defined
 locus.
 
-This dataset is also available through G2P
-<https://www.ebi.ac.uk/gene2phenotype>
+## How to use
+
+The Cardiac G2P Gene Panel can be downloaded in a csv file format
+[here](Cardiac_G2P.csv) This dataset is also available through the
+official G2P website <https://www.ebi.ac.uk/gene2phenotype> and
+programmatically through the G2P API
+<https://wwwdev.ebi.ac.uk/gene2phenotype/api/>
 
 ## Citation
 
@@ -10069,9 +10074,9 @@ constitutively expressed in cardiac tissue (percentage spliced in (PSI)
 vast majority of TTN-related DCM cases. Missense variants are difficult
 to interpret, and generally not classified as disease-causing, although
 there are reports of at least three missense variants with evidence of
-pathogenicity.  
-TTN missense variants with segregation evidence:<br/> p.Trp976Arg (PMID:
-11788824)<br/> p.Ala178Asp (PMID: 27625337)<br/> p.Cys3575Ser
+pathogenicity.<br/>TTN missense variants with segregation evidence:<br/>
+p.Trp976Arg (PMID: 11788824)<br/> p.Ala178Asp (PMID: 27625337)<br/>
+p.Cys3575Ser
 (<https://www.biorxiv.org/content/10.1101/2020.09.05.282913v1.full.pdf>) -
 note not yet peer reviewed<br/><br/> TTN-related DCM is inherited as an
 autosomal dominant trait and displays incomplete and age-related onset.

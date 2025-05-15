@@ -26,18 +26,18 @@ library(kableExtra)
 ```
 
 
-```{r read_g2p, eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+```{r read_g2p, message=FALSE, warning=FALSE, include=FALSE}
 
 g2p_raw <- read_excel("master.xlsx",col_types = "text") 
 
-g2p_raw |> write_csv("Cardiac_G2P.csv",col_names = T,quote = "all")
+g2p_raw |> write_csv("docs/Cardiac_G2P.csv",col_names = T,quote = "all")
 
 ```
 
 
 ```{r read_csv, message=FALSE, warning=FALSE, include=FALSE}
 
-g2p <- read_csv("Cardiac_G2P.csv",col_names = T, col_types = cols(.default = "c"))
+g2p <- read_csv("docs/Cardiac_G2P.csv",col_names = T, col_types = cols(.default = "c"))
 
 g2p <- g2p |> 
   mutate(Indication = str_remove_all(str_extract_all(`Referral indication`, "\\(([^)]+)\\)"),"[()]"),.after = 2) |>
@@ -63,9 +63,14 @@ g2p <- g2p |>
 
 # Overview
 
-CardiacG2P is an evidence-based dataset for inherited cardiac condition gene disease pairs. Each entry annotates a disease-associated gene with information about the gene-disease relationship, including the inheritance mode and allelic requirement, information pertaining to disease mechanism (represented as a disease-associated variant consequence), and known disease-relevant variant classes at a defined locus.
+Cardiac G2P is an evidence-based dataset for inherited cardiac condition gene disease pairs. Each entry annotates a disease-associated gene with information about the gene-disease relationship, including the inheritance mode and allelic requirement, information pertaining to disease mechanism (represented as a disease-associated variant consequence), and known disease-relevant variant classes at a defined locus.
 
-This dataset is also available through G2P <https://www.ebi.ac.uk/gene2phenotype>
+
+## How to use
+
+The Cardiac G2P Gene Panel can be downloaded in a csv file format [here](Cardiac_G2P.csv)
+This dataset is also available through the official G2P website <https://www.ebi.ac.uk/gene2phenotype> and programmatically through the G2P API <https://wwwdev.ebi.ac.uk/gene2phenotype/api/>
+
 
 ## Citation
 
@@ -102,7 +107,6 @@ for (i in 1:nrow(g2p)){
   }
   
   # Gene symbol - id
-  # cat(paste0("##### ",g2p[i, 1]," \n\n"))
   cat(paste0("#### **",g2p[i, 1],"** - *",g2p[i, 3],"* - *",g2p[i, 9],"* \n\n"))
 
   # print gene text
